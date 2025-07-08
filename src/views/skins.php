@@ -37,41 +37,82 @@ try {
                 </li>
             </ul>
         </div>
-        <form id="submit" action="../controllers/championController.php" method="POST">
-            <table id="submit" class="table__tr">
-                <caption><?php echo $this_champion->getName(); ?></caption>
+        <div id="addNew">
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
+                </svg>
+            </button>
+        </div>
+        <!-- <form action="">
+            <table class="submit">
+                <tr>
+                    <td>
+                        <input type="text" name="name" placeholder="Name..." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input class="inputSplashArt" type="url" name="url" placeholder="Url..." required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="imgSplashArt" height="200" width="300" src="" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit">Add</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form> -->
+        <table id="list" class="submit table__tr">
+            <caption><?php echo $this_champion->getName(); ?>:<?php echo count($skins); ?></caption>
+            <thead>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Splash Art</th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </thead>
+            <tbody>
                 <?php
                 foreach ($skins as $key => $value) {
                 ?>
                     <tr>
-                        <th><?php echo $key; ?></th>
                         <td>
-                            <form action="">
-                                <input type="number" value="<?php echo $value->getId(); ?>" disabled>
-                                <input type="hidden" name="id" value="<?php echo $value->getId(); ?>">
-                                <input type="text" name="name" value="<?php echo $value->getName(); ?>" placeholder="Name..." required readonly>
-                                <input type="url" name="splash_art" class="inputSplashArt" value="<?php echo $value->getSplashArt(); ?>" placeholder="Url..." required readonly>
-                            </form>
+                            <input type="number" value="<?php echo $value->getId(); ?>" disabled>
+                            <input type="hidden" name="id" value="<?php echo $value->getId(); ?>">
+                        </td>
+                        <td>
+                            <input type="text" name="name" value="<?php echo $value->getName(); ?>" placeholder="Name..." required readonly>
+                        </td>
+                        <td>
+                            <input type="url" name="splash_art" class="inputSplashArt" value="<?php echo $value->getSplashArt(); ?>" placeholder="Url..." required readonly>
                         </td>
                         <td>
                             <img class="imgSplashArt" height="200" width="300" src="<?php echo $value->getSplashArt(); ?>" alt="">
                         </td>
                         <td>
-                            <button class="btnDel" type="submit" name="action" value="delete">Delete</button>
+                            <button class="btnOpenUpdate" type="button">Update</button>
+                        </td>
+                        <td>
+                            <button class="btnDel" type="button">Delete</button>
                         </td>
                     </tr>
                 <?php
                 }
                 ?>
-                <tr>
-                    <th><button id="btnOpenUpdate" type="button">Update</button></th>
-                    <td id="tdAction" style="visibility: hidden;">
-                        <button id="btnUpdate" type="submit" name="action" value="update">Save</button>
-                        <button type="reset">Reset</button>
-                    </td>
-                </tr>
-            </table>
-        </form>
+            </tbody>
+        </table>
     </main>
 </body>
 
@@ -87,30 +128,40 @@ try {
 
     const $$inputSplashArt = $$('.inputSplashArt');
     const $$imgSplashArt = $$('.imgSplashArt');
-    const $btnOpenUpdate = $('#btnOpenUpdate');
+    const $$btnOpenUpdate = $$('.btnOpenUpdate');
     const $$btnDel = $$('.btnDel');
 
     let checkUp = false;
 
-    $btnOpenUpdate.addEventListener('click', () => {
-        if (!checkUp) {
-            $$('input').forEach(el => el.readOnly = false);
-            $('#tdAction').style.visibility = 'visible';
-            $btnOpenUpdate.textContent = 'Cancel';
-        } else {
-            $('form#submit').reset();
-            $$('input').forEach(el => el.readOnly = true);
-            $('#tdAction').style.visibility = 'hidden';
-            $btnOpenUpdate.textContent = 'Update';
-        }
-        checkUp = !checkUp;
-    });
+    // $$btnOpenUpdate.forEach((e, i) => {
+    //     e.addEventListener('click', () => {
 
-    $$inputSplashArt.forEach((el, i) => {
-        el.addEventListener('input', () => {
-            getSrcFromInput($$imgSplashArt[i], el);
-        });
-    });
+    //     })
+    // });
+
+    // $btnOpenUpdate.addEventListener('click', () => {
+    //     if (!checkUp) {
+    //         $$('input').forEach(el => el.readOnly = false);
+    //         $$('.tdAction').forEach(el => {
+    //             el.style.visibility = 'visible';
+    //         });
+    //         $btnOpenUpdate.textContent = 'Cancel';
+    //     } else {
+    //         $('form#submit').reset();
+    //         $$('input').forEach(el => el.readOnly = true);
+    //         $$('.tdAction').forEach(el => {
+    //             el.style.visibility = 'hidden';
+    //         });
+    //         $btnOpenUpdate.textContent = 'Update';
+    //     }
+    //     checkUp = !checkUp;
+    // });
+
+    // $$inputSplashArt.forEach((el, i) => {
+    //     el.addEventListener('input', () => {
+    //         getSrcFromInput($$imgSplashArt[i], el);
+    //     });
+    // });
 
     // confirmSubmit($('form#submit'), $('#btnUpdate'), "Confirm update?");
     // confirmSubmit($('form#submit'), $('#btnDel'), "Confirm delete?");

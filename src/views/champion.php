@@ -30,7 +30,7 @@ try {
             </ul>
         </div>
         <form id="submit" action="../controllers/championController.php" method="POST">
-            <table id="submit" class="table__tr">
+            <table class="submit table__tr">
                 <caption><?php echo $this_champion->getName(); ?></caption>
                 <tr>
                     <th>Id</th>

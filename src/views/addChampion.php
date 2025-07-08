@@ -20,7 +20,7 @@ try {
     <?php require_once __DIR__ . "/Templates/header.php"; ?>
     <main>
         <form id="submit" method="POST" action="../controllers/addChampionController.php">
-            <table id="submit" class="table__tr">
+            <table class="submit table__tr">
                 <caption>Add new champion</caption>
                 <tr>
                     <th>Id</th>

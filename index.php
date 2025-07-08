@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <main style="margin-top: 0;">
         <form id="login" action="#" method="POST">
-            <table id="submit">
+            <table class="submit">
                 <caption>Login</caption>
                 <tr>
                     <th>Username</th>

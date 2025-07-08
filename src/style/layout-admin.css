@@ -178,33 +178,8 @@ button {
     &[type='reset'] {
         width: 100%;
     }
-}
 
-table {
-    background-color: #000000ca;
-    padding: 10px;
-    border-collapse: collapse;
-}
-
-table#submit {
-    min-width: 350px;
-    max-width: 80vw;
-
-    select,
-    textarea,
-    input[type='text'],
-    input[type='date'],
-    input[type='url'],
-    input[type='password'] {
-        width: 100%;
-    }
-
-    tr {
-        grid-template-columns: 1fr;
-    }
-
-    button[type="submit"] {
-        width: 100%;
+    &[type="submit"] {
         color: var(--color4-);
         margin: 10px 0;
         font-size: 16px;
@@ -216,26 +191,47 @@ table#submit {
     }
 }
 
-.table__tr {
-    tr {
-        margin: 10px 0;
 
-        &:nth-child(even) {
-            background-color: #181818ca;
+table {
+    background-color: #000000ca;
+    padding: 10px;
+    border-collapse: collapse;
+
+    &.submit {
+        min-width: 350px;
+        max-width: 80vw;
+
+        tr {
+            grid-template-columns: 1fr;
+        }
+
+        input, select, textarea, button {
+            width: 100%;
+        }
+    }
+
+    &.table__tr {
+        tr {
+            margin: 10px 0;
+
+            &:nth-child(even) {
+                background-color: #181818ca;
+            }
+        }
+    }
+
+    &#list {
+        width: 100%;
+        margin-top: 100px;
+
+        input {
+            border: 0;
         }
     }
 }
 
-table#list {
-    width: 100%;
-    margin-top: 100px;
-
-    input {
-        border: 0;
-    }
-}
-
 #tools {
+    z-index: 3;
     position: fixed;
     top: 80px;
     right: 0;
@@ -254,16 +250,6 @@ table#list {
     }
 }
 
-form#search {
-    button {
-        background-color: var(--color1-);
-
-        &:hover {
-            background-color: var(--color3-);
-        }
-    }
-}
-
 form#login {
     input {
         background-color: var(--color1-);
@@ -277,7 +263,8 @@ form#login {
     left: 5%;
     bottom: 5%;
 
-    a {
+    a,
+    button {
         display: block;
         height: 50px;
         width: 50px;
@@ -311,7 +298,8 @@ form#login {
     width: 100px;
 }
 
-#btnDel, .btnDel {
+#btnDel,
+.btnDel {
     color: var(--color1-) !important;
     background-color: red !important;
 }
