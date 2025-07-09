@@ -7,7 +7,7 @@ require_once __DIR__ . "/../helpers/skinsHelper.php";
 $config = new Config();
 $connect = $config->connect();
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'post') {
     $action = $_POST['action'];
     $id = $_POST['id'];
 

@@ -44,57 +44,31 @@ try {
                 </svg>
             </button>
         </div>
-        <!-- <form action="">
-            <table class="submit">
-                <tr>
-                    <td>
-                        <input type="text" name="name" placeholder="Name..." required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input class="inputSplashArt" type="url" name="url" placeholder="Url..." required>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <img class="imgSplashArt" height="200" width="300" src="" alt="">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button type="submit">Add</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <button type="reset">Reset</button>
-                    </td>
-                </tr>
-            </table>
-        </form> -->
-        <table id="list" class="submit table__tr">
+
+        <table id="" class="submit table__tr">
             <caption><?php echo $this_champion->getName(); ?>:<?php echo count($skins); ?></caption>
-            <thead>
+            <thead id="thead__pc">
                 <th>Id</th>
                 <th>Name</th>
                 <th>Splash Art</th>
                 <th></th>
-                <th></th>
-                <th></th>
+                <th>Details</th>
             </thead>
             <tbody>
                 <?php
                 foreach ($skins as $key => $value) {
                 ?>
                     <tr>
+                        <th class="thead__mobile">Id</th>
                         <td>
-                            <input type="number" value="<?php echo $value->getId(); ?>" disabled>
-                            <input type="hidden" name="id" value="<?php echo $value->getId(); ?>">
+                            <input type="number" value="<?php echo $value->getId(); ?>" disabled readonly>
+                            <input type="hidden" name="id" value="<?php echo $value->getId(); ?>" readonly>
                         </td>
+                        <th class="thead__mobile">Name</th>
                         <td>
                             <input type="text" name="name" value="<?php echo $value->getName(); ?>" placeholder="Name..." required readonly>
                         </td>
+                        <th class="thead__mobile">Splash Art</th>
                         <td>
                             <input type="url" name="splash_art" class="inputSplashArt" value="<?php echo $value->getSplashArt(); ?>" placeholder="Url..." required readonly>
                         </td>
@@ -102,10 +76,7 @@ try {
                             <img class="imgSplashArt" height="200" width="300" src="<?php echo $value->getSplashArt(); ?>" alt="">
                         </td>
                         <td>
-                            <button class="btnOpenUpdate" type="button">Update</button>
-                        </td>
-                        <td>
-                            <button class="btnDel" type="button">Delete</button>
+                            <a href="">View</a>
                         </td>
                     </tr>
                 <?php
@@ -117,52 +88,3 @@ try {
 </body>
 
 </html>
-
-<script type="module">
-    import {
-        $,
-        $$,
-        getSrcFromInput,
-        confirmSubmit
-    } from "../js/functions.js";
-
-    const $$inputSplashArt = $$('.inputSplashArt');
-    const $$imgSplashArt = $$('.imgSplashArt');
-    const $$btnOpenUpdate = $$('.btnOpenUpdate');
-    const $$btnDel = $$('.btnDel');
-
-    let checkUp = false;
-
-    // $$btnOpenUpdate.forEach((e, i) => {
-    //     e.addEventListener('click', () => {
-
-    //     })
-    // });
-
-    // $btnOpenUpdate.addEventListener('click', () => {
-    //     if (!checkUp) {
-    //         $$('input').forEach(el => el.readOnly = false);
-    //         $$('.tdAction').forEach(el => {
-    //             el.style.visibility = 'visible';
-    //         });
-    //         $btnOpenUpdate.textContent = 'Cancel';
-    //     } else {
-    //         $('form#submit').reset();
-    //         $$('input').forEach(el => el.readOnly = true);
-    //         $$('.tdAction').forEach(el => {
-    //             el.style.visibility = 'hidden';
-    //         });
-    //         $btnOpenUpdate.textContent = 'Update';
-    //     }
-    //     checkUp = !checkUp;
-    // });
-
-    // $$inputSplashArt.forEach((el, i) => {
-    //     el.addEventListener('input', () => {
-    //         getSrcFromInput($$imgSplashArt[i], el);
-    //     });
-    // });
-
-    // confirmSubmit($('form#submit'), $('#btnUpdate'), "Confirm update?");
-    // confirmSubmit($('form#submit'), $('#btnDel'), "Confirm delete?");
-</script>

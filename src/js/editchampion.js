@@ -24,9 +24,13 @@ export function initEditChampion() {
         $imagePosition.style.backgroundPositionY = `${$inputPositionY.value.trim()}%`;
     });
 
-    $("button[type='reset']").addEventListener('click', (e) => {
-        $imagePosition.src = "";
-        $('#imgSplashArt').src = "";
-        $('#videoAnimatedSplashArt').src = "";
-    });
+    try {
+        $("button[type='reset']").addEventListener('click', (e) => {
+            $imagePosition.src = "";
+            $('#imgSplashArt').src = "";
+            $('#videoAnimatedSplashArt').src = "";
+        });
+    } catch (error) {
+
+    }
 }

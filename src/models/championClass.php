@@ -19,7 +19,7 @@ class Champion
     private $releaseDate;
     private $updatedDate;
 
-    public function __construct($id, $name, $region, $role, $title, $voice, $story, $splashArt, $animatedSplashArt, $positionX, $positionY, $model, $releaseDate, $updatedDate)
+    public function __construct($id = null, $name = null, $region = null, $role = null, $title = null, $voice = null, $story = null, $splashArt = null, $animatedSplashArt = null, $positionX = null, $positionY = null, $model = null, $releaseDate = null, $updatedDate = null)
     {
         $this->id = $id;
         $this->name = $name;

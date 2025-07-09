@@ -1,5 +1,5 @@
-export const $ = document.querySelector.bind(document);
-export const $$ = document.querySelectorAll.bind(document);
+export const $ = (selector, parent = document) => parent.querySelector(selector);
+export const $$ = (selector, parent = document) => parent.querySelectorAll(selector);
 
 export function getSrcFromInput(el, input) {
     el.src = input.value.trim();
