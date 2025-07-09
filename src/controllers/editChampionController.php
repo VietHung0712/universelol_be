@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             try {
                 $data = getChampionDataFromPost();
                 if (ChampionsHelper::updateData($connect, $data, $id)) {
-                    header("Location: ../views/champion.php?champion=$id");
+                    header("Location: ../views/editChampion.php?edit=details&champion=$id");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             try {
                 $data = getChampionDataFromPost(true);
                 if (ChampionsHelper::addData($connect, $data)) {
-                    header("Location: ../views/champions.php");
+                    header("Location: ../views/editChampion.php?edit=details&champion=$id");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -116,12 +116,12 @@ switch ($edit) {
     case 'update';
         $championId = $_GET['champion'];
         $this_champion = ChampionsHelper::getDataById($connect, $championId);
-        $formEdit = editchampionForm($regions, $roles, $this_champion, "Details : " . $this_champion->getName(), btnReset(), btnUpdate());
+        $formEdit = editchampionForm($regions, $roles, $this_champion, "Update : " . $this_champion->getName(), btnReset(), btnUpdate());
         break;
     case 'details';
         $championId = $_GET['champion'];
         $this_champion = ChampionsHelper::getDataById($connect, $championId);
-        $formEdit = editchampionForm($regions, $roles, $this_champion, "Details : " . $this_champion->getName(), btnChange($championId), btnDelete());
+        $formEdit = editchampionForm($regions, $roles, $this_champion, "Details : " . $this_champion->getName(), btnDelete(), null);
         break;
     default:
         # code...

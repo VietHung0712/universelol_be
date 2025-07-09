@@ -24,6 +24,16 @@ try {
         ?>
             <div id="tools">
                 <ul>
+                    <li><a style="text-decoration: none;"
+                            href="./editChampion.php?edit=details&champion=<?php echo $this_champion->getId(); ?>">
+                            <span><?php echo $this_champion->getName(); ?></span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                            </svg>
+                        </a></li>
+                    <li>
+                        <a href="./editChampion.php?edit=update&champion=<?php echo $championId; ?>">Update</a>
+                    </li>
                     <li>
                         <a href="./skins.php?champion=<?php echo $this_champion->getId(); ?>">Skins</a>
                     </li>
@@ -52,6 +62,28 @@ try {
     import {
         initEditChampion
     } from '../js/editchampion.js';
+
+    function readOnlyInput() {
+        const form = $('form#submit');
+        const $$inputs = $$('input', form);
+        const $$selects = $$('select', form);
+
+        $$inputs.forEach(element => {
+            element.readOnly = true;
+        });
+        $$selects.forEach(element => {
+            element.disabled = true;
+        });
+        $('textarea', form).readOnly = true;
+    }
+
+    <?php
+    if ($edit == 'details') {
+    ?>
+        readOnlyInput();
+    <?php
+    }
+    ?>
 
     initEditChampion();
 

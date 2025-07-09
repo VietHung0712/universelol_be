@@ -154,8 +154,3 @@ function btnReset(): string
 {
     return '<button type="reset">Reset</button>';
 }
-
-function btnChange($id): string
-{
-    return "<button><a href='./editChampion.php?edit=update&champion=" . $id . "'>Update</a></button>";
-}

@@ -19,24 +19,6 @@ try {
 <body>
     <?php require_once __DIR__ . "/Templates/header.php"; ?>
     <main>
-        <div id="tools">
-            <ul>
-                <li>
-                    <a style="text-decoration: none;" href="./champion.php?champion=<?php echo $this_champion->getId(); ?>">
-                        <?php echo $this_champion->getName(); ?>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="./skins.php?champion=<?php echo $this_champion->getId(); ?>">Skins</a>
-                </li>
-                <li>
-                    <a href="">Relations</a>
-                </li>
-            </ul>
-        </div>
         <div id="addNew">
             <button>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
