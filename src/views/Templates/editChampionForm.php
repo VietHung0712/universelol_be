@@ -1,6 +1,7 @@
 <?php
+require_once __DIR__ . "/editForm.php";
 
-function editchampionForm($regions, $roles, $object, $caption, $button1, $button2)
+function editChampionForm($regions, $roles, $object, $caption, $button1, $button2, $readOnlyId = true)
 {
     ob_start();
 ?>
@@ -9,7 +10,7 @@ function editchampionForm($regions, $roles, $object, $caption, $button1, $button
             <caption><?= $caption; ?></caption>
             <tr>
                 <th>Id</th>
-                <td><input type="text" name="id" value="<?= $object->getId(); ?>" required></td>
+                <td><input type="text" name="id" value="<?= $object->getId(); ?>" <?php if($readOnlyId) echo 'readOnly'; ?> required></td>
             </tr>
             <tr>
                 <th>Name</th>
@@ -17,76 +18,76 @@ function editchampionForm($regions, $roles, $object, $caption, $button1, $button
             </tr>
             <tr>
                 <th>Region</th>
-                <td><?php editSelect($regions, "region", $object->getRegion()); ?></td>
+                <td><?= editSelect($regions, "region", $object->getRegion()); ?></td>
             </tr>
             <tr>
                 <th>Role</th>
-                <td><?php editSelect($roles, "role", $object->getRole()); ?></td>
+                <td><?= editSelect($roles, "role", $object->getRole()); ?></td>
             </tr>
             <tr>
                 <th>Title</th>
                 <td>
-                    <input type="text" name="title" value="<?php echo $object->getTitle(); ?>" required>
+                    <input type="text" name="title" value="<?= $object->getTitle(); ?>" required>
                 </td>
             </tr>
             <tr>
                 <th>Voice</th>
                 <td>
-                    <input type="text" name="voice" value="<?php echo $object->getVoice(); ?>" required>
+                    <input type="text" name="voice" value="<?= $object->getVoice(); ?>" required>
                 </td>
             </tr>
             <tr>
                 <th>Story</th>
                 <td>
-                    <textarea name="story" required><?php echo $object->getStory(); ?></textarea>
+                    <textarea name="story" required><?= $object->getStory(); ?></textarea>
                 </td>
             </tr>
             <tr>
                 <th>Splash Art</th>
                 <td>
-                    <input id="inputSplashArt" type="url" name="splash_art" value="<?php echo $object->getSplashArt(); ?>" placeholder="url..." required>
+                    <input id="inputSplashArt" type="url" name="splash_art" value="<?= $object->getSplashArt(); ?>" placeholder="url..." required>
                 </td>
             </tr>
             <tr>
                 <th></th>
-                <td><img id="imgSplashArt" height="200" width="300" src="<?php echo $object->getSplashArt(); ?>" alt=""></td>
+                <td><img id="imgSplashArt" height="200" width="300" src="<?= $object->getSplashArt(); ?>" alt=""></td>
             </tr>
             <tr>
                 <th>Animated Splash Art</th>
                 <td>
-                    <input id="inputAnimatedSplashArt" type="url" name="animated_splash_art" value="<?php echo $object->getAnimatedSplashArt(); ?>" placeholder="url...">
+                    <input id="inputAnimatedSplashArt" type="url" name="animated_splash_art" value="<?= $object->getAnimatedSplashArt(); ?>" placeholder="url...">
                 </td>
             </tr>
             <tr>
                 <th></th>
-                <td><video id="videoAnimatedSplashArt" height="200" width="300" autoplay muted loop src="<?php echo $object->getAnimatedSplashArt(); ?>"></video></td>
+                <td><video id="videoAnimatedSplashArt" height="200" width="300" autoplay muted loop src="<?= $object->getAnimatedSplashArt(); ?>"></video></td>
             </tr>
             <tr>
                 <th>Position(X,Y)</th>
                 <td>
-                    <input id="inputPositionX" type="number" name="positionX" min="0" max="100" value="<?php echo $object->getPositionX(); ?>" required>
-                    <input id="inputPositionY" type="number" name="positionY" min="0" max="100" value="<?php echo $object->getPositionY(); ?>" required>
+                    <input id="inputPositionX" type="number" name="positionX" min="0" max="100" value="<?= $object->getPositionX(); ?>" required>
+                    <input id="inputPositionY" type="number" name="positionY" min="0" max="100" value="<?= $object->getPositionY(); ?>" required>
                 </td>
             </tr>
             <tr>
                 <th></th>
                 <td>
                     <div id="imagePosition"
-                        style="background-image: url(<?php echo $object->getSplashArt(); ?>); background-position-x: <?php echo $object->getPositionX(); ?>%; background-position-y: <?php echo $object->getPositionY(); ?>%;">
+                        style="background-image: url(<?= $object->getSplashArt(); ?>); background-position-x: <?= $object->getPositionX(); ?>%; background-position-y: <?= $object->getPositionY(); ?>%;">
                     </div>
                 </td>
             </tr>
             <tr>
                 <th>Model 3D</th>
                 <td>
-                    <input type="url" name="model" value="<?php echo $object->getModel(); ?>" placeholder="url...">
+                    <input type="url" name="model" value="<?= $object->getModel(); ?>" placeholder="url...">
                 </td>
             </tr>
             <tr>
                 <th></th>
                 <td>
                     <model-viewer
-                        src="<?php echo $object->getModel(); ?>"
+                        src="<?= $object->getModel(); ?>"
                         alt="Model 3D"
                         animation-name="Idle1.anm"
                         autoplay
@@ -99,13 +100,13 @@ function editchampionForm($regions, $roles, $object, $caption, $button1, $button
             <tr>
                 <th>Release Date</th>
                 <td>
-                    <input type="date" name="release_date" value="<?php echo $object->getReleaseDate(); ?>" required>
+                    <input type="date" name="release_date" value="<?= $object->getReleaseDate(); ?>" required>
                 </td>
             </tr>
             <tr>
                 <th>Updated Date</th>
                 <td>
-                    <input type="date" name="updated_date" value="<?php echo $object->getUpdatedDate(); ?>" required>
+                    <input type="date" name="updated_date" value="<?= $object->getUpdatedDate(); ?>" required>
                 </td>
             </tr>
             <tr>
@@ -122,35 +123,3 @@ function editchampionForm($regions, $roles, $object, $caption, $button1, $button
     return ob_get_clean();
 }
 
-
-function editSelect($array, $str, $id)
-{
-    echo "
-<select name=\"$str\">";
-    foreach ($array as $value) {
-        $selected = "";
-        if ($value->getId() === $id) $selected = "selected";
-        echo '<option value="' . $value->getId() . '"' . $selected . '>' . $value->getName() . '</option>';
-    }
-    echo "</select>";
-}
-
-function btnDelete(): string
-{
-    return '<button id="btnDel" type="submit" name="action" value="delete">Delete</button>';
-}
-
-function btnUpdate(): string
-{
-    return '<button type="submit" name="action" value="update">Update</button>';
-}
-
-function btnAdd(): string
-{
-    return '<button type="submit" name="action" value="add">Add</button>';
-}
-
-function btnReset(): string
-{
-    return '<button type="reset">Reset</button>';
-}

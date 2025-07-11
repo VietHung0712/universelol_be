@@ -60,7 +60,7 @@ class Helper
         return $query;
     }
 
-    public static function getEntities(mysqli $connect, string $className, array $fields, string $query, string $value = ""): array
+    public static function getEntities(mysqli $connect, string $className, array $fields, string $query, ?string $value = null): array
     {
         $stmt = $connect->prepare($query);
         if (!$stmt) {
@@ -72,16 +72,23 @@ class Helper
         return self::fetchEntities($stmt, $fields, $className);
     }
 
-    public static function checkExists(mysqli $connect, string $table, string $whereColumn, string $whereValue): bool
+    public static function checkExists(mysqli $connect, string $table, string $val1, string $col1, ?string $val2 = null, ?string $col2 = null): bool
     {
-        $sql = "SELECT 1 FROM $table WHERE $whereColumn = ? LIMIT 1";
-        $stmt = $connect->prepare($sql);
-        if (!$stmt) return false;
 
-        $stmt->bind_param("s", $whereValue);
+        if (!empty($col2) && !empty($val2)) {
+            $sql = "SELECT 1 FROM $table WHERE $col1 = ? AND $col2 = ? LIMIT 1";
+            $stmt = $connect->prepare($sql);
+            if (!$stmt) return false;
+            $stmt->bind_param("ss", $val1, $val2);
+        } else {
+            $sql = "SELECT 1 FROM $table WHERE $col1 = ? LIMIT 1";
+            $stmt = $connect->prepare($sql);
+            if (!$stmt) return false;
+            $stmt->bind_param("s", $val1);
+        }
+
         $stmt->execute();
         $stmt->store_result();
-
         $exists = $stmt->num_rows > 0;
         $stmt->close();
 

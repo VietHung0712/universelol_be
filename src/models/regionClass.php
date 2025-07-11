@@ -13,7 +13,7 @@ class Region
     private $background;
     private $animatedBackground;
 
-    public function __construct($id, $name, $title, $story, $icon, $avatar, $background, $animatedBackground)
+    public function __construct($id = null, $name = null, $title = null, $story = null, $icon = null, $avatar = null, $background = null, $animatedBackground = null)
     {
         $this->id = $id;
         $this->name = $name;

@@ -80,7 +80,7 @@ try {
                             </td>
                             <th class="thead__mobile">Region</th>
                             <td>
-                                <a href=""><?php echo $item->getRegion(); ?></a>
+                                <a href="./editRegion.php?edit=details&region=<?php echo $item->getRegion(); ?>"><?php echo $item->getRegion(); ?></a>
                             </td>
                             <th class="thead__mobile">Release Date</th>
                             <td>

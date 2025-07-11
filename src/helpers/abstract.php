@@ -17,9 +17,12 @@ abstract class EntityHelper
     }
 
 
-    public static function checkExists(mysqli $connect, string $value)
+    public static function checkExists(mysqli $connect, string $value1, ?string $col1 = null, ?string $value2 = null, ?string $col2 = null)
     {
-        return Helper::checkExists($connect, static::getTableConfig(), static::getIdConfig(), $value);
+        if(empty($col1)) {
+            $col1 = static::getIdConfig();
+        }
+        return Helper::checkExists($connect, static::getTableConfig(), $value1, $col1, $value2, $col2);
     }
 
     public static function addData(mysqli $connect, array $data)

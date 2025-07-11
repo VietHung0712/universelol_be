@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 try {
-    require_once __DIR__ . "/../controllers/editChampionController.php";
+    require_once __DIR__ . "/../controllers/editSkinController.php";
 } catch (\Throwable $th) {
 }
 ?>
@@ -13,7 +13,7 @@ try {
     <link rel="icon" href="https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Icon/League_of_Legends_icon.svg">
     <link rel="stylesheet" href="../style/layout-admin.css">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-    <title>Edit Champion</title>
+    <title>Edit Skin</title>
 </head>
 
 <body>
@@ -25,13 +25,26 @@ try {
             <div id="tools">
                 <ul>
                     <li>
-                        <a href="./editChampion.php?edit=update&champion=<?php echo $championId; ?>">Update</a>
+                        <a style="text-decoration: none;"
+                            href="./editChampion.php?edit=details&champion=<?php echo $this_champion->getId(); ?>">
+                            <span><?php echo $this_champion->getName(); ?></span>
+                        </a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                        </svg>
                     </li>
                     <li>
                         <a href="./skins.php?champion=<?php echo $this_champion->getId(); ?>">Skins</a>
                     </li>
                     <li>
-                        <a href="./relations.php?champion=<?php echo $this_champion->getId(); ?>">Relations</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                        </svg>
+                    </li>
+                    <li>
+                        <a href=""><?php echo $edit ?></a>
                     </li>
                 </ul>
             </div>
@@ -54,44 +67,14 @@ try {
     } from "../js/functions.js";
 
     const $inputSplashArt = $('#inputSplashArt');
-    const $inputAnimatedSplashArt = $('#inputAnimatedSplashArt');
-    const $imagePosition = $('#imagePosition');
-    const $inputPositionX = $('#inputPositionX');
-    const $inputPositionY = $('#inputPositionY');
     const form = $('form#submit');
 
     $inputSplashArt.addEventListener('input', () => {
         getSrcFromInput($('#imgSplashArt'), $inputSplashArt);
-        $imagePosition.style.backgroundImage = `url(${$inputSplashArt.value.trim()})`;
-    });
-
-    $inputAnimatedSplashArt.addEventListener('input', () => {
-        getSrcFromInput($('#videoAnimatedSplashArt'), $inputAnimatedSplashArt);
-    });
-
-    $inputPositionX.addEventListener('input', () => {
-        $imagePosition.style.backgroundPositionX = `${$inputPositionX.value.trim()}%`;
-    });
-
-    $inputPositionY.addEventListener('input', () => {
-        $imagePosition.style.backgroundPositionY = `${$inputPositionY.value.trim()}%`;
     });
 
     <?php
-    if ($edit === 'details') {
-    ?>
-        const $$inputs = $$('input', form);
-        const $$selects = $$('select', form);
-
-        $$inputs.forEach(element => {
-            element.readOnly = true;
-        });
-        $$selects.forEach(element => {
-            element.disabled = true;
-        });
-        $('textarea', form).readOnly = true;
-    <?php
-    } elseif ($edit === 'add') {
+    if ($edit === 'add') {
     ?>
         $("button[type='reset']").addEventListener('click', (e) => {
             $imagePosition.style.backgroundImage = "";
@@ -104,10 +87,6 @@ try {
         $("button[type='reset']").addEventListener('click', (e) => {
             form.reset();
             getSrcFromInput($('#imgSplashArt'), $inputSplashArt);
-            getSrcFromInput($('#videoAnimatedSplashArt'), $inputAnimatedSplashArt);
-            $imagePosition.style.backgroundImage = `url(${$inputSplashArt.value.trim()})`;
-            $imagePosition.style.backgroundPositionX = `${$inputPositionX.value.trim()}%`;
-            $imagePosition.style.backgroundPositionY = `${$inputPositionY.value.trim()}%`;
         });
     <?php
     }

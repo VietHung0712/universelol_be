@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 try {
-    require_once "../controllers/skinsController.php";
+    require_once "../controllers/relationsController.php";
 } catch (\Throwable $th) {
 }
 ?>
@@ -34,7 +34,7 @@ try {
                         </a>
                     </li>
                     <li>
-                        <a href="./skins.php?champion=<?php echo $this_champion->getId(); ?>">Skins</a>
+                        <a href="./relations.php?champion=<?php echo $this_champion->getId(); ?>">Relations</a>
                     </li>
                 </ul>
             </div>
@@ -43,7 +43,7 @@ try {
         ?>
         <div id="addNew">
             <a
-                href="./editSkin.php?edit=add&champion=<?php echo $this_champion->getId(); ?>">
+                href="./editRelation.php?edit=add&champion=<?php echo $this_champion->getId(); ?>">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2" />
                 </svg>
@@ -51,44 +51,40 @@ try {
         </div>
 
         <table id="list" class="table__tr">
-            <caption><?php echo $this_champion->getName(); ?>:<?php echo count($skins); ?></caption>
+            <caption><?php echo $this_champion->getName(); ?>:<?php echo count($relations); ?></caption>
             <thead id="thead__pc">
                 <th>Id</th>
-                <th>Name</th>
-                <th>Splash Art</th>
+                <th>Related Id</th>
+                <th>Relation Type</th>
 
             </thead>
             <tbody>
                 <?php
-                foreach ($skins as $key => $value) {
+                foreach ($relations as $key => $value) {
                 ?>
                     <tr>
                         <th class="thead__mobile">Id</th>
                         <td>
                             <p><?php echo $value->getId(); ?></p>
                         </td>
-                        <th class="thead__mobile">Name</th>
+                        <th class="thead__mobile">Related Id</th>
                         <td>
-                            <input type="text" name="name" value="<?php echo $value->getName(); ?>" required readonly>
+                            <input type="text" name="name" value="<?php echo $value->getRelatedId(); ?>" placeholder="Related Id..." required readonly>
                         </td>
-                        <th class="thead__mobile">Splash Art</th>
+                        <th class="thead__mobile">Relation Type</th>
                         <td>
-                            <input type="url" name="splash_art" class="inputSplashArt" value="<?php echo $value->getSplashArt(); ?>" placeholder="Url..." required readonly>
-                        </td>
-                        <th></th>
-                        <td>
-                            <img class="imgSplashArt" height="200" width="300"
-                                src="<?php echo $value->getSplashArt(); ?>" alt="">
+                            <input type="text" name="name" value="<?php echo $value->getRelationType(); ?>" placeholder="Relation Type..." required readonly>
                         </td>
                         <th>
                             <a
-                                href="./editSkin.php?edit=update&skin=<?php echo $value->getId(); ?>">
+                                href="./editRelation.php?edit=update&relation=<?php echo $value->getId(); ?>">
                                 Update
                             </a>
                         </th>
                         <td>
+                            
                             <form class="submit" method="POST"
-                                action="../controllers/editSkinController.php">
+                                action="../controllers/editRelationController.php">
                                 <input type="hidden" name="id"
                                     value="<?php echo $value->getId(); ?>">
                                 <input type="hidden" name="champion_id"

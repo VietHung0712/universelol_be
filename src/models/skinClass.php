@@ -9,7 +9,7 @@ class Skin
     private $name;
     private $splashArt;
 
-    public function __construct($id, $championId, $name, $splashArt)
+    public function __construct($id = null, $championId = null, $name = null, $splashArt = null)
     {
         $this->id = $id;
         $this->championId = $championId;

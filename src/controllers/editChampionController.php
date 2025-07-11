@@ -87,7 +87,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             };
             break;
         default:
-            # code...
+            header("Location: ../views/champions.php");
+            exit();
             break;
     }
 }
@@ -104,27 +105,32 @@ $colsRole = [
 $regions = RegionsHelper::getData($connect, $colsRegion);
 $roles = RolesHelper::getData($connect, $colsRole);
 
-$edit = $_GET['edit'];
-$formEdit = "";
+$edit = null;
+$formEdit = null;
 $championId = null;
+if (isset($_GET['champion'])) {
+    $championId = $_GET['champion'];
+}
+if (isset($_GET['edit'])) {
+    $edit = $_GET['edit'];
+}
 
 switch ($edit) {
     case 'add':
         $this_champion = new Champion();
-        $formEdit = editchampionForm($regions, $roles, $this_champion, "Add new champion", btnReset(), btnAdd());
+        $formEdit = editChampionForm($regions, $roles, $this_champion, "Add new champion", btnReset(), btnAdd(), false);
         break;
     case 'update';
-        $championId = $_GET['champion'];
         $this_champion = ChampionsHelper::getDataById($connect, $championId);
-        $formEdit = editchampionForm($regions, $roles, $this_champion, "Update : " . $this_champion->getName(), btnReset(), btnUpdate());
+        $formEdit = editChampionForm($regions, $roles, $this_champion, "Update : " . $this_champion->getId(), btnReset(), btnUpdate());
         break;
     case 'details';
-        $championId = $_GET['champion'];
         $this_champion = ChampionsHelper::getDataById($connect, $championId);
-        $formEdit = editchampionForm($regions, $roles, $this_champion, "Details : " . $this_champion->getName(), btnDelete(), null);
+        $formEdit = editChampionForm($regions, $roles, $this_champion, "Details : " . $this_champion->getId(), btnDelete(), null);
         break;
     default:
-        # code...
+        header("Location: ../views/champions.php");
+        exit();
         break;
 }
 

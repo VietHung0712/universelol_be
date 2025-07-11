@@ -9,7 +9,7 @@ class Relation
     private $relatedId;
     private $relationType;
     
-    public function __construct($id, $championId, $relatedId, $relationType)
+    public function __construct($id = null, $championId = null, $relatedId = null, $relationType = null)
     {
         $this->id = $id;
         $this->championId = $championId;
