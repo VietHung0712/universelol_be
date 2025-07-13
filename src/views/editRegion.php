@@ -21,24 +21,52 @@ try {
     <main>
         <div id="tools">
             <ul>
+                <li>
+                    <a href="./regions.php">Regions</a>
+                </li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                    </svg>
+                </li>
                 <?php
-                if (!empty($regionId)) {
+                if (!empty($regionId) && $edit === 'details') {
                 ?>
+                    <li>
+                        <a
+                            href="./editRegion.php?edit=details&region=<?php echo $this_region->getId(); ?>">
+                            <span><?php echo $this_region->getName(); ?></span>
+                        </a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </li>
                     <li>
                         <a href="./editRegion.php?edit=update&region=<?php echo $regionId; ?>">Update</a>
                     </li>
                 <?php
                 }
-                if ($edit === 'add') {
+                if (!empty($regionId) && $edit === 'update') {
                 ?>
                     <li>
-                        <a href="">Regions</a>
+                        <a
+                            href="./editRegion.php?edit=details&region=<?php echo $this_region->getId(); ?>">
+                            <span><?php echo $this_region->getName(); ?></span>
+                        </a>
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
                             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
                         </svg>
                     </li>
+                    <li>
+                        <a href="./editRegion.php?edit=update&region=<?php echo $regionId; ?>">Update</a>
+                    </li>
+                <?php
+                } elseif ($edit === 'add') {
+                ?>
                     <li>
                         <a href="./editRegion.php?edit=update&region=<?php echo $regionId; ?>">Add</a>
                     </li>
@@ -48,7 +76,9 @@ try {
             </ul>
         </div>
         <?php
-        echo $formEdit;
+        if (isset($formEdit) && !empty($formEdit)) {
+            echo $formEdit;
+        }
         ?>
     </main>
 </body>

@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $sql = "SELECT * FROM administrator WHERE username = '$username' and password = '$password'";
     $result = mysqli_query($connect, $sql);
     if ($result->num_rows > 0) {
-        header("Location: ./src/views/champions.php");
+        header("Location: ./src/views/index.php");
         exit();
     } else {
 ?>

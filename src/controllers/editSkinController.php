@@ -11,28 +11,27 @@ $config = new Config();
 $connect = $config->connect();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $action = $_POST['action'];
-    $id = $_POST['id'];
+    try {
+        $action = $_POST['action'];
+        $id = $_POST['id'];
 
-    function getSkinDataFromPost(bool $includeId = false): array
-    {
-        $data = [
-            SkinConfig::NAME->value => $_POST['name'] ?? null,
-            SkinConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
-            SkinConfig::SPLASHART->value => $_POST['splash_art']  ?? null,
-        ];
+        function getSkinDataFromPost(bool $includeId = false): array
+        {
+            $data = [
+                SkinConfig::NAME->value => $_POST['name'] ?? null,
+                SkinConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
+                SkinConfig::SPLASHART->value => $_POST['splash_art']  ?? null,
+            ];
 
-        if ($includeId) {
-            $data[SkinConfig::ID->value] = $_POST['id'] ?? null;
+            if ($includeId) {
+                $data[SkinConfig::ID->value] = $_POST['id'] ?? null;
+            }
+
+            return $data;
         }
 
-        return $data;
-    }
-
-
-    switch ($action) {
-        case 'delete':
-            try {
+        switch ($action) {
+            case 'delete':
                 $data = getSkinDataFromPost();
                 if (SkinsHelper::deleteData($connect, $id)) {
                     header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPIONID->value]}");
@@ -40,12 +39,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            }
-            break;
-        case 'update':
-            try {
+                break;
+            case 'update':
                 $data = getSkinDataFromPost();
                 if (SkinsHelper::updateData($connect, $data, $id)) {
                     header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPIONID->value]}");
@@ -53,11 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            }
-        case 'add':
-            try {
+                break;
+            case 'add':
                 $data = getSkinDataFromPost();
                 if (SkinsHelper::addData($connect, $data)) {
                     header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPIONID->value]}");
@@ -65,41 +57,52 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            };
-            break;
-        default:
-            header("Location: ../views/champions.php");
-            exit();
-            break;
+                break;
+            default:
+                header("Location: ../views/champions.php");
+                exit();
+                break;
+        }
+    } catch (\Throwable $th) {
+        header("Location: ../views/champions.php");
+        exit();
     }
 }
 
-$edit = null;
-$formEdit = null;
-$skinId = null;
-$championId = null;
-if (isset($_GET['skin'])) {
-    $skinId = $_GET['skin'];
+$edit = $_GET['edit'] ?? null;
+$championId = $_GET['champion'] ?? null;
+$skinId = $_GET['skin'] ?? null;
+
+if (!$championId || trim($championId) === "") {
+    header("Location: ../views/champions.php");
+    exit();
 }
-if (isset($_GET['edit'])) {
-    $edit = $_GET['edit'];
+$this_champion = ChampionsHelper::getDataById($connect, $championId, [ChampionConfig::ID->value, ChampionConfig::NAME->value]);
+if ($this_champion === null) {
+    header("Location: ../views/champions.php");
+    exit();
 }
-if (isset($_GET['champion'])) {
-    $championId = $_GET['champion'];
+
+if ($edit === "add") {
+    $this_skin = new Skin();
+} else {
+    if (!$skinId || trim($skinId) === "") {
+        header("Location: ../views/champions.php");
+        exit();
+    }
+    $this_skin = SkinsHelper::getDataById($connect, $skinId);
+
+    if ($this_skin === null || $this_skin->getChampionId() !== $championId) {
+        header("Location: ../views/champions.php");
+        exit();
+    }
 }
 
 switch ($edit) {
     case 'add':
-        $this_skin = new Skin();
-        $this_champion = ChampionsHelper::getDataById($connect, $championId, [ChampionConfig::ID->value, ChampionConfig::NAME->value]);
         $formEdit = editSkinForm($this_skin, "Add new skin : " . $this_champion->getName(), $championId, btnAdd(), true);
         break;
     case 'update';
-        $this_skin = SkinsHelper::getDataById($connect, $skinId);
-        $championId = $this_skin->getChampionId();
-        $this_champion = ChampionsHelper::getDataById($connect, $championId, [ChampionConfig::ID->value, ChampionConfig::NAME->value]);
         $formEdit = editSkinForm($this_skin, "Update skin : " . $this_champion->getName(), $championId, btnUpdate(), true);
         break;
     default:

@@ -8,7 +8,7 @@ class Role
     private $name;
     private $icon;
 
-    public function __construct($id, $name, $icon)
+    public function __construct($id = null, $name = null, $icon = null)
     {
         $this->id = $id;
         $this->name = $name;

@@ -19,28 +19,36 @@ try {
 <body>
     <?php require_once __DIR__ . "/Templates/header.php"; ?>
     <main>
-        <?php
-        if (!empty($championId)) {
-        ?>
-            <div id="tools">
-                <ul>
+        <div id="tools">
+            <ul>
+                <li><a href="./champions.php">Champions</a></li>
+                <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                    </svg>
+                </li>
+                <?php
+                if (!empty($championId)) {
+                ?>
                     <li>
-                        <a style="text-decoration: none;"
+                        <a
                             href="./editChampion.php?edit=details&champion=<?php echo $this_champion->getId(); ?>">
                             <span><?php echo $this_champion->getName(); ?></span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-                            </svg>
                         </a>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
+                        </svg>
                     </li>
                     <li>
                         <a href="./relations.php?champion=<?php echo $this_champion->getId(); ?>">Relations</a>
                     </li>
-                </ul>
-            </div>
-        <?php
-        }
-        ?>
+                <?php
+                }
+                ?>
+            </ul>
+        </div>
         <div id="addNew">
             <a
                 href="./editRelation.php?edit=add&champion=<?php echo $this_champion->getId(); ?>">
@@ -77,12 +85,12 @@ try {
                         </td>
                         <th>
                             <a
-                                href="./editRelation.php?edit=update&relation=<?php echo $value->getId(); ?>">
+                                href="./editRelation.php?edit=update&champion=<?php echo $this_champion->getId(); ?>&relation=<?php echo $value->getId(); ?>">
                                 Update
                             </a>
                         </th>
                         <td>
-                            
+
                             <form class="submit" method="POST"
                                 action="../controllers/editRelationController.php">
                                 <input type="hidden" name="id"

@@ -5,7 +5,7 @@ function editRegionForm($object, $caption, $button1, $button2, $readOnlyId = tru
 {
     ob_start();
 ?>
-    <form id="submit" method="POST" action="../controllers/editChampionController.php">
+    <form id="submit" method="POST" action="../controllers/editRegionController.php">
         <table class="submit table__tr">
             <caption><?= $caption; ?></caption>
             <tr>
@@ -25,7 +25,7 @@ function editRegionForm($object, $caption, $button1, $button2, $readOnlyId = tru
             <tr>
                 <th>Story</th>
                 <td>
-                    <textarea name="story" required><?= $object->getStory(); ?></textarea>
+                    <textarea name="story"><?= $object->getStory(); ?></textarea>
                 </td>
             </tr>
             <tr>

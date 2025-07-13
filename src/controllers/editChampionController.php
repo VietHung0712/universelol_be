@@ -11,49 +11,46 @@ require_once __DIR__ . "/../views/Templates/editChampionForm.php";
 $config = new Config();
 $connect = $config->connect();
 
-
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $action = $_POST['action'];
-    $id = $_POST['id'];
+    try {
+        $action = $_POST['action'];
+        $id = $_POST['id'];
 
-    function getChampionDataFromPost(bool $includeId = false): array
-    {
-        $data = [
-            ChampionConfig::NAME->value => $_POST['name'],
-            ChampionConfig::REGION->value => $_POST['region'],
-            ChampionConfig::ROLE->value => $_POST['role'],
-            ChampionConfig::TITLE->value => $_POST['title'],
-            ChampionConfig::VOICE->value => $_POST['voice'],
-            ChampionConfig::STORY->value => $_POST['story'],
-            ChampionConfig::SPLASHART->value => $_POST['splash_art'],
-            ChampionConfig::ANIMATEDSPLASHART->value => $_POST['animated_splash_art'],
-            ChampionConfig::POSITIONX->value => $_POST['positionX'],
-            ChampionConfig::POSITIONY->value => $_POST['positionY'],
-            ChampionConfig::MODEL->value => $_POST['model'],
-            ChampionConfig::RELEASEDATE->value => $_POST['release_date'],
-            ChampionConfig::UPDATEDDATE->value => $_POST['updated_date'],
-        ];
+        function getChampionDataFromPost(bool $includeId = false): array
+        {
+            $data = [
+                ChampionConfig::NAME->value => $_POST['name'],
+                ChampionConfig::REGION->value => $_POST['region'],
+                ChampionConfig::ROLE->value => $_POST['role'],
+                ChampionConfig::TITLE->value => $_POST['title'],
+                ChampionConfig::VOICE->value => $_POST['voice'],
+                ChampionConfig::STORY->value => $_POST['story'],
+                ChampionConfig::SPLASHART->value => $_POST['splash_art'],
+                ChampionConfig::ANIMATEDSPLASHART->value => $_POST['animated_splash_art'],
+                ChampionConfig::POSITIONX->value => $_POST['positionX'],
+                ChampionConfig::POSITIONY->value => $_POST['positionY'],
+                ChampionConfig::MODEL->value => $_POST['model'],
+                ChampionConfig::RELEASEDATE->value => $_POST['release_date'],
+                ChampionConfig::UPDATEDDATE->value => $_POST['updated_date'],
+            ];
 
-        if ($includeId) {
-            $data[ChampionConfig::ID->value] = $_POST['id'];
+            if ($includeId) {
+                $data[ChampionConfig::ID->value] = $_POST['id'];
+            }
+
+            return $data;
         }
 
-        return $data;
-    }
-
-
-    switch ($action) {
-        case 'delete':
-            if (ChampionsHelper::deleteData($connect, $id)) {
-                header("Location: ../views/champions.php");
-                exit();
-            } else {
-                echo "<script>console.log('Error while executing!')</script>";
-            }
-            break;
-        case 'update':
-            try {
+        switch ($action) {
+            case 'delete':
+                if (ChampionsHelper::deleteData($connect, $id)) {
+                    header("Location: ../views/champions.php");
+                    exit();
+                } else {
+                    echo "<script>console.log('Error while executing!')</script>";
+                }
+                break;
+            case 'update':
                 $data = getChampionDataFromPost();
                 if (ChampionsHelper::updateData($connect, $data, $id)) {
                     header("Location: ../views/editChampion.php?edit=details&champion=$id");
@@ -61,20 +58,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            }
-        case 'add':
-            $checkId = ChampionsHelper::checkExists($connect, $id);
-            if ($checkId) {
-                echo "<script>
+            case 'add':
+                $checkId = ChampionsHelper::checkExists($connect, $id);
+                if ($checkId) {
+                    echo "<script>
                 alert('This ID \"$id\" already exists. Please choose a different one!');
                 history.back();
               </script>";
-                exit();
-            }
+                    exit();
+                }
 
-            try {
                 $data = getChampionDataFromPost(true);
                 if (ChampionsHelper::addData($connect, $data)) {
                     header("Location: ../views/editChampion.php?edit=details&champion=$id");
@@ -82,14 +75,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            };
-            break;
-        default:
-            header("Location: ../views/champions.php");
-            exit();
-            break;
+                break;
+            default:
+                header("Location: ../views/champions.php");
+                exit();
+                break;
+        }
+    } catch (\Throwable $th) {
+        header("Location: ../views/champions.php");
+        exit();
+    }
+}
+
+$edit = $_GET['edit'] ?? null;
+$championId = $_GET['champion'] ?? null;
+
+if ($edit === "add") {
+    $this_champion = new Champion();
+} else {
+    if (!$championId || trim($championId) === "") {
+        header("Location: ../views/champions.php");
+        exit();
+    }
+    $this_champion = ChampionsHelper::getDataById($connect, $championId);
+    if ($this_champion === null) {
+        header("Location: ../views/champions.php");
+        exit();
     }
 }
 
@@ -105,27 +116,14 @@ $colsRole = [
 $regions = RegionsHelper::getData($connect, $colsRegion);
 $roles = RolesHelper::getData($connect, $colsRole);
 
-$edit = null;
-$formEdit = null;
-$championId = null;
-if (isset($_GET['champion'])) {
-    $championId = $_GET['champion'];
-}
-if (isset($_GET['edit'])) {
-    $edit = $_GET['edit'];
-}
-
 switch ($edit) {
     case 'add':
-        $this_champion = new Champion();
         $formEdit = editChampionForm($regions, $roles, $this_champion, "Add new champion", btnReset(), btnAdd(), false);
         break;
     case 'update';
-        $this_champion = ChampionsHelper::getDataById($connect, $championId);
         $formEdit = editChampionForm($regions, $roles, $this_champion, "Update : " . $this_champion->getId(), btnReset(), btnUpdate());
         break;
     case 'details';
-        $this_champion = ChampionsHelper::getDataById($connect, $championId);
         $formEdit = editChampionForm($regions, $roles, $this_champion, "Details : " . $this_champion->getId(), btnDelete(), null);
         break;
     default:
@@ -133,6 +131,4 @@ switch ($edit) {
         exit();
         break;
 }
-
-
 $connect->close();

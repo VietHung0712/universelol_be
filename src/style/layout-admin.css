@@ -41,6 +41,10 @@ header {
                 letter-spacing: 1px;
                 text-transform: uppercase;
 
+                img {
+                    margin-top: 5px;
+                }
+
                 &:hover {
                     background-color: var(--color6-);
                 }
@@ -75,7 +79,7 @@ img {
 main {
     overflow: hidden;
     margin-top: 60px;
-    min-height: 100vh;
+    min-height: calc(100vh - 60px);
     width: 100%;
     padding-bottom: 10vh;
     display: flex;
@@ -176,7 +180,7 @@ caption {
 }
 
 button {
-    padding: 5px;
+    padding: 10px;
     font-weight: bold;
     letter-spacing: 1px;
 
@@ -201,10 +205,15 @@ table {
     background-color: #000000ca;
     padding: 10px;
     border-collapse: collapse;
+    width: 90vw;
+
+    input {
+        width: 100%;
+    }
 
     &.submit {
         min-width: 350px;
-        max-width: 80vw;
+        max-width: 90vw;
 
         tr {
             grid-template-columns: 1fr;
@@ -219,7 +228,6 @@ table {
     }
 
     &.table__tr {
-        width: 100%;
         margin-top: 100px;
 
         tr {
@@ -232,6 +240,7 @@ table {
     }
 
     &#list {
+        max-width: 95%;
         input {
             border: 0;
         }

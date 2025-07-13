@@ -11,28 +11,27 @@ $config = new Config();
 $connect = $config->connect();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $action = $_POST['action'];
-    $id = $_POST['id'];
+    try {
+        $action = $_POST['action'];
+        $id = $_POST['id'];
 
-    function getRelationDataFromPost(bool $includeId = false): array
-    {
-        $data = [
-            RelationConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
-            RelationConfig::RELATEDID->value => $_POST['related_id'] ?? null,
-            RelationConfig::RELATIONTYPE->value => $_POST['relation_type']  ?? null,
-        ];
+        function getRelationDataFromPost(bool $includeId = false): array
+        {
+            $data = [
+                RelationConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
+                RelationConfig::RELATEDID->value => $_POST['related_id'] ?? null,
+                RelationConfig::RELATIONTYPE->value => $_POST['relation_type']  ?? null,
+            ];
 
-        if ($includeId) {
-            $data[RelationConfig::ID->value] = $_POST['id'] ?? null;
+            if ($includeId) {
+                $data[RelationConfig::ID->value] = $_POST['id'] ?? null;
+            }
+
+            return $data;
         }
 
-        return $data;
-    }
-
-
-    switch ($action) {
-        case 'delete':
-            try {
+        switch ($action) {
+            case 'delete':
                 $data = getRelationDataFromPost();
                 if (RelationsHelper::deleteData($connect, $id)) {
                     header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPIONID->value]}");
@@ -40,12 +39,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            }
-            break;
-        case 'update':
-            try {
+                break;
+            case 'update':
                 $data = getRelationDataFromPost();
                 $checkId = RelationsHelper::checkExists($connect, $data[RelationConfig::CHAMPIONID->value], RelationConfig::CHAMPIONID->value, $data[RelationConfig::RELATEDID->value], RelationConfig::RELATEDID->value);
                 if ($checkId) {
@@ -61,12 +56,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            }
-            break;
-        case 'add':
-            try {
+                break;
+            case 'add':
                 $data = getRelationDataFromPost();
                 $checkId = RelationsHelper::checkExists($connect, $data[RelationConfig::CHAMPIONID->value], RelationConfig::CHAMPIONID->value, $data[RelationConfig::RELATEDID->value], RelationConfig::RELATEDID->value);
                 if ($checkId) {
@@ -83,45 +74,53 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
                 }
-            } catch (\Throwable $th) {
-                echo $th->getMessage();
-            };
-            break;
-        default:
-            header("Location: ../views/champions.php");
-            exit();
-            break;
+                break;
+            default:
+                header("Location: ../views/champions.php");
+                exit();
+                break;
+        }
+    } catch (\Throwable $th) {
+        header("Location: ../views/champions.php");
+        exit();
     }
 }
 
-$edit = null;
-$formEdit = null;
-$relationId = null;
-$championId = null;
-if (isset($_GET['relation'])) {
-    $relationId = $_GET['relation'];
+$edit = $_GET['edit'] ?? null;
+$championId = $_GET['champion'] ?? null;
+$relationId = $_GET['relation'] ?? null;
+
+if (!$championId || trim($championId) === "") {
+    header("Location: ../views/champions.php");
+    exit();
 }
-if (isset($_GET['edit'])) {
-    $edit = $_GET['edit'];
-}
-if (isset($_GET['champion'])) {
-    $championId = $_GET['champion'];
+$this_champion = ChampionsHelper::getDataById($connect, $championId, [ChampionConfig::ID->value, ChampionConfig::NAME->value]);
+if ($this_champion === null) {
+    header("Location: ../views/champions.php");
+    exit();
 }
 
-$colsChampion = [ChampionConfig::ID->value, ChampionConfig::NAME->value];
+if ($edit === "add") {
+    $this_relation = new Relation();
+} else {
+    if (!$relationId || trim($relationId) === "") {
+        header("Location: ../views/champions.php");
+        exit();
+    }
+    $this_relation = RelationsHelper::getDataById($connect, $relationId);
 
-$champions = ChampionsHelper::getData($connect, $colsChampion);
+    if ($this_relation === null || $this_relation->getChampionId() !== $championId) {
+        header("Location: ../views/champions.php");
+        exit();
+    }
+}
+$champions = ChampionsHelper::getData($connect, [ChampionConfig::ID->value, ChampionConfig::NAME->value]);
 
 switch ($edit) {
     case 'add':
-        $this_relation = new Relation();
-        $this_champion = ChampionsHelper::getDataById($connect, $championId, $colsChampion);
-        $formEdit = editRelationForm($champions, $this_relation, "Add new skin : " . $this_champion->getName(), $championId, btnAdd(), true);
+        $formEdit = editRelationForm($champions, $this_relation, "Add new relation : " . $this_champion->getName(), $championId, btnAdd(), true);
         break;
     case 'update';
-        $this_relation = RelationsHelper::getDataById($connect, $relationId);
-        $championId = $this_relation->getChampionId();
-        $this_champion = ChampionsHelper::getDataById($connect, $championId, $colsChampion);
         $formEdit = editRelationForm($champions, $this_relation, "Update relation : " . $this_champion->getName(), $championId, btnUpdate(), true);
         break;
     default:
