@@ -15,7 +15,7 @@
         <div class="container">
             <a class="thumbex" href="./champions.php">
                 <div class="thumbnail">
-                    <img src="https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Others/championsBg.jpg" />
+                    <img src="https://cdn1.epicgames.com/offer/24b9b5e323bc40eea252a10cdd3b2f10/EGS_LeagueofLegends_RiotGames_S1_2560x1440-80471666c140f790f28dff68d72c384b" />
                     <span>Champions</span>
                 </div>
             </a>
@@ -34,7 +34,12 @@
                 </div>
             </a>
         </div>
+
+        <div class="admin">
+            <a href="./admin.php">Administrator</a>
+        </div>
     </main>
+    <?php require_once __DIR__ . "/Templates/footer.php"; ?>
 </body>
 
 </html>
@@ -105,5 +110,11 @@
             letter-spacing: 1px;
             padding: 10px;
         }
+    }
+
+    .admin {
+        position: absolute;
+        bottom: 5%;
+        left: 5%;
     }
 </style>

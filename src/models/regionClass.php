@@ -2,7 +2,12 @@
 
 namespace UniverseLOL;
 
-class Region
+use RegionConfig;
+use JsonSerializable;
+
+require_once __DIR__ . '/../config/entitiesConfig.php';
+
+class Region implements \JsonSerializable
 {
     private $id;
     private $name;
@@ -23,6 +28,20 @@ class Region
         $this->avatar = $avatar;
         $this->background = $background;
         $this->animatedBackground = $animatedBackground;
+    }
+
+    public function jsonSerialize(): mixed
+    {
+        return [
+            RegionConfig::ID->value => $this->id,
+            RegionConfig::NAME->value => $this->name,
+            RegionConfig::TITLE->value => $this->title,
+            RegionConfig::STORY->value => $this->story,
+            RegionConfig::ICON->value => $this->icon,
+            RegionConfig::AVATAR->value => $this->avatar,
+            RegionConfig::BACKGROUND->value => $this->background,
+            RegionConfig::ANIMATEDBACKGROUND->value => $this->animatedBackground
+        ];
     }
 
     public function getId()

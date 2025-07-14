@@ -2,7 +2,12 @@
 
 namespace UniverseLOL;
 
-class Relation
+use JsonSerializable;
+use RelationConfig;
+
+require_once __DIR__ . '/../config/entitiesConfig.php';
+
+class Relation implements JsonSerializable
 {
     private $id;
     private $championId;
@@ -15,6 +20,16 @@ class Relation
         $this->championId = $championId;
         $this->relatedId = $relatedId;
         $this->relationType = $relationType;
+    }
+
+    public function jsonSerialize(): mixed
+    {
+        return [
+            RelationConfig::ID->value => $this->id,
+            RelationConfig::CHAMPIONID->value => $this->championId,
+            RelationConfig::RELATEDID->value => $this->relatedId,
+            RelationConfig::RELATIONTYPE->value => $this->relationType
+        ];
     }
 
     public function getId()

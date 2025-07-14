@@ -13,5 +13,6 @@ try {
 
     $connect->close();
 } catch (\Throwable $th) {
-    //throw $th;
+    header("Location: ../views/index.php");
+    exit();
 }

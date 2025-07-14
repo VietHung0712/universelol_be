@@ -2,7 +2,12 @@
 
 namespace UniverseLOL;
 
-class Skin
+use JsonSerializable;
+use SkinConfig;
+
+require_once __DIR__ . '/../config/entitiesConfig.php';
+
+class Skin implements JsonSerializable
 {
     private $id;
     private $championId;
@@ -15,6 +20,16 @@ class Skin
         $this->championId = $championId;
         $this->name = $name;
         $this->splashArt = $splashArt;
+    }
+
+    public function jsonSerialize(): mixed
+    {
+        return [
+            SkinConfig::ID->value => $this->id,
+            SkinConfig::NAME->value => $this->name,
+            SkinConfig::CHAMPIONID->value => $this->championId,
+            SkinConfig::SPLASHART->value => $this->splashArt
+        ];
     }
 
     public function getId()

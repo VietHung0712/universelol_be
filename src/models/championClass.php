@@ -2,7 +2,13 @@
 
 namespace UniverseLOL;
 
-class Champion
+use ChampionConfig;
+use JsonSerializable;
+
+require_once __DIR__ . '/../config/entitiesConfig.php';
+
+
+class Champion implements \JsonSerializable
 {
     private $id;
     private $name;
@@ -35,6 +41,26 @@ class Champion
         $this->model = $model;
         $this->releaseDate = $releaseDate;
         $this->updatedDate = $updatedDate;
+    }
+
+    public function jsonSerialize(): mixed
+    {
+        return [
+            ChampionConfig::ID->value => $this->id,
+            ChampionConfig::NAME->value => $this->name,
+            ChampionConfig::REGION->value => $this->region,
+            ChampionConfig::ROLE->value => $this->role,
+            ChampionConfig::TITLE->value => $this->title,
+            ChampionConfig::VOICE->value => $this->voice,
+            ChampionConfig::STORY->value => $this->story,
+            ChampionConfig::SPLASHART->value => $this->splashArt,
+            ChampionConfig::ANIMATEDSPLASHART->value => $this->animatedSplashArt,
+            ChampionConfig::POSITIONX->value => $this->positionX,
+            ChampionConfig::POSITIONY->value => $this->positionY,
+            ChampionConfig::MODEL->value => $this->model,
+            ChampionConfig::RELEASEDATE->value => $this->releaseDate instanceof \DateTime ? $this->releaseDate->format('Y-m-d') : $this->releaseDate,
+            ChampionConfig::UPDATEDDATE->value => $this->updatedDate instanceof \DateTime ? $this->updatedDate->format('Y-m-d') : $this->updatedDate,
+        ];
     }
 
     public function getId()

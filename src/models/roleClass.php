@@ -2,7 +2,12 @@
 
 namespace UniverseLOL;
 
-class Role
+use JsonSerializable;
+use RoleConfig;
+
+require_once __DIR__ . '/../config/entitiesConfig.php';
+
+class Role implements JsonSerializable
 {
     private $id;
     private $name;
@@ -13,6 +18,15 @@ class Role
         $this->id = $id;
         $this->name = $name;
         $this->icon = $icon;
+    }
+
+    public function jsonSerialize(): mixed
+    {
+        return [
+            RoleConfig::ID->value => $this->id,
+            RoleConfig::NAME->value => $this->name,
+            RoleConfig::ICON->value => $this->icon
+        ];
     }
 
     public function getId()

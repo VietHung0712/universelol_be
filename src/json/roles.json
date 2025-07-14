@@ -1,0 +1,32 @@
+[
+    {
+        "id": "Assassin",
+        "name": "Assassin",
+        "icon": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Roles/role_icon_assassin.png"
+    },
+    {
+        "id": "Fighter",
+        "name": "Fighter",
+        "icon": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Roles/role_icon_fighter.png"
+    },
+    {
+        "id": "Mage",
+        "name": "Mage",
+        "icon": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Roles/role_icon_mage.png"
+    },
+    {
+        "id": "Marksman",
+        "name": "Marksman",
+        "icon": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Roles/role_icon_marksman.png"
+    },
+    {
+        "id": "Support",
+        "name": "Support",
+        "icon": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Roles/role_icon_support.png"
+    },
+    {
+        "id": "Tank",
+        "name": "Tank",
+        "icon": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Roles/role_icon_tank.png"
+    }
+]
