@@ -44,7 +44,7 @@ switch ($variable) {
         break;
     case 'maps':
         require_once __DIR__ . '/../helpers/mapsHelper.php';
-        $filePath = '../json/roles.json';
+        $filePath = '../json/maps.json';
         $maps = MapsHelper::getData($connect);
         $result = file_put_contents($filePath, json_encode($maps, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
         break;
