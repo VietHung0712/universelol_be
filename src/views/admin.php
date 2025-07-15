@@ -27,6 +27,9 @@
                 <a href="../core/export.php?variable=roles">Export Roles</a>
             </li>
             <li>
+                <a href="../core/export.php?variable=maps">Export Maps</a>
+            </li>
+            <li>
                 <a href="./editAdmin.php">Change Password Admin</a>
             </li>
         </ul>
