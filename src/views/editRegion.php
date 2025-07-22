@@ -46,6 +46,9 @@ try {
                     <li>
                         <a href="./editRegion.php?edit=update&region=<?php echo $regionId; ?>">Update</a>
                     </li>
+                    <li>
+                        <a href="./regionGallerys.php?region=<?php echo $regionId; ?>">Gallery</a>
+                    </li>
                 <?php
                 }
                 if (!empty($regionId) && $edit === 'update') {

@@ -3,29 +3,29 @@
 namespace UniverseLOL;
 
 use JsonSerializable;
-use MapConfig;
+use RegionGalleryConfig;
 
 require_once __DIR__ . '/../config/entitiesConfig.php';
 
-class Map implements JsonSerializable
+class RegionGallery implements JsonSerializable
 {
     private $id;
     private $regionId;
-    private $points;
-
-    public function __construct($id = null, $regionId = null, $points = null)
+    private $gallery;
+    
+    public function __construct($id = null, $regionId = null, $gallery = null)
     {
         $this->id = $id;
         $this->regionId = $regionId;
-        $this->points = $points;
+        $this->gallery = $gallery;
     }
 
     public function jsonSerialize(): mixed
     {
         return [
-            MapConfig::ID->value => $this->id,
-            MapConfig::REGIONID->value => $this->regionId,
-            MapConfig::POINTS->value => $this->points,
+            RegionGalleryConfig::ID->value => $this->id,
+            RegionGalleryConfig::REGIONID->value => $this->regionId,
+            RegionGalleryConfig::GALLERY->value => $this->gallery,
         ];
     }
 
@@ -39,8 +39,8 @@ class Map implements JsonSerializable
         return $this->regionId;
     }
 
-    public function getPoints()
+    public function getGallery()
     {
-        return $this->points;
+        return $this->gallery;
     }
 }

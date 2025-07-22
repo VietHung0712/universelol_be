@@ -2,7 +2,7 @@
 <html lang="en">
 <?php
 try {
-    require_once __DIR__ . "/../controllers/editSkinController.php";
+    require_once __DIR__ . "/../controllers/editRegionGalleryController.php";
 } catch (\Throwable $th) {
 }
 ?>
@@ -13,7 +13,7 @@ try {
     <link rel="icon" href="https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Icon/League_of_Legends_icon.svg">
     <link rel="stylesheet" href="../style/layout-admin.css">
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-    <title>Edit Skin</title>
+    <title>Edit Region Gallery</title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@ try {
     <main>
         <div id="tools">
             <ul>
-                <li><a href="./champions.php">Champions</a></li>
+                <li><a href="./regions.php">Champions</a></li>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
                         <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
@@ -29,8 +29,8 @@ try {
                 </li>
                 <li>
                     <a
-                        href="./editChampion.php?edit=details&champion=<?php echo $championId; ?>">
-                        <span><?php echo $this_champion->getName(); ?></span>
+                        href="./editRegionGallery.php?edit=details&region=<?php echo $regionId; ?>">
+                        <span><?php echo $this_region->getName(); ?></span>
                     </a>
                 </li>
                 <li>
@@ -39,7 +39,7 @@ try {
                     </svg>
                 </li>
                 <li>
-                    <a href="./skins.php?champion=<?php echo $championId; ?>">Skins</a>
+                    <a href="./regionGallerys.php?region=<?php echo $regionId; ?>">Gallerys</a>
                 </li>
                 <li>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -47,16 +47,16 @@ try {
                     </svg>
                 </li>
                 <?php
-                if ($edit === 'add' && !empty($championId)) {
+                if ($edit === 'add' && !empty($regionId)) {
                 ?>
                     <li>
-                        <a href="./editSkin.php?edit=add&champion=<?php echo $championId; ?>">Add</a>
+                        <a href="./editSkin.php?edit=add&champion=<?php echo $regionId; ?>">Add</a>
                     </li>
                 <?php
-                } else if ($edit === 'update' && !empty($championId) && !empty($skinId)) {
+                } else if ($edit === 'update' && !empty($regionId) && !empty($skinId)) {
                 ?>
                     <li>
-                        <a href="./editSkin.php?edit=update&champion=<?php echo $championId; ?>&skin=<?php echo $skinId; ?>">Update</a>
+                        <a href="./editRegionGallery.php?edit=update&region=<?php echo $regionId; ?>&regionGallery=<?php echo $regionGalleryId; ?>">Update</a>
                     </li>
                 <?php
                 }
@@ -82,11 +82,11 @@ try {
         confirmSubmit
     } from "../js/functions.js";
 
-    const $inputSplashArt = $('#inputSplashArt');
+    const $inputGallery = $('#inputGallery');
     const form = $('form#submit');
 
-    $inputSplashArt.addEventListener('input', () => {
-        getSrcFromInput($('#imgSplashArt'), $inputSplashArt);
+    $inputGallery.addEventListener('input', () => {
+        getSrcFromInput($('#imgGallery'), $inputGallery);
     });
 
     <?php
@@ -94,14 +94,14 @@ try {
     ?>
         $("button[type='reset']").addEventListener('click', (e) => {
             $imagePosition.style.backgroundImage = "";
-            $('#imgSplashArt').src = "";
+            $('#imgGallery').src = "";
         });
     <?php
     } elseif ($edit === 'update') {
     ?>
         $("button[type='reset']").addEventListener('click', (e) => {
             form.reset();
-            getSrcFromInput($('#imgSplashArt'), $inputSplashArt);
+            getSrcFromInput($('#imgGallery'), $inputGallery);
         });
     <?php
     }

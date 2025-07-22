@@ -7,7 +7,7 @@ enum TableName: string
     case SKIN = 'skins';
     case ROLE = 'roles';
     case RELATION = 'relations';
-    case MAP = 'maps';
+    case REGIONGALLERY = 'region_gallerys';
 }
 
 
@@ -65,9 +65,9 @@ enum RelationConfig: string
     case RELATIONTYPE = 'relation_type';
 }
 
-enum MapConfig: string
+enum RegionGalleryConfig: string
 {
     case ID = 'id';
     case REGIONID = 'region_id';
-    case POINTS = 'points';
+    case GALLERY = 'gallery';
 }
