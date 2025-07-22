@@ -48,6 +48,9 @@ try {
                         <a href="./skins.php?champion=<?php echo $this_champion->getId(); ?>">Skins</a>
                     </li>
                     <li>
+                        <a href="./models.php?champion=<?php echo $this_champion->getId(); ?>">Models</a>
+                    </li>
+                    <li>
                         <a href="./relations.php?champion=<?php echo $this_champion->getId(); ?>">Relations</a>
                     </li>
                 <?php

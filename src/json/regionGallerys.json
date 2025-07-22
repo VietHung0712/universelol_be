@@ -1,0 +1,727 @@
+[
+    {
+        "id": 1,
+        "region_id": "Bandle_City",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/f1e3c6d09e5dfa75a7c3a786e87757a04499d76a-800x491.jpg"
+    },
+    {
+        "id": 2,
+        "region_id": "Bandle_City",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/e55d81ae5882b42c3ddc4adcfd24987a1c0114a3-1398x948.jpg"
+    },
+    {
+        "id": 3,
+        "region_id": "Bandle_City",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/8a384b61ff3f9e0af45c0e97f93bfa7b4e68e7cf-1920x583.jpg"
+    },
+    {
+        "id": 4,
+        "region_id": "Bandle_City",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/d2eeafb247f20d2feb845dc2ff59b23b59a9446a-1852x1080.jpg"
+    },
+    {
+        "id": 5,
+        "region_id": "Bandle_City",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/8c26e19b80dea4aa39e1e69e9127ce1969bf1d1b-1920x1200.jpg"
+    },
+    {
+        "id": 6,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/ff8c5296fd31d2ae93034ef8d97124b654397102-1920x734.jpg"
+    },
+    {
+        "id": 7,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/f35253b900a44562d6439bdb44e8bc5a21179bef-1920x859.jpg"
+    },
+    {
+        "id": 8,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/ef261f0073747a41a230b54f96aa22de45e6b40d-1920x900.jpg"
+    },
+    {
+        "id": 9,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/e11375ab64f8a8f5c3eb7698b4fc2aa02d738fc4-1920x911.jpg"
+    },
+    {
+        "id": 10,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/d0956a86466d6d4cd9d00be6d1a1cb309d3cb27c-725x1080.jpg"
+    },
+    {
+        "id": 11,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/c418d716abe97ea8f4414e1af4bf40b20a7ad713-1920x608.jpg"
+    },
+    {
+        "id": 12,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/c1ce8492421f985cd5a8e2d901138b9ae153cb83-1440x1080.jpg"
+    },
+    {
+        "id": 13,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/b2d3089700d3bcce2b7681904ca0329d5ea1532f-1920x828.jpg"
+    },
+    {
+        "id": 14,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/8f0a049d18bbd29ef8e13764b1d7032d44ba304e-792x445.jpg"
+    },
+    {
+        "id": 15,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/6d76f6a956c0577e69a4d03c4ca16f0adcba51d9-1004x1080.jpg"
+    },
+    {
+        "id": 16,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/483b34d20ed89af51aa77ecbff7a7bf26f44977a-1920x1009.jpg"
+    },
+    {
+        "id": 17,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/1ee3c4c422800c368477df922c910481a3971aff-810x1080.jpg"
+    },
+    {
+        "id": 18,
+        "region_id": "Bilgewater",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bilgewater/picture/106e20093011d65115c2b0a6b279093c0e4ebdf4-2513x1359.jpg"
+    },
+    {
+        "id": 19,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/222c1bbe2432ad0e7b700a83f238358140d9fdb2-1581x1080.jpg"
+    },
+    {
+        "id": 20,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/3b37fbd9906411615fcf2e5f00b27bfd372cec12-1598x1080.jpg"
+    },
+    {
+        "id": 21,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/44e779f5334342c3f3bc1f303354fe4512ce6385-1916x1076.jpg"
+    },
+    {
+        "id": 22,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/57b95ed4a3434ea68d1b15af58dd9dfc01d44eb4-1738x1080.jpg"
+    },
+    {
+        "id": 23,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/5b80fe8ddd3d935c3f258f3e145b8aed4b7460bf-1920x887.jpg"
+    },
+    {
+        "id": 24,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/7bd076861ced2ff22c56daaf45e5ba0f2240bfa3-835x1080.jpg"
+    },
+    {
+        "id": 25,
+        "region_id": "Demacia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/demacia/picture/e642b245f57dc2457f41c147a3ec9cd9a5fe4712-1795x1010.jpg"
+    },
+    {
+        "id": 26,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/f07ae98b4a055e8cf297a41cfc852a4c1c9a7c71-1920x1029.jpg"
+    },
+    {
+        "id": 27,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/e8a24e6e60fe602dae0b9211b58465ec689a8d03-1920x737.jpg"
+    },
+    {
+        "id": 28,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/e4e6838cee9575c955f4da0df48fe57bdbbde09c-810x1080.jpg"
+    },
+    {
+        "id": 29,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/e35c2bc44cd1f6d7ae51b8af76a5a4842ab3824a-1728x1080.jpg"
+    },
+    {
+        "id": 30,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/e0a08a7654a71dd48f624fe7ea2ec189e42af5cf-1917x1080.jpg"
+    },
+    {
+        "id": 31,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/d02f8eb694965633cdfbfe16a70d581a76e4b302-1920x864.jpg"
+    },
+    {
+        "id": 32,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/be226cc46fc8c540058cc7dd22265327106fbc83-1832x837.jpg"
+    },
+    {
+        "id": 33,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/b6046643559a7858083ce2a1f2d9ea8cb1e6a9ba-1920x1080.jpg"
+    },
+    {
+        "id": 34,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/9b49339ee5babd372d30a22684a9b02cc171317a-609x1080.jpg"
+    },
+    {
+        "id": 35,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/788f84870e4fb785bcfe2b642b2323932bad93ee-1728x1080.jpg"
+    },
+    {
+        "id": 36,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/72ad1322d9a8b12047f23f9f7d344de6735e54fc-1920x1079.jpg"
+    },
+    {
+        "id": 37,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/7167be57432556be8170a582c09dae87c0e0251e-1920x1080.jpg"
+    },
+    {
+        "id": 38,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/32e13bdc6ee2c23376d5643c0810b9235b2cd8b0-832x1080.jpg"
+    },
+    {
+        "id": 39,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/2e007fb236af9f3b91af54a8d8cc642d8e515299-1920x1080.jpg"
+    },
+    {
+        "id": 40,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/2afb0906f0b52d47b2a2160d9f831b748d894e40-1920x1080.jpg"
+    },
+    {
+        "id": 41,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/2af83a5d78e2082e89c0e3ef213d7d0dee0740be-1440x1080.jpg"
+    },
+    {
+        "id": 42,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/2ac800dc33ba35196a61cddb5c6cf8ecae24b155-1189x755.jpg"
+    },
+    {
+        "id": 43,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/06b68528c3080d7c882118dd8125655cfd000e76-1920x812.jpg"
+    },
+    {
+        "id": 44,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/0485b2eb8a1d211826dc4205b9b9aaeadd649e59-835x1080.jpg"
+    },
+    {
+        "id": 45,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/3345032f09b6067031320bcb39526f3912ebbeb5-1920x1080.jpg"
+    },
+    {
+        "id": 46,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/553df8675b48d321dcb2a072fbfbdb1fa24ba1ae-1764x1080.jpg"
+    },
+    {
+        "id": 47,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/436d62b38f970160b1cd9a67709f6855cd501b00-1920x849.jpg"
+    },
+    {
+        "id": 48,
+        "region_id": "Ionia",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/ionia/picture/6e96758b6430e1d21bc160e829931e62f9e6dca2-2585x736.jpg"
+    },
+    {
+        "id": 49,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/0d552ab661f4b4aac1b01dcf40329ad4e82448ad-3000x1200.jpg?raw=true"
+    },
+    {
+        "id": 50,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/3a62261ed08f4cf03c3f6f7e7530d072024de78c-1900x1040.jpg?raw=true"
+    },
+    {
+        "id": 51,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/6b7e184e6b82d586d607f6a63261ae610811defa-3840x2160.jpg?raw=true"
+    },
+    {
+        "id": 52,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/7b11239cf024358011444e7d70bb2badbb6b33e2-6000x3155.jpg?raw=true"
+    },
+    {
+        "id": 53,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/80253aa1b93f81efeb092a0f6618a62ae14cb912-6000x3365.jpg?raw=true"
+    },
+    {
+        "id": 54,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/941c0fcc77f3798faa6c852b91190b2b99a636a6-1900x1147.jpg?raw=true"
+    },
+    {
+        "id": 55,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/999f76bb27a44a0e57283bfc3f246f01f99f9552-2400x1016.jpg?raw=true"
+    },
+    {
+        "id": 56,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/a6dd4e10efce4060663ebde2e9ec18c76b8df21a-3840x2310.jpg?raw=true"
+    },
+    {
+        "id": 57,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/bb05a80c4083ed777d3da87a9e1d2ff1bd00833f-1600x900.jpg?raw=true"
+    },
+    {
+        "id": 58,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/c250958652398a9bc63a891042ce2c9e8591ca32-1900x1014.jpg?raw=true"
+    },
+    {
+        "id": 59,
+        "region_id": "Ixtal",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/ixtal/picture/d478dc1ab6bb424645305b416cb565a7663dc028-1920x1194.jpg?raw=true"
+    },
+    {
+        "id": 60,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/355a5e1a7319eab08e348d75fbcfb4979986cd21-1920x853.jpg?raw=true"
+    },
+    {
+        "id": 61,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/3c614aeee79861717acea73ecaf74564ff87f168-1472x1080.jpg?raw=true"
+    },
+    {
+        "id": 62,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/3dc58dc70f017510447a49fd05a0e6ed83deefff-674x1080.jpg?raw=true"
+    },
+    {
+        "id": 63,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/52ec6cbffae67a9a693844dd3f7cc0d960557dca-1920x773.jpg?raw=true"
+    },
+    {
+        "id": 64,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/b824f0dbbab967b775a12053e3e5a912e5c3de5b-1920x653.jpg?raw=true"
+    },
+    {
+        "id": 65,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/c55222f630a5ddea4874e6faffb12cd65cb749f2-519x1080.jpg?raw=true"
+    },
+    {
+        "id": 66,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/c735ad2e6eef76fef6b32b97c9bcf06bda3b65b7-1920x891.jpg?raw=true"
+    },
+    {
+        "id": 67,
+        "region_id": "Noxus",
+        "gallery": "https://github.com/VietHung0712/AssetsLOL/blob/main/Regions/noxus/picture/fb300ca74eea40f058e348f4e376293f38b8b68d-1920x962.jpg?raw=true"
+    },
+    {
+        "id": 68,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/335fffb86e24d3d136c9aaf5d31ff08a96ecdd1f-1793x1046.jpg"
+    },
+    {
+        "id": 69,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/3f39c550d19ef1db58bcbdc879c872d2c1674e96-1920x1078.jpg"
+    },
+    {
+        "id": 70,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/424d067e9e99e079462dc8067bd6c1c8bb1097b2-1920x839.jpg"
+    },
+    {
+        "id": 71,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/4965708f72b7dd5ec6d909099faf25fdcf45b9da-536x1052.jpg"
+    },
+    {
+        "id": 72,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/4d91026e2d26f93adec85ebbb1df7ec044d45fa0-843x1080.jpg"
+    },
+    {
+        "id": 73,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/505aeb5c36bdc9fa51c4c3482696b40f9edcd3a2-1920x1064.jpg"
+    },
+    {
+        "id": 74,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/529e35506fb3f3889bed61f30a69789c3385ec1f-1920x939.jpg"
+    },
+    {
+        "id": 75,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/6c8650cd2b140e86ae2fdc7ab534b5d6bf9ec44b-1920x1004.jpg"
+    },
+    {
+        "id": 76,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/7a05cbbf68e494dd72d22e4597608e3a8632ffcb-896x1080.jpg"
+    },
+    {
+        "id": 77,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/7a12e95392eb5446a9224e044e4c0c45b8cfb850-1920x711.jpg"
+    },
+    {
+        "id": 78,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/8246af537c83776ee803108cecf99612a2175deb-1920x867.jpg"
+    },
+    {
+        "id": 79,
+        "region_id": "Piltover",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/piltover/picture/a8c26270e292331d2826811fb464225d8edb6705-1037x1080.jpg"
+    },
+    {
+        "id": 80,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/0e7dcf2a07ffedc6b36794715ec147fd41d22f8d-1198x1080.jpg"
+    },
+    {
+        "id": 81,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/1fdeb58842d9fd21a721dd3e17572ed8ccb8bebb-810x1080.jpg"
+    },
+    {
+        "id": 82,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/5d4e7caecc32fa879ccb404b6964ef4c282fb0cc-1920x1080.jpg"
+    },
+    {
+        "id": 83,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/74fb331c5f5c74fcfb810a4fecbffdb8bbe8f234-1920x1085.jpg"
+    },
+    {
+        "id": 84,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/7c2dde936d89497c8fe690028042f753a23e1ab6-805x1080.jpg"
+    },
+    {
+        "id": 85,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/8394b253655e8a9469590cbb8a0410f3a17ecf53-1080x1506.jpg"
+    },
+    {
+        "id": 86,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/856fb7a2df80df93e82e45cbdf55de0acf5ce079-556x1057.jpg"
+    },
+    {
+        "id": 87,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/a16b2a6f1de9d71d750ed8b14ebfcc8f07c8b6a4-1920x721.jpg"
+    },
+    {
+        "id": 88,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/a2dab6d1182615bbb21be6919357f2b6b8dc5875-1920x960.jpg"
+    },
+    {
+        "id": 89,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/ab3c2d4effe32c931570596363361436d64a2b19-1920x726.jpg"
+    },
+    {
+        "id": 90,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/ac8f27055808f5c375af1312c5584cae88124db0-1920x814.jpg"
+    },
+    {
+        "id": 91,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/ad116c0774047f2ead38cf0c87598076ca5b1780-1923x1080.jpg"
+    },
+    {
+        "id": 92,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/c0f8e112090d753f0b5f79f426f66baaa27bee2a-1920x970.jpg"
+    },
+    {
+        "id": 93,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/c4e1b85a5427c40d3619daaf003a43f33ec5fc38-1918x1080.jpg"
+    },
+    {
+        "id": 94,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/e3d816def9dae4ac7aa07bd58b19239ff2aca812-1920x1080.jpg"
+    },
+    {
+        "id": 95,
+        "region_id": "Shadow_Isles",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shadow_isles/picture/5a9794156d8ad1ae33055107d87eed59adda19cc-810x1080.jpg"
+    },
+    {
+        "id": 96,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/701e3cd4ffe9cc83f43abf454bdb36c8ccf41501-1920x885.jpg"
+    },
+    {
+        "id": 97,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/7642a20fc144843b0011d2184c99f7517d947c39-1920x995.jpg"
+    },
+    {
+        "id": 98,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/4de1d35edf9f40e5680a40954b0dd6bb6b71d1fe-1903x1080.jpg"
+    },
+    {
+        "id": 99,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/7e56b44f8e56b898c87f8194bc419e687158a16f-1800x1080.jpg"
+    },
+    {
+        "id": 100,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/87211a39e1f696dbeb0a8d55e0adb887f1a7033a-1920x924.jpg"
+    },
+    {
+        "id": 101,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/9b2ea5c23c55790bdcb49b056df4805d88a10a07-1920x887.jpg"
+    },
+    {
+        "id": 102,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/c17112dadd235379fa63467b449783aa93809e49-1920x713.jpg"
+    },
+    {
+        "id": 103,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/c1f3e06c2deead6fbd679d53d1e9467fbd8f801d-1920x995.jpg"
+    },
+    {
+        "id": 104,
+        "region_id": "Shurima",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/shurima/picture/e0805e2d0b20f06b7fa6ecfc03a4adfaa7627bd1-1920x833.jpg"
+    },
+    {
+        "id": 105,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/07455820a21112e0a9f5406fbb686cb5224aa0ef-1868x948.jpg"
+    },
+    {
+        "id": 106,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/0a67b33846063c0c41e8cbe4a4c905aa224008ff-490x1080.jpg"
+    },
+    {
+        "id": 107,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/0f8e56d7bb6459067adada96581760e5160ae75d-1920x908.jpg"
+    },
+    {
+        "id": 108,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/4cdb09aef562abdbd594fa098cf255d62d6f2f5d-1920x1502.jpg"
+    },
+    {
+        "id": 109,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/68cbc6b051ee43da9255b97c14ad2bb60d01fe07-1920x959.jpg"
+    },
+    {
+        "id": 110,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/7bf7c5b72dee9615041cf4251823fa3f9846dec6-1897x769.jpg"
+    },
+    {
+        "id": 111,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/8d1e6c6954be9d1caec2c913ea8e554a3532dadb-1893x955.jpg"
+    },
+    {
+        "id": 112,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/8e8568122ed465be5fdf339ae5f6d471664f141d-1913x1109.jpg"
+    },
+    {
+        "id": 113,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/8f8cc99d35c30255602c13f6fa932cfae2ed7d22-1920x986.jpg"
+    },
+    {
+        "id": 114,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/993c68c69a977d2d2d396978b519a50362a40f36-1080x1196.jpg"
+    },
+    {
+        "id": 115,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/c80891fd84b48e85391bdf48298e23f7fd17496e-1080x1926.jpg"
+    },
+    {
+        "id": 116,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/df7b47a1c0aee886ffc9fcf263e0b7c810f9fac8-1920x1067.jpg"
+    },
+    {
+        "id": 117,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/e4f3c862a6a2dc179577bfa6ce2705d51e79873c-529x1043.jpg"
+    },
+    {
+        "id": 118,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/f81004a39c5502d766169beb4a342c46b0030d36-1920x946.jpg"
+    },
+    {
+        "id": 119,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/f8b550becb50f7ee601718f9bc2a4462cb71e837-1920x1112.jpg"
+    },
+    {
+        "id": 120,
+        "region_id": "Targon",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/targon/picture/f96baebc3f8a90be5f7c93ff777075152762565f-1048x1848.jpg"
+    },
+    {
+        "id": 121,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/000ce0d5967aaabe1d9b8c2fad2eb924b8bfa53d-788x1080.jpg"
+    },
+    {
+        "id": 122,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/20bcad642df569884c814cb9c99a5e1257cc9a2c-1577x1080.jpg"
+    },
+    {
+        "id": 123,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/245b4173f2b90cd0e181ea1be4ad876154696a7a-1920x798.jpg"
+    },
+    {
+        "id": 124,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/2598cfca8ee119c6390e68fa2109328ee3a77d5c-5000x2500.jpg"
+    },
+    {
+        "id": 125,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/4ddcef8e31c9849fd0c3d93bbc5c417b4f6409bb-5833x3000.jpg"
+    },
+    {
+        "id": 126,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/6b165d20dbf3581d00ff72d3413d0abd3e7a1f56-756x1080.jpg"
+    },
+    {
+        "id": 127,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/884a56e9c5937f91fdde2dfe53eeb4b0eeafddc5-1920x967.jpg"
+    },
+    {
+        "id": 128,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/a36c34e10a4ff6366028b7d4bbf2401ca1a537b2-1920x959.jpg"
+    },
+    {
+        "id": 129,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/ba1596e939e595b95b950ba63c9f2df418885c04-1900x1140.jpg"
+    },
+    {
+        "id": 130,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/d179f417166142fc42f350770d34848a170aa8c7-1920x1019.jpg"
+    },
+    {
+        "id": 131,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/f1dc099bf08f95d2461e826921a1040441847bdb-1800x2400.jpg"
+    },
+    {
+        "id": 132,
+        "region_id": "The_Freljord",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_freljord/picture/f9feed44690c385387c0325a096aa1a1ae3e8dde-3048x2297.jpg"
+    },
+    {
+        "id": 133,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/0201dc831ca0c28855514831cbe1cc5f825f20f8-1920x839.jpg"
+    },
+    {
+        "id": 134,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/279dabdfd5ce59faaec4ab2b89a2717145ea2b30-1920x1053.jpg"
+    },
+    {
+        "id": 135,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/7107e5dbca7887931748e7ae0924e6eda17ef6f4-1920x1064.jpg"
+    },
+    {
+        "id": 136,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/752045abbbe86c4f3cbdf76300a3cd680b97dfbe-1920x1019.jpg"
+    },
+    {
+        "id": 137,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/8ec09a29f4be18a50a7593cd1fc47d2198bb33ca-1920x2012.jpg"
+    },
+    {
+        "id": 138,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/a44368fba7e954b300db46b11f37a1c5d4617ccd-1920x955.jpg"
+    },
+    {
+        "id": 139,
+        "region_id": "The_Void",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/the_void/picture/cff392be16fbc5d58802be94d37be8d40dcca3ef-1920x866.jpg"
+    },
+    {
+        "id": 140,
+        "region_id": "Zaun",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/zaun/picture/3b6df4047902ac8960f128d24b9f7c62051cb77f-1920x1057.jpg"
+    },
+    {
+        "id": 141,
+        "region_id": "Zaun",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/zaun/picture/3f3708fe140c004ce8b41ee1be7033e3911d5c46-1730x1080.jpg"
+    },
+    {
+        "id": 142,
+        "region_id": "Zaun",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/zaun/picture/54fe8ac32c74bb2ae488d24f918f83b9daaf894e-1526x1050.jpg"
+    },
+    {
+        "id": 143,
+        "region_id": "Zaun",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/zaun/picture/6f32e7187bacff3654d196d1b0e77d12b8edb92a-824x1080.jpg"
+    },
+    {
+        "id": 144,
+        "region_id": "Zaun",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/zaun/picture/84d22902356e7b69fec7dba23703f3a51ed97410-1920x975.jpg"
+    },
+    {
+        "id": 145,
+        "region_id": "Zaun",
+        "gallery": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/zaun/picture/d7858e6a65fed5e14321604dbde4f144640bd795-1920x1067.jpg"
+    }
+]

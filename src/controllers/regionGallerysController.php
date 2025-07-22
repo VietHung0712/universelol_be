@@ -11,8 +11,8 @@ try {
     $regionId = $_GET['region'] ?? null;
 
     if (!$regionId || trim($regionId) === "") {
-        // header("Location: ../views/regions.php");
-        // exit();
+        header("Location: ../views/regions.php");
+        exit();
     }
     $this_region = RegionsHelper::getDataById($connect, $regionId, [RegionConfig::ID->value, RegionConfig::NAME->value]);
     $cols = [
@@ -25,6 +25,6 @@ try {
 
     $connect->close();
 } catch (\Throwable $th) {
-    // header("Location: ../views/regions.php");
-    // exit();
+    header("Location: ../views/regions.php");
+    exit();
 }

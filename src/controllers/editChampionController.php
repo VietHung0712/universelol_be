@@ -29,7 +29,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ChampionConfig::ANIMATEDSPLASHART->value => $_POST['animated_splash_art'],
                 ChampionConfig::POSITIONX->value => $_POST['positionX'],
                 ChampionConfig::POSITIONY->value => $_POST['positionY'],
-                ChampionConfig::MODEL->value => $_POST['model'],
                 ChampionConfig::RELEASEDATE->value => $_POST['release_date'],
                 ChampionConfig::UPDATEDDATE->value => $_POST['updated_date'],
             ];

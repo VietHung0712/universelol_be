@@ -23,7 +23,7 @@ function editSkinForm($object, $caption, $championId, $button, $readOnlyId = fal
             <tr>
                 <th>Splash Art</th>
                 <td>
-                    <input id="inputSplashArt" type="url" name="splash_art" value="<?= $object->getSplashArt(); ?>" placeholder="url..." required>
+                    <input id="inputSplashArt" type="url" name="splash_art" value="<?= $object->getSplashArt(); ?>" placeholder="Url..." required>
                 </td>
             </tr>
             <tr>

@@ -19,7 +19,7 @@ function editRegionGalleryForm($object, $caption, $regionId, $button, $readOnlyI
             <tr>
                 <th>Gallery</th>
                 <td>
-                    <input id="inputGallery" type="url" name="gallery" value="<?= $object->getGallery(); ?>" placeholder="url..." required>
+                    <input id="inputGallery" type="url" name="gallery" value="<?= $object->getGallery(); ?>" placeholder="Url..." required>
                 </td>
             </tr>
             <tr>

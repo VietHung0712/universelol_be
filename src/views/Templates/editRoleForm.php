@@ -19,7 +19,7 @@ function editRoleForm($object, $caption, $button1, $button2, $readOnlyId = true 
             <tr>
                 <th>Icon</th>
                 <td>
-                    <input class="inputSrc" type="url" name="icon" value="<?= $object->getIcon(); ?>" placeholder="url..." required>
+                    <input class="inputSrc" type="url" name="icon" value="<?= $object->getIcon(); ?>" placeholder="Url..." required>
                 </td>
             </tr>
             <tr>

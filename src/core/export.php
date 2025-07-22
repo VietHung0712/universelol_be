@@ -42,13 +42,18 @@ switch ($variable) {
         $roles = RolesHelper::getData($connect);
         $result = file_put_contents($filePath, json_encode($roles, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
         break;
-    case 'maps':
-        require_once __DIR__ . '/../helpers/mapsHelper.php';
-        $filePath = '../json/maps.json';
-        $maps = MapsHelper::getData($connect);
+    case 'regionGallerys':
+        require_once __DIR__ . '/../helpers/regionGallerysHelper.php';
+        $filePath = '../json/regionGallerys.json';
+        $maps = RegionGallerysHelper::getData($connect);
         $result = file_put_contents($filePath, json_encode($maps, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
         break;
-
+    case 'models':
+        require_once __DIR__ . '/../helpers/modelsHelper.php';
+        $filePath = '../json/models.json';
+        $maps = ModelsHelper::getData($connect);
+        $result = file_put_contents($filePath, json_encode($maps, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
+        break;
     default:
         header("Location: ../views/index.php");
         exit();

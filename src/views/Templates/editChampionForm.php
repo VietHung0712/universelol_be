@@ -45,7 +45,7 @@ function editChampionForm($regions, $roles, $object, $caption, $button1, $button
             <tr>
                 <th>Splash Art</th>
                 <td>
-                    <input id="inputSplashArt" type="url" name="splash_art" value="<?= $object->getSplashArt(); ?>" placeholder="url..." required>
+                    <input id="inputSplashArt" type="url" name="splash_art" value="<?= $object->getSplashArt(); ?>" placeholder="Url..." required>
                 </td>
             </tr>
             <tr>
@@ -55,7 +55,7 @@ function editChampionForm($regions, $roles, $object, $caption, $button1, $button
             <tr>
                 <th>Animated Splash Art</th>
                 <td>
-                    <input id="inputAnimatedSplashArt" type="url" name="animated_splash_art" value="<?= $object->getAnimatedSplashArt(); ?>" placeholder="url...">
+                    <input id="inputAnimatedSplashArt" type="url" name="animated_splash_art" value="<?= $object->getAnimatedSplashArt(); ?>" placeholder="Url...">
                 </td>
             </tr>
             <tr>
@@ -75,26 +75,6 @@ function editChampionForm($regions, $roles, $object, $caption, $button1, $button
                     <div id="imagePosition"
                         style="background-image: url(<?= $object->getSplashArt(); ?>); background-position-x: <?= $object->getPositionX(); ?>%; background-position-y: <?= $object->getPositionY(); ?>%;">
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <th>Model 3D</th>
-                <td>
-                    <input type="url" name="model" value="<?= $object->getModel(); ?>" placeholder="url...">
-                </td>
-            </tr>
-            <tr>
-                <th></th>
-                <td>
-                    <model-viewer
-                        src="<?= $object->getModel(); ?>"
-                        alt="Model 3D"
-                        animation-name="Idle1.anm"
-                        autoplay
-                        camera-controls
-                        ar
-                        shadow-intensity="1">
-                    </model-viewer>
                 </td>
             </tr>
             <tr>

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "champion_id": "Aatrox",
+        "skin_id": null,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/aatrox_0.glb"
+    },
+    {
+        "id": 2,
+        "champion_id": "Aatrox",
+        "skin_id": 3,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/mecha_aatrox.glb"
+    },
+    {
+        "id": 3,
+        "champion_id": "Aatrox",
+        "skin_id": 5,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/blood_moon_aatrox.glb"
+    },
+    {
+        "id": 4,
+        "champion_id": "Aatrox",
+        "skin_id": 6,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/prestige_blood_moon_aatrox_2022.glb"
+    },
+    {
+        "id": 5,
+        "champion_id": "Aatrox",
+        "skin_id": 10,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/primordian_aatrox.glb"
+    }
+]

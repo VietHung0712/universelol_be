@@ -31,7 +31,7 @@ function editRegionForm($object, $caption, $button1, $button2, $readOnlyId = tru
             <tr>
                 <th>Icon</th>
                 <td>
-                    <input class="inputSrc" type="url" name="icon" value="<?= $object->getIcon(); ?>" placeholder="url..." required>
+                    <input class="inputSrc" type="url" name="icon" value="<?= $object->getIcon(); ?>" placeholder="Url..." required>
                 </td>
             </tr>
             <tr>
@@ -41,7 +41,7 @@ function editRegionForm($object, $caption, $button1, $button2, $readOnlyId = tru
             <tr>
                 <th>Avatar</th>
                 <td>
-                    <input class="inputSrc" type="url" name="avatar" value="<?= $object->getAvatar(); ?>" placeholder="url..." required>
+                    <input class="inputSrc" type="url" name="avatar" value="<?= $object->getAvatar(); ?>" placeholder="Url..." required>
                 </td>
             </tr>
             <tr>

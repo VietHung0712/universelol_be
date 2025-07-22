@@ -21,13 +21,16 @@
                 <a href="../core/export.php?variable=relations">Export Relations</a>
             </li>
             <li>
+                <a href="../core/export.php?variable=models">Export Models</a>
+            </li>
+            <li>
                 <a href="../core/export.php?variable=regions">Export Regions</a>
             </li>
             <li>
-                <a href="../core/export.php?variable=roles">Export Roles</a>
+                <a href="../core/export.php?variable=regionGallerys">Export Region Gallerys</a>
             </li>
             <li>
-                <a href="../core/export.php?variable=maps">Export Maps</a>
+                <a href="../core/export.php?variable=roles">Export Roles</a>
             </li>
             <li>
                 <a href="./editAdmin.php">Change Password Admin</a>

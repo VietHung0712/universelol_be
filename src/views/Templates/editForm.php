@@ -2,11 +2,15 @@
 function editSelect($array, $str, $this_id, ?string $object_id = null)
 {
     echo "
-<select name=\"$str\">";
+    <select name=\"$str\">";
     foreach ($array as $value) {
-        $selected = $style = null;
+        $selected = '';
         if ($value->getId() === $this_id) $selected = "selected";
-        if (!empty($object_id) && ($object_id !== $value->getId())) {
+        if (!empty($object_id)) {
+            if ($object_id !== $value->getId()) {
+                echo '<option value="' . $value->getId() . '" ' . $selected . '>' . $value->getName() . '</option>';
+            }
+        } else {
             echo '<option value="' . $value->getId() . '" ' . $selected . '>' . $value->getName() . '</option>';
         }
     }

@@ -21,11 +21,10 @@ class Champion implements \JsonSerializable
     private $animatedSplashArt;
     private $positionX;
     private $positionY;
-    private $model;
     private $releaseDate;
     private $updatedDate;
 
-    public function __construct($id = null, $name = null, $region = null, $role = null, $title = null, $voice = null, $story = null, $splashArt = null, $animatedSplashArt = null, $positionX = null, $positionY = null, $model = null, $releaseDate = null, $updatedDate = null)
+    public function __construct($id = null, $name = null, $region = null, $role = null, $title = null, $voice = null, $story = null, $splashArt = null, $animatedSplashArt = null, $positionX = null, $positionY = null, $releaseDate = null, $updatedDate = null)
     {
         $this->id = $id;
         $this->name = $name;
@@ -38,7 +37,6 @@ class Champion implements \JsonSerializable
         $this->animatedSplashArt = $animatedSplashArt;
         $this->positionX = $positionX;
         $this->positionY = $positionY;
-        $this->model = $model;
         $this->releaseDate = $releaseDate;
         $this->updatedDate = $updatedDate;
     }
@@ -57,7 +55,6 @@ class Champion implements \JsonSerializable
             ChampionConfig::ANIMATEDSPLASHART->value => $this->animatedSplashArt,
             ChampionConfig::POSITIONX->value => $this->positionX,
             ChampionConfig::POSITIONY->value => $this->positionY,
-            ChampionConfig::MODEL->value => $this->model,
             ChampionConfig::RELEASEDATE->value => $this->releaseDate instanceof \DateTime ? $this->releaseDate->format('Y-m-d') : $this->releaseDate,
             ChampionConfig::UPDATEDDATE->value => $this->updatedDate instanceof \DateTime ? $this->updatedDate->format('Y-m-d') : $this->updatedDate,
         ];
@@ -106,10 +103,6 @@ class Champion implements \JsonSerializable
     public function getPositionY()
     {
         return $this->positionY;
-    }
-    public function getModel()
-    {
-        return $this->model;
     }
     public function getReleaseDate()
     {
