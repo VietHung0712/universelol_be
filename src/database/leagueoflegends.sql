@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 22, 2025 lúc 04:08 PM
+-- Thời gian đã tạo: Th7 23, 2025 lúc 01:22 PM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -250,8 +250,40 @@ CREATE TABLE `models` (
   `id` int(10) NOT NULL,
   `champion_id` varchar(20) NOT NULL,
   `skin_id` int(10) DEFAULT NULL,
-  `model` text NOT NULL
+  `model` text NOT NULL,
+  `poster` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `models`
+--
+
+INSERT INTO `models` (`id`, `champion_id`, `skin_id`, `model`, `poster`) VALUES
+(1, 'Aatrox', NULL, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/aatrox.glb', 'Aatrox_idle1'),
+(2, 'Aatrox', 3, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/mecha_aatrox.glb', 'Aatrox_idle1'),
+(3, 'Aatrox', 5, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/blood_moon_aatrox.glb', 'Aatrox_skin07_idle1'),
+(4, 'Aatrox', 6, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/prestige_blood_moon_aatrox_2022.glb', 'Aatrox_skin07_idle1'),
+(5, 'Aatrox', 10, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/primordian_aatrox.glb', 'idle1'),
+(6, 'Ahri', NULL, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/ahri.glb', 'idle1'),
+(7, 'Ahri', 14, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/dynasty_ahri.glb', 'idle1'),
+(8, 'Ahri', 15, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/midnight_ahri.glb', 'idle1'),
+(9, 'Ahri', 16, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/foxfire_ahri.glb', 'idle1'),
+(10, 'Ahri', 17, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/popstar_ahri.glb', 'idle1'),
+(11, 'Ahri', 21, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/challenger_ahri.glb', 'idle1'),
+(12, 'Ahri', 22, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/academy_ahri.glb', 'idle1'),
+(13, 'Ahri', 23, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/arcade_ahri.glb', 'idle1'),
+(14, 'Ahri', 24, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/star_guardian_ahri.glb', 'idle1'),
+(15, 'Ahri', 26, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/k_da_ahri.glb', 'idle1'),
+(16, 'Ahri', 27, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/prestige_k_da_ahri.glb', 'idle1'),
+(17, 'Ahri', 27, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/prestige_k_da_ahri_2022.glb', 'idle1'),
+(18, 'Ahri', 28, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/elderwood_ahri.glb', 'idle1'),
+(19, 'Ahri', 29, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/spirit_blossom_ahri.glb', 'idle_Base'),
+(20, 'Ahri', 31, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/k_da_all_out_ahri.glb', 'idle1'),
+(21, 'Ahri', 32, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/coven_ahri.glb', 'idle1'),
+(22, 'Ahri', 33, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/arcana_ahri.glb', 'idle1'),
+(23, 'Ahri', 34, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/snow_moon_ahri.glb', 'idle1'),
+(26, 'Ahri', 2081, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/spirit_blossom_springs_ahri.glb', 'idle_Base'),
+(27, 'Ahri', 2082, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/after_hours_spirit_blossom_springs_ahri.glb', 'idle1');
 
 -- --------------------------------------------------------
 
@@ -2892,7 +2924,9 @@ INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
 (2060, 'Zyra', 'Blood Moon Zyra', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_11.jpg'),
 (2061, 'Ekko', 'Lovestruck Ekko', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ekko/Ekko_12.jpg'),
 (2062, 'Jinx', 'Lovestruck Jinx', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_15.jpg'),
-(2063, 'LeBlanc', 'the Deceiver LeBlanc', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeBlanc/LeBlanc_0_1.jpg	');
+(2063, 'LeBlanc', 'the Deceiver LeBlanc', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeBlanc/LeBlanc_0_1.jpg	'),
+(2081, 'Ahri', 'Spirit Blossom Springs Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_25.jpg'),
+(2082, 'Ahri', 'After Hours Spirit Blossom Springs Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_26.jpg');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -2962,7 +2996,7 @@ ALTER TABLE `skins`
 -- AUTO_INCREMENT cho bảng `models`
 --
 ALTER TABLE `models`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT cho bảng `region_gallerys`
@@ -2980,7 +3014,7 @@ ALTER TABLE `relations`
 -- AUTO_INCREMENT cho bảng `skins`
 --
 ALTER TABLE `skins`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2081;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2083;
 
 --
 -- Các ràng buộc cho các bảng đã đổ

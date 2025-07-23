@@ -3256,29 +3256,5 @@
         "champion_id": "Zyra",
         "related_id": "Nidalee",
         "relation_type": ""
-    },
-    {
-        "id": 556,
-        "champion_id": "aa",
-        "related_id": "Aatrox",
-        "relation_type": ""
-    },
-    {
-        "id": 557,
-        "champion_id": "aa",
-        "related_id": "Annie",
-        "relation_type": "hello"
-    },
-    {
-        "id": 558,
-        "champion_id": "aa",
-        "related_id": "Akali",
-        "relation_type": ""
-    },
-    {
-        "id": 559,
-        "champion_id": "aa",
-        "related_id": "Amumu",
-        "relation_type": "hello"
     }
 ]

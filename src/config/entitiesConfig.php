@@ -79,4 +79,5 @@ enum ModelConfig: string
     case CHAMPIONID = 'champion_id';
     case SKINID = 'skin_id';
     case MODEL = 'model';
+    case POSTER = 'poster';
 }

@@ -34,23 +34,13 @@ function editModelForm($object, $skins, $caption, $championId, $button, $readOnl
                 </td>
             </tr>
             <tr>
+                <th>Poster</th>
+                <td><input type="text" name="poster" value="<?= $object->getPoster(); ?>"></td>
+            </tr>
+            <tr>
                 <th>Model 3D</th>
                 <td>
                     <input type="url" name="model" value="<?= $object->getModel(); ?>" placeholder="Url...">
-                </td>
-            </tr>
-            <tr>
-                <th></th>
-                <td>
-                    <model-viewer
-                        src="<?= $object->getModel(); ?>"
-                        alt="Model 3D"
-                        animation-name="Idle1.anm"
-                        autoplay
-                        camera-controls
-                        ar
-                        shadow-intensity="1">
-                    </model-viewer>
                 </td>
             </tr>
             <tr>

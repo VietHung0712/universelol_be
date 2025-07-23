@@ -10986,15 +10986,15 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeBlanc/LeBlanc_0_1.jpg\t"
     },
     {
-        "id": 2079,
-        "name": "Demo5",
-        "champion_id": "aa",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_3.jpg"
+        "id": 2081,
+        "name": "Spirit Blossom Springs Ahri",
+        "champion_id": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_25.jpg"
     },
     {
-        "id": 2080,
-        "name": "Demo6",
-        "champion_id": "aa",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_4.jpg"
+        "id": 2082,
+        "name": "After Hours Spirit Blossom Springs Ahri",
+        "champion_id": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_26.jpg"
     }
 ]

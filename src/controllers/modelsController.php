@@ -3,6 +3,7 @@
 require_once __DIR__ . "/../config/config.php";
 require_once __DIR__ . "/../helpers/championsHelper.php";
 require_once __DIR__ . "/../helpers/modelsHelper.php";
+require_once __DIR__ . "/../helpers/skinsHelper.php";
 
 try {
     $config = new Config();
@@ -19,10 +20,16 @@ try {
     $modelCols = [
         ModelConfig::ID->value,
         ModelConfig::SKINID->value,
-        ModelConfig::MODEL->value
+        ModelConfig::MODEL->value,
+        ModelConfig::POSTER->value
     ];
 
-    $models = modelsHelper::getDataByChampionId($connect, $this_champion->getId(), $modelCols);
+    $models = ModelsHelper::getDataByChampionId($connect, $this_champion->getId(), $modelCols);
+    $skins = SkinsHelper::getDataByChampionId($connect, $championId, [SkinConfig::ID->value, SkinConfig::NAME->value]);
+    $getSkinName = [];
+    foreach ($skins as $item) {
+        $getSkinName[$item->getId()] = $item->getName();
+    }
 
     $connect->close();
 } catch (\Throwable $th) {

@@ -73,22 +73,28 @@ try {
                     <tr>
                         <th class="thead__mobile">Id</th>
                         <td>
-                            <p><?php echo $value->getId(); ?></p>
+                            <p><?= $value->getId(); ?></p>
                         </td>
                         <th class="thead__mobile">Champion</th>
                         <td>
-                            <input type="text" name="champion_id" value="<?php echo $championId; ?>" required readonly>
+                            <input type="text" name="champion_id" value="<?= $championId; ?>" required readonly>
                         </td>
                         <th class="thead__mobile">Skin</th>
                         <td>
-                            <input type="text" name="skin_id" value="<?php if(!empty($value->getSkinId())) echo $value->getSkinId(); else echo 'Default' ?>" required readonly>
+                            <input type="text" name="skin_id" value="<?php if (!empty($value->getSkinId())) echo $getSkinName[$value->getSkinId()];
+                                                                        else echo 'Default'; ?>" required readonly>
+                        </td>
+                        <th class="thead__mobile">Poster</th>
+                        <td>
+                            <input type="text" name="poster" value="<?= $value->getPoster(); ?>" required readonly>
                         </td>
                         <th class="thead__mobile">Model</th>
                         <td>
                             <model-viewer
+                                class="viewer"
                                 src="<?= $value->getModel(); ?>"
                                 alt="Model 3D"
-                                animation-name="Idle1.anm"
+                                data-poster="<?= $value->getPoster(); ?>"
                                 autoplay
                                 camera-controls
                                 ar
@@ -137,5 +143,21 @@ try {
     $$("button[type='submit'").forEach((el, i) => {
         let value = el.value;
         confirmSubmit($$form[i], el, `Confirm ${value}?`);
+    });
+
+    const $$viewer = $$('.viewer');
+
+    $$viewer.forEach((element, index) => {
+        element.addEventListener('load', () => {
+            const animations = element.availableAnimations;
+            const targetAnimName = element.dataset.poster?.toLowerCase();
+
+            const idleAnim = animations.find(name =>
+                name.toLowerCase().includes(targetAnimName)
+            );
+            if (idleAnim) {
+                element.animationName = idleAnim;
+            }
+        });
     });
 </script>

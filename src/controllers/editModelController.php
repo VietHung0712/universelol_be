@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 ModelConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
                 ModelConfig::SKINID->value => $skinId ?? null,
                 ModelConfig::MODEL->value => $_POST['model']  ?? null,
+                ModelConfig::POSTER->value => $_POST['poster']  ?? null,
             ];
 
             if ($includeId) {

@@ -1,21 +1,5 @@
 [
     {
-        "id": "aa",
-        "name": "aa",
-        "region": "Demacia",
-        "role": "Fighter",
-        "title": "the demo",
-        "voice": "i'm the demo",
-        "story": "heelo",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_0.jpg",
-        "animated_splash_art": "",
-        "position_x": 70,
-        "position_y": 20,
-        "model": "",
-        "release_date": "2025-07-09",
-        "updated_date": "2025-07-09"
-    },
-    {
         "id": "Aatrox",
         "name": "Aatrox",
         "region": "Runeterra",
@@ -27,9 +11,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/606a1890faae447a7ea465d62b1dc87ab6ab360d.webm",
         "position_x": 71,
         "position_y": 28,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Aatrox/Aatrox.glb",
-        "release_date": "2013-06-13",
-        "updated_date": "2018-05-29"
+        "release_date": null,
+        "updated_date": "2013-06-13"
     },
     {
         "id": "Ahri",
@@ -43,9 +26,8 @@
         "animated_splash_art": "",
         "position_x": 61,
         "position_y": 11,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Ahri/Ahri.glb",
-        "release_date": "2011-12-14",
-        "updated_date": "2023-01-25"
+        "release_date": null,
+        "updated_date": "2011-12-14"
     },
     {
         "id": "Akali",
@@ -59,9 +41,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 8,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Akali/Akali.glb",
-        "release_date": "2010-05-11",
-        "updated_date": "2018-08-01"
+        "release_date": null,
+        "updated_date": "2010-05-11"
     },
     {
         "id": "Akshan",
@@ -75,9 +56,8 @@
         "animated_splash_art": "",
         "position_x": 68,
         "position_y": 51,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Akshan/Akshan.glb",
-        "release_date": "2021-07-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2021-07-22"
     },
     {
         "id": "Alistar",
@@ -91,9 +71,8 @@
         "animated_splash_art": "",
         "position_x": 65,
         "position_y": 30,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Alistar/Alistar.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Ambessa",
@@ -107,9 +86,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 5,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Ambessa/Ambessa.glb",
-        "release_date": "2024-11-06",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2024-11-06"
     },
     {
         "id": "Amumu",
@@ -123,9 +101,8 @@
         "animated_splash_art": "",
         "position_x": 75,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Amumu/Amumu.glb",
-        "release_date": "2009-06-26",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-06-26"
     },
     {
         "id": "Anivia",
@@ -139,9 +116,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Anivia/Anivia.glb",
-        "release_date": "2009-07-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-07-10"
     },
     {
         "id": "Annie",
@@ -155,9 +131,8 @@
         "animated_splash_art": "",
         "position_x": 86,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Annie/Annie.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Aphelios",
@@ -171,9 +146,8 @@
         "animated_splash_art": "",
         "position_x": 52,
         "position_y": 5,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Aphelios/Aphelios.glb",
-        "release_date": "2020-01-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-01-14"
     },
     {
         "id": "Ashe",
@@ -187,9 +161,8 @@
         "animated_splash_art": "",
         "position_x": 70,
         "position_y": 5,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Ashe/Ashe.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "AurelionSol",
@@ -203,9 +176,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/36e23e03ec34c0951ed9ddae6b94970ba3ef5290.webm",
         "position_x": 62,
         "position_y": 18,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/AurelionSol/AurelionSol.glb",
-        "release_date": "2016-03-24",
-        "updated_date": "2023-10-02"
+        "release_date": null,
+        "updated_date": "2016-03-24"
     },
     {
         "id": "Aurora",
@@ -219,9 +191,8 @@
         "animated_splash_art": "",
         "position_x": 58,
         "position_y": 3,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Aurora/Aurora.glb",
-        "release_date": "2024-07-17",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2024-07-17"
     },
     {
         "id": "Azir",
@@ -235,9 +206,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/07df115d79f735cf45c50f552d2ebd06b77be955.webm",
         "position_x": 84,
         "position_y": 13,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/A/Azir/Azir.glb",
-        "release_date": "2014-09-16",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-09-16"
     },
     {
         "id": "Bard",
@@ -251,9 +221,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/481b1a9abb6d3228c194e899d573a2ca6a9602a9.webm",
         "position_x": 65,
         "position_y": 12,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/B/Bard/Bard.glb",
-        "release_date": "2015-03-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2015-03-12"
     },
     {
         "id": "BelVeth",
@@ -267,9 +236,8 @@
         "animated_splash_art": "",
         "position_x": 47,
         "position_y": 28,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/B/BelVeth/BelVeth.glb",
-        "release_date": "2022-04-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2022-04-14"
     },
     {
         "id": "Blitzcrank",
@@ -283,9 +251,8 @@
         "animated_splash_art": "",
         "position_x": 78,
         "position_y": 16,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/B/Blitzcrank/Blitzcrank.glb",
-        "release_date": "2009-09-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-09-02"
     },
     {
         "id": "Brand",
@@ -299,9 +266,8 @@
         "animated_splash_art": "",
         "position_x": 88,
         "position_y": 7,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/B/Brand/Brand.glb",
-        "release_date": "2011-04-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-04-12"
     },
     {
         "id": "Braum",
@@ -315,9 +281,8 @@
         "animated_splash_art": "",
         "position_x": 89,
         "position_y": 4,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/B/Braum/Braum.glb",
-        "release_date": "2014-05-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-05-12"
     },
     {
         "id": "Briar",
@@ -331,9 +296,8 @@
         "animated_splash_art": "",
         "position_x": 56,
         "position_y": 28,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/B/Briar/Briar.glb",
-        "release_date": "2023-09-13",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2023-09-13"
     },
     {
         "id": "Caitlyn",
@@ -347,9 +311,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/C/Caitlyn/Caitlyn.glb",
-        "release_date": "2011-01-04",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-01-04"
     },
     {
         "id": "Camille",
@@ -363,9 +326,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/4eff0baf3549e977e23969cdab560b1e9a26123f.webm",
         "position_x": 95,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/C/Camille/Camille.glb",
-        "release_date": "2016-12-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2016-12-07"
     },
     {
         "id": "Cassiopeia",
@@ -379,9 +341,8 @@
         "animated_splash_art": "",
         "position_x": 65,
         "position_y": 8,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/C/Cassiopeia/Cassiopeia.glb",
-        "release_date": "2010-12-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-12-14"
     },
     {
         "id": "ChoGath",
@@ -395,9 +356,8 @@
         "animated_splash_art": "",
         "position_x": 59,
         "position_y": 27,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/C/ChoGath/ChoGath.glb",
-        "release_date": "2009-06-26",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-06-26"
     },
     {
         "id": "Corki",
@@ -411,9 +371,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 13,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/C/Corki/Corki.glb",
-        "release_date": "2009-09-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-09-19"
     },
     {
         "id": "Darius",
@@ -427,9 +386,8 @@
         "animated_splash_art": "",
         "position_x": 55,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/D/Darius/Darius.glb",
-        "release_date": "2012-05-23",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-05-23"
     },
     {
         "id": "Diana",
@@ -443,9 +401,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/e45ef4c6ec195042d82ca53cfce2ff4cc93bdf74.webm",
         "position_x": 78,
         "position_y": 33,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/D/Diana/Diana.glb",
-        "release_date": "2012-08-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-08-07"
     },
     {
         "id": "Draven",
@@ -459,9 +416,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 14,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/D/Draven/Draven.glb",
-        "release_date": "2012-06-06",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-06-06"
     },
     {
         "id": "DrMundo",
@@ -475,9 +431,8 @@
         "animated_splash_art": "",
         "position_x": 54,
         "position_y": 9,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/D/DrMundo/DrMundo.glb",
-        "release_date": "2009-09-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-09-02"
     },
     {
         "id": "Ekko",
@@ -491,9 +446,8 @@
         "animated_splash_art": "",
         "position_x": 87,
         "position_y": 4,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/E/Ekko/Ekko.glb",
-        "release_date": "2015-05-29",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2015-05-29"
     },
     {
         "id": "Elise",
@@ -507,9 +461,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 14,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/E/Elise/Elise.glb",
-        "release_date": "2012-10-26",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-10-26"
     },
     {
         "id": "Evelynn",
@@ -523,9 +476,8 @@
         "animated_splash_art": "",
         "position_x": 51,
         "position_y": 12,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/E/Evelynn/Evelynn.glb",
-        "release_date": "2009-05-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-05-01"
     },
     {
         "id": "Ezreal",
@@ -539,9 +491,8 @@
         "animated_splash_art": "",
         "position_x": 67,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/E/Ezreal/Ezreal.glb",
-        "release_date": "2010-03-16",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-03-16"
     },
     {
         "id": "Fiddlesticks",
@@ -555,9 +506,8 @@
         "animated_splash_art": "",
         "position_x": 37,
         "position_y": 48,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/F/Fiddlesticks/Fiddlesticks.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Fiora",
@@ -571,9 +521,8 @@
         "animated_splash_art": "",
         "position_x": 68,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/F/Fiora/Fiora.glb",
-        "release_date": "2012-02-29",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-02-29"
     },
     {
         "id": "Fizz",
@@ -587,9 +536,8 @@
         "animated_splash_art": "",
         "position_x": 95,
         "position_y": 15,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/F/Fizz/Fizz.glb",
-        "release_date": "2011-11-15",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-11-15"
     },
     {
         "id": "Galio",
@@ -603,9 +551,8 @@
         "animated_splash_art": "",
         "position_x": 48,
         "position_y": 9,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Galio/Galio.glb",
-        "release_date": "2010-08-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-08-10"
     },
     {
         "id": "Gangplank",
@@ -619,9 +566,8 @@
         "animated_splash_art": "",
         "position_x": 78,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Gangplank/Gangplank.glb",
-        "release_date": "2009-08-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-08-19"
     },
     {
         "id": "Garen",
@@ -635,9 +581,8 @@
         "animated_splash_art": "",
         "position_x": 90,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Garen/Garen.glb",
-        "release_date": "2010-04-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-04-27"
     },
     {
         "id": "Gnar",
@@ -651,9 +596,8 @@
         "animated_splash_art": null,
         "position_x": 85,
         "position_y": 68,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Gnar/Gnar.glb",
-        "release_date": "2014-08-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-08-14"
     },
     {
         "id": "Gragas",
@@ -667,9 +611,8 @@
         "animated_splash_art": null,
         "position_x": 65,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Gragas/Gragas.glb",
-        "release_date": "2010-02-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-02-02"
     },
     {
         "id": "Graves",
@@ -683,9 +626,8 @@
         "animated_splash_art": null,
         "position_x": 84,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Graves/Graves.glb",
-        "release_date": "2011-10-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-10-19"
     },
     {
         "id": "Gwen",
@@ -699,9 +641,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 15,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/G/Gwen/Gwen.glb",
-        "release_date": "2021-04-15",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2021-04-15"
     },
     {
         "id": "Hecarim",
@@ -715,9 +656,8 @@
         "animated_splash_art": null,
         "position_x": 68,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/H/Hecarim/Hecarim.glb",
-        "release_date": "2012-04-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-04-18"
     },
     {
         "id": "Heimerdinger",
@@ -731,9 +671,8 @@
         "animated_splash_art": null,
         "position_x": 80,
         "position_y": 35,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/H/Heimerdinger/Heimerdinger.glb",
-        "release_date": "2009-10-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-10-10"
     },
     {
         "id": "Hwei",
@@ -747,9 +686,8 @@
         "animated_splash_art": "",
         "position_x": 60,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/H/Hwei/Hwei.glb",
-        "release_date": "2023-12-06",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2023-12-06"
     },
     {
         "id": "Illaoi",
@@ -763,9 +701,8 @@
         "animated_splash_art": null,
         "position_x": 64,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/I/Illaoi/Illaoi.glb",
-        "release_date": "2015-11-24",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2015-11-24"
     },
     {
         "id": "Irelia",
@@ -779,9 +716,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/03cc763c5e5a5914e4de4f5598abe1b8cc99adeb.webm",
         "position_x": 50,
         "position_y": 12,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/I/Irelia/Irelia.glb",
-        "release_date": "2010-11-16",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-11-16"
     },
     {
         "id": "Ivern",
@@ -795,9 +731,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/a2021849f16b1d3cfe4e70dbc97fc32f8bfb8b86.webm",
         "position_x": 50,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/I/Ivern/Ivern.glb",
-        "release_date": "2016-10-05",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2016-10-05"
     },
     {
         "id": "Janna",
@@ -811,9 +746,8 @@
         "animated_splash_art": "",
         "position_x": 92,
         "position_y": 21,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/J/Janna/Janna.glb",
-        "release_date": "2009-09-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-09-02"
     },
     {
         "id": "JarvanIV",
@@ -827,9 +761,8 @@
         "animated_splash_art": null,
         "position_x": 83,
         "position_y": 5,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/J/JarvanIV/JarvanIV.glb",
-        "release_date": "2011-03-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-03-01"
     },
     {
         "id": "Jax",
@@ -843,9 +776,8 @@
         "animated_splash_art": null,
         "position_x": 69,
         "position_y": 32,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/J/Jax/Jax.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Jayce",
@@ -859,9 +791,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/f5322735accb4ca58f0d5a68e2c233d21d507f2d.webm",
         "position_x": 83,
         "position_y": 25,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/J/Jayce/Jayce.glb",
-        "release_date": "2012-07-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-07-07"
     },
     {
         "id": "Jhin",
@@ -875,9 +806,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/20a1802bcbb42e21ae66152dffa25671d3b924b7.webm",
         "position_x": 64,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/J/Jhin/Jhin.glb",
-        "release_date": "2016-02-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2016-02-01"
     },
     {
         "id": "Jinx",
@@ -891,9 +821,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/26d3e24ee65154e21211df06994f8f1ef8aee380.webm",
         "position_x": 74,
         "position_y": 11,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/J/Jinx/Jinx.glb",
-        "release_date": "2013-10-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-10-10"
     },
     {
         "id": "KaiSa",
@@ -907,9 +836,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/aae82f09c0b6efdb47f0f6a58afbf2bdae3595e1.webm",
         "position_x": 49,
         "position_y": 18,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/KaiSa/KaiSa.glb",
-        "release_date": "2018-03-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2018-03-07"
     },
     {
         "id": "Kalista",
@@ -923,9 +851,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/2153d9c1e61ab3d41b6909b6d7b38e6acba465c0.webm",
         "position_x": 70,
         "position_y": 7,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kalista/Kalista.glb",
-        "release_date": "2014-11-05",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-11-05"
     },
     {
         "id": "Karma",
@@ -939,9 +866,8 @@
         "animated_splash_art": "",
         "position_x": 84,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Karma/Karma.glb",
-        "release_date": "2011-02-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-02-01"
     },
     {
         "id": "Karthus",
@@ -955,9 +881,8 @@
         "animated_splash_art": null,
         "position_x": 74,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Karthus/Karthus.glb",
-        "release_date": "2009-06-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-06-12"
     },
     {
         "id": "Kassadin",
@@ -971,9 +896,8 @@
         "animated_splash_art": null,
         "position_x": 65,
         "position_y": 9,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kassadin/Kassadin.glb",
-        "release_date": "2009-08-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-08-07"
     },
     {
         "id": "Katarina",
@@ -987,9 +911,8 @@
         "animated_splash_art": "",
         "position_x": 65,
         "position_y": 30,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Katarina/Katarina.glb",
-        "release_date": "2009-09-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-09-19"
     },
     {
         "id": "Kayle",
@@ -1003,9 +926,8 @@
         "animated_splash_art": "",
         "position_x": 15,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kayle/Kayle.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Kayn",
@@ -1019,9 +941,8 @@
         "animated_splash_art": "",
         "position_x": 51,
         "position_y": 51,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kayn/Kayn.glb",
-        "release_date": "2017-07-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2017-07-12"
     },
     {
         "id": "Kennen",
@@ -1035,9 +956,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 10,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kennen/Kennen.glb",
-        "release_date": "2010-04-08",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-04-08"
     },
     {
         "id": "KhaZix",
@@ -1051,9 +971,8 @@
         "animated_splash_art": "",
         "position_x": 81,
         "position_y": 45,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/KhaZix/KhaZix.glb",
-        "release_date": "2012-09-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-09-27"
     },
     {
         "id": "Kindred",
@@ -1067,9 +986,8 @@
         "animated_splash_art": null,
         "position_x": 81,
         "position_y": 31,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kindred/Kindred.glb",
-        "release_date": "2015-10-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2015-10-14"
     },
     {
         "id": "Kled",
@@ -1083,9 +1001,8 @@
         "animated_splash_art": "",
         "position_x": 87,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/Kled/Kled.glb",
-        "release_date": "2023-01-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2023-01-12"
     },
     {
         "id": "KogMaw",
@@ -1099,9 +1016,8 @@
         "animated_splash_art": "",
         "position_x": 73,
         "position_y": 68,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/KogMaw/KogMaw.glb",
-        "release_date": "2010-06-24",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-06-24"
     },
     {
         "id": "KSante",
@@ -1115,9 +1031,8 @@
         "animated_splash_art": "",
         "position_x": 30,
         "position_y": 15,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/K/KSante/KSante.glb",
-        "release_date": "2022-10-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2022-10-18"
     },
     {
         "id": "LeBlanc",
@@ -1131,9 +1046,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 10,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/LeBlanc/LeBlanc.glb",
-        "release_date": "2010-11-02",
-        "updated_date": "2025-04-02"
+        "release_date": null,
+        "updated_date": "2010-11-02"
     },
     {
         "id": "LeeSin",
@@ -1147,9 +1061,8 @@
         "animated_splash_art": "",
         "position_x": 70,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/LeeSin/LeeSin.glb",
-        "release_date": "2011-04-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-04-01"
     },
     {
         "id": "Leona",
@@ -1163,9 +1076,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/Leona/Leona.glb",
-        "release_date": "2011-07-13",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-07-13"
     },
     {
         "id": "Lillia",
@@ -1179,9 +1091,8 @@
         "animated_splash_art": "",
         "position_x": 45,
         "position_y": 21,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/Lillia/Lillia.glb",
-        "release_date": "2020-07-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-07-22"
     },
     {
         "id": "Lissandra",
@@ -1195,9 +1106,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/1b9c8895ce26e74dca730702c72c6ce05003d8eb.webm",
         "position_x": 70,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/Lissandra/Lissandra.glb",
-        "release_date": "2013-04-30",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-04-30"
     },
     {
         "id": "Lucian",
@@ -1211,9 +1121,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe_live/dc0f76989a923cc4ce7fb6ed294757bdb0be8741.webm",
         "position_x": 71,
         "position_y": 37,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/Lucian/Lucian.glb",
-        "release_date": "2013-08-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-08-22"
     },
     {
         "id": "Lulu",
@@ -1227,9 +1136,8 @@
         "animated_splash_art": "",
         "position_x": 75,
         "position_y": 24,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/Lulu/Lulu.glb",
-        "release_date": "2012-03-20",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-03-20"
     },
     {
         "id": "Lux",
@@ -1243,9 +1151,8 @@
         "animated_splash_art": "",
         "position_x": 66,
         "position_y": 7,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/L/Lux/Lux.glb",
-        "release_date": "2010-10-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-10-19"
     },
     {
         "id": "Malphite",
@@ -1259,9 +1166,8 @@
         "animated_splash_art": "",
         "position_x": 73,
         "position_y": 60,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Malphite/Malphite.glb",
-        "release_date": "2009-09-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-09-02"
     },
     {
         "id": "Malzahar",
@@ -1275,9 +1181,8 @@
         "animated_splash_art": null,
         "position_x": 70,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Malzahar/Malzahar.glb",
-        "release_date": "2010-06-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-06-01"
     },
     {
         "id": "Maokai",
@@ -1291,9 +1196,8 @@
         "animated_splash_art": "",
         "position_x": 65,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Maokai/Maokai.glb",
-        "release_date": "2011-02-16",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-02-16"
     },
     {
         "id": "MasterYi",
@@ -1307,9 +1211,8 @@
         "animated_splash_art": "",
         "position_x": 90,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/MasterYi/MasterYi.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Mel",
@@ -1323,9 +1226,8 @@
         "animated_splash_art": null,
         "position_x": 37,
         "position_y": 12,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Mel/Mel.glb",
-        "release_date": "2025-01-23",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2025-01-23"
     },
     {
         "id": "Milio",
@@ -1339,9 +1241,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 25,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Milio/Milio.glb",
-        "release_date": "2023-03-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2023-03-22"
     },
     {
         "id": "MissFortune",
@@ -1355,9 +1256,8 @@
         "animated_splash_art": "",
         "position_x": 81,
         "position_y": 32,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/MissFortune/MissFortune.glb",
-        "release_date": "2010-09-08",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-09-08"
     },
     {
         "id": "Mordekaiser",
@@ -1371,9 +1271,8 @@
         "animated_splash_art": null,
         "position_x": 46,
         "position_y": 8,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Mordekaiser/Mordekaiser.glb",
-        "release_date": "2010-02-24",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-02-24"
     },
     {
         "id": "Morgana",
@@ -1387,9 +1286,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 30,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/M/Morgana/Morgana.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Naafiri",
@@ -1403,9 +1301,8 @@
         "animated_splash_art": null,
         "position_x": 25,
         "position_y": 51,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Naafiri/Naafiri.glb",
-        "release_date": "2023-07-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2023-07-19"
     },
     {
         "id": "Nami",
@@ -1419,9 +1316,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/eee325cd231728fe0639a9ced9d77532a12db909.webm",
         "position_x": 85,
         "position_y": 15,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nami/Nami.glb",
-        "release_date": "2012-12-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-12-07"
     },
     {
         "id": "Nasus",
@@ -1435,9 +1331,8 @@
         "animated_splash_art": null,
         "position_x": 73,
         "position_y": 6,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nasus/Nasus.glb",
-        "release_date": "2009-10-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-10-01"
     },
     {
         "id": "Nautilus",
@@ -1451,9 +1346,8 @@
         "animated_splash_art": "",
         "position_x": 83,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nautilus/Nautilus.glb",
-        "release_date": "2012-02-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-02-14"
     },
     {
         "id": "Neeko",
@@ -1467,9 +1361,8 @@
         "animated_splash_art": "",
         "position_x": 44,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Neeko/Neeko.glb",
-        "release_date": "2018-11-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2018-11-21"
     },
     {
         "id": "Nidalee",
@@ -1483,9 +1376,8 @@
         "animated_splash_art": "",
         "position_x": 84,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nidalee/Nidalee.glb",
-        "release_date": "2009-12-17",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-12-17"
     },
     {
         "id": "Nilah",
@@ -1499,9 +1391,8 @@
         "animated_splash_art": "",
         "position_x": 68,
         "position_y": 28,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nilah/Nilah.glb",
-        "release_date": "2022-08-11",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2022-08-11"
     },
     {
         "id": "Nocturne",
@@ -1515,9 +1406,8 @@
         "animated_splash_art": "",
         "position_x": 65,
         "position_y": 30,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nocturne/Nocturne.glb",
-        "release_date": "2011-03-15",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-03-15"
     },
     {
         "id": "Nunu",
@@ -1531,9 +1421,8 @@
         "animated_splash_art": null,
         "position_x": 69,
         "position_y": 63,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/N/Nunu/Nunu.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Olaf",
@@ -1547,9 +1436,8 @@
         "animated_splash_art": null,
         "position_x": 67,
         "position_y": 9,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/O/Olaf/Olaf.glb",
-        "release_date": "2010-06-09",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-06-09"
     },
     {
         "id": "Orianna",
@@ -1563,9 +1451,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/O/Orianna/Orianna.glb",
-        "release_date": "2011-06-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-06-01"
     },
     {
         "id": "Ornn",
@@ -1579,9 +1466,8 @@
         "animated_splash_art": null,
         "position_x": 49,
         "position_y": 30,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/O/Ornn/Ornn.glb",
-        "release_date": "2017-08-23",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2017-08-23"
     },
     {
         "id": "Pantheon",
@@ -1595,9 +1481,8 @@
         "animated_splash_art": "",
         "position_x": 51,
         "position_y": 25,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/P/Pantheon/Pantheon.glb",
-        "release_date": "2010-02-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-02-02"
     },
     {
         "id": "Poppy",
@@ -1611,9 +1496,8 @@
         "animated_splash_art": null,
         "position_x": 72,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/P/Poppy/Poppy.glb",
-        "release_date": "2011-05-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-05-10"
     },
     {
         "id": "Pyke",
@@ -1627,9 +1511,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/282d238345547cda81281506f0ea7b0ba1d1c20e.webm",
         "position_x": 49,
         "position_y": 22,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/P/Pyke/Pyke.glb",
-        "release_date": "2018-05-31",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2018-05-31"
     },
     {
         "id": "Qiyana",
@@ -1643,9 +1526,8 @@
         "animated_splash_art": "",
         "position_x": 51,
         "position_y": 23,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Q/Qiyana/Qiyana.glb",
-        "release_date": "2019-07-17",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2019-07-17"
     },
     {
         "id": "Quinn",
@@ -1659,9 +1541,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/183765feb69482fa1ff8c0a752ddfe22030084c5.webm",
         "position_x": 66,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Q/Quinn/Quinn.glb",
-        "release_date": "2013-07-30",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-07-30"
     },
     {
         "id": "Rakan",
@@ -1675,9 +1556,8 @@
         "animated_splash_art": "",
         "position_x": 41,
         "position_y": 10,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Rakan/Rakan.glb",
-        "release_date": "2017-09-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2017-09-27"
     },
     {
         "id": "Rammus",
@@ -1691,9 +1571,8 @@
         "animated_splash_art": null,
         "position_x": 64,
         "position_y": 29,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Rammus/Rammus.glb",
-        "release_date": "2011-08-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-08-01"
     },
     {
         "id": "RekSai",
@@ -1707,9 +1586,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/527c81674b4c59fa77850d30a23811f37d6ddcc8.webm",
         "position_x": 55,
         "position_y": 33,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/RekSai/RekSai.glb",
-        "release_date": "2014-10-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-10-27"
     },
     {
         "id": "Rell",
@@ -1723,9 +1601,8 @@
         "animated_splash_art": "",
         "position_x": 49,
         "position_y": 13,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Rell/Rell.glb",
-        "release_date": "2020-10-28",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-10-28"
     },
     {
         "id": "RenataGlasc",
@@ -1739,9 +1616,8 @@
         "animated_splash_art": "",
         "position_x": 54,
         "position_y": 14,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/RenataGlasc/RenataGlasc.glb",
-        "release_date": "2022-02-17",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2022-02-17"
     },
     {
         "id": "Renekton",
@@ -1755,9 +1631,8 @@
         "animated_splash_art": null,
         "position_x": 66,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Renekton/Renekton.glb",
-        "release_date": "2011-07-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-07-27"
     },
     {
         "id": "Rengar",
@@ -1771,9 +1646,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/1d6b5b19b0a0c99fae110db5a04aa46ff3b29baf.webm",
         "position_x": 74,
         "position_y": 20,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Rengar/Rengar.glb",
-        "release_date": "2012-02-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-02-01"
     },
     {
         "id": "Riven",
@@ -1787,9 +1661,8 @@
         "animated_splash_art": "",
         "position_x": 86,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Riven/Riven.glb",
-        "release_date": "2010-10-07",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-10-07"
     },
     {
         "id": "Rumble",
@@ -1803,9 +1676,8 @@
         "animated_splash_art": "",
         "position_x": 70,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Rumble/Rumble.glb",
-        "release_date": "2011-01-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-01-18"
     },
     {
         "id": "Ryze",
@@ -1819,9 +1691,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/89a2df2d61fe7a417e3b7841d2cefc40e46d8773.webm",
         "position_x": 84,
         "position_y": 35,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/R/Ryze/Ryze.glb",
-        "release_date": "2012-11-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-11-21"
     },
     {
         "id": "Samira",
@@ -1835,9 +1706,8 @@
         "animated_splash_art": "",
         "position_x": 59,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Samira/Samira.glb",
-        "release_date": "2020-08-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-08-27"
     },
     {
         "id": "Sejuani",
@@ -1851,9 +1721,8 @@
         "animated_splash_art": "",
         "position_x": 61,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Sejuani/Sejuani.glb",
-        "release_date": "2013-06-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-06-18"
     },
     {
         "id": "Senna",
@@ -1867,9 +1736,8 @@
         "animated_splash_art": "",
         "position_x": 58,
         "position_y": 11,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Senna/Senna.glb",
-        "release_date": "2019-10-15",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2019-10-15"
     },
     {
         "id": "Seraphine",
@@ -1883,9 +1751,8 @@
         "animated_splash_art": "",
         "position_x": 42,
         "position_y": 19,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Seraphine/Seraphine.glb",
-        "release_date": "2020-10-29",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-10-29"
     },
     {
         "id": "Sett",
@@ -1899,9 +1766,8 @@
         "animated_splash_art": "",
         "position_x": 49,
         "position_y": 9,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Sett/Sett.glb",
-        "release_date": "2020-01-14",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-01-14"
     },
     {
         "id": "Shaco",
@@ -1915,9 +1781,8 @@
         "animated_splash_art": "",
         "position_x": 75,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Shaco/Shaco.glb",
-        "release_date": "2014-03-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-03-19"
     },
     {
         "id": "Shen",
@@ -1931,9 +1796,8 @@
         "animated_splash_art": null,
         "position_x": 85,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Shen/Shen.glb",
-        "release_date": "2010-08-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-08-01"
     },
     {
         "id": "Shyvana",
@@ -1947,9 +1811,8 @@
         "animated_splash_art": "",
         "position_x": 78,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Shyvana/Shyvana.glb",
-        "release_date": "2011-11-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-11-01"
     },
     {
         "id": "Singed",
@@ -1963,9 +1826,8 @@
         "animated_splash_art": null,
         "position_x": 78,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Singed/Singed.glb",
-        "release_date": "2009-04-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-04-18"
     },
     {
         "id": "Sion",
@@ -1979,9 +1841,8 @@
         "animated_splash_art": null,
         "position_x": 78,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Sion/Sion.glb",
-        "release_date": "2016-11-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2016-11-21"
     },
     {
         "id": "Sivir",
@@ -1995,9 +1856,8 @@
         "animated_splash_art": "",
         "position_x": 61,
         "position_y": 15,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Sivir/Sivir.glb",
-        "release_date": "2015-06-03",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2015-06-03"
     },
     {
         "id": "Skarner",
@@ -2011,9 +1871,8 @@
         "animated_splash_art": null,
         "position_x": 49,
         "position_y": 84,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Skarner/Skarner.glb",
-        "release_date": "2012-07-11",
-        "updated_date": "2024-04-03"
+        "release_date": null,
+        "updated_date": "2012-07-11"
     },
     {
         "id": "Smolder",
@@ -2027,9 +1886,8 @@
         "animated_splash_art": "",
         "position_x": 44,
         "position_y": 30,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Smolder/Smolder.glb",
-        "release_date": "2024-03-20",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2024-03-20"
     },
     {
         "id": "Sona",
@@ -2043,9 +1901,8 @@
         "animated_splash_art": "",
         "position_x": 77,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Sona/Sona.glb",
-        "release_date": "2010-09-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-09-21"
     },
     {
         "id": "Soraka",
@@ -2059,9 +1916,8 @@
         "animated_splash_art": "",
         "position_x": 57,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Soraka/Soraka.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Swain",
@@ -2075,9 +1931,8 @@
         "animated_splash_art": "",
         "position_x": 70,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Swain/Swain.glb",
-        "release_date": "2010-10-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-10-19"
     },
     {
         "id": "Sylas",
@@ -2091,9 +1946,8 @@
         "animated_splash_art": null,
         "position_x": 51,
         "position_y": 10,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Sylas/Sylas.glb",
-        "release_date": "2019-01-24",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2019-01-24"
     },
     {
         "id": "Syndra",
@@ -2107,9 +1961,8 @@
         "animated_splash_art": "",
         "position_x": 50,
         "position_y": 10,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/S/Syndra/Syndra.glb",
-        "release_date": "2012-09-13",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-09-13"
     },
     {
         "id": "TahmKench",
@@ -2123,9 +1976,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/880b15d0864666f1e5876c445b0001ec5e46cc89.webm",
         "position_x": 84,
         "position_y": 47,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/TahmKench/TahmKench.glb",
-        "release_date": "2015-07-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2015-07-22"
     },
     {
         "id": "Taliyah",
@@ -2139,9 +1991,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/05cbd428b79d72c57fbbffe976461eb66e23af40.webm",
         "position_x": 87,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Taliyah/Taliyah.glb",
-        "release_date": "2016-05-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2016-05-18"
     },
     {
         "id": "Talon",
@@ -2155,9 +2006,8 @@
         "animated_splash_art": null,
         "position_x": 73,
         "position_y": 17,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Talon/Talon.glb",
-        "release_date": "2011-08-24",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-08-24"
     },
     {
         "id": "Taric",
@@ -2171,9 +2021,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/1037e8b68c585017cfd79b8b96198010097f36a5.webm",
         "position_x": 87,
         "position_y": 6,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Taric/Taric.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Teemo",
@@ -2187,9 +2036,8 @@
         "animated_splash_art": null,
         "position_x": 56,
         "position_y": 13,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Teemo/Teemo.glb",
-        "release_date": "2009-02-21",
-        "updated_date": "2024-10-09"
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Thresh",
@@ -2203,9 +2051,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe_live/7f9303b9a6190c4981e858203470010d9744d3fe.webm",
         "position_x": 69,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Thresh/Thresh.glb",
-        "release_date": "2013-01-23",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-01-23"
     },
     {
         "id": "Tristana",
@@ -2219,9 +2066,8 @@
         "animated_splash_art": "",
         "position_x": 67,
         "position_y": 4,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Tristana/Tristana.glb",
-        "release_date": "2011-03-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-03-01"
     },
     {
         "id": "Trundle",
@@ -2235,9 +2081,8 @@
         "animated_splash_art": "",
         "position_x": 56,
         "position_y": 7,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Trundle/Trundle.glb",
-        "release_date": "2010-11-30",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-11-30"
     },
     {
         "id": "Tryndamere",
@@ -2251,9 +2096,8 @@
         "animated_splash_art": null,
         "position_x": 77,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Tryndamere/Tryndamere.glb",
-        "release_date": "2012-05-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-05-01"
     },
     {
         "id": "TwistedFate",
@@ -2267,9 +2111,8 @@
         "animated_splash_art": null,
         "position_x": 83,
         "position_y": 5,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/TwistedFate/TwistedFate.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Twitch",
@@ -2283,9 +2126,8 @@
         "animated_splash_art": null,
         "position_x": 63,
         "position_y": 27,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/T/Twitch/Twitch.glb",
-        "release_date": "2009-05-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-05-01"
     },
     {
         "id": "Udyr",
@@ -2299,9 +2141,8 @@
         "animated_splash_art": "",
         "position_x": 53,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/U/Udyr/Udyr.glb",
-        "release_date": "2009-12-02",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-12-02"
     },
     {
         "id": "Urgot",
@@ -2315,9 +2156,8 @@
         "animated_splash_art": null,
         "position_x": 56,
         "position_y": 6,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/U/Urgot/Urgot.glb",
-        "release_date": "2010-03-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-03-10"
     },
     {
         "id": "Varus",
@@ -2331,9 +2171,8 @@
         "animated_splash_art": null,
         "position_x": 54,
         "position_y": 0,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Varus/Varus.glb",
-        "release_date": "2012-06-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-06-01"
     },
     {
         "id": "Vayne",
@@ -2347,9 +2186,8 @@
         "animated_splash_art": "",
         "position_x": 92,
         "position_y": 11,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Vayne/Vayne.glb",
-        "release_date": "2011-06-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-06-27"
     },
     {
         "id": "Veigar",
@@ -2363,9 +2201,8 @@
         "animated_splash_art": null,
         "position_x": 71,
         "position_y": 10,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Veigar/Veigar.glb",
-        "release_date": "2009-07-24",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-07-24"
     },
     {
         "id": "VelKoz",
@@ -2379,9 +2216,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/f4ccf1814f268ba3fe7f19d9926f8413083443fe.webm",
         "position_x": 62,
         "position_y": 32,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/VelKoz/VelKoz.glb",
-        "release_date": "2014-01-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2014-01-22"
     },
     {
         "id": "Vex",
@@ -2395,9 +2231,8 @@
         "animated_splash_art": null,
         "position_x": 65,
         "position_y": 14,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Vex/Vex.glb",
-        "release_date": "2021-10-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2021-10-27"
     },
     {
         "id": "Vi",
@@ -2411,9 +2246,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/e52b22b97e6f6df98a0cb0b8cbd940a70f2dc47b.webm",
         "position_x": 76,
         "position_y": 19,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Vi/Vi.glb",
-        "release_date": "2012-12-19",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-12-19"
     },
     {
         "id": "Viego",
@@ -2427,9 +2261,8 @@
         "animated_splash_art": "",
         "position_x": 80,
         "position_y": 18,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Viego/Viego.glb",
-        "release_date": "2021-01-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2021-01-21"
     },
     {
         "id": "Viktor",
@@ -2443,9 +2276,8 @@
         "animated_splash_art": null,
         "position_x": 45,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Viktor/Viktor.glb",
-        "release_date": "2011-12-29",
-        "updated_date": "2024-12-11"
+        "release_date": null,
+        "updated_date": "2011-12-29"
     },
     {
         "id": "Vladimir",
@@ -2459,9 +2291,8 @@
         "animated_splash_art": null,
         "position_x": 84,
         "position_y": 3,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Vladimir/Vladimir.glb",
-        "release_date": "2011-05-10",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-05-10"
     },
     {
         "id": "Volibear",
@@ -2475,9 +2306,8 @@
         "animated_splash_art": "",
         "position_x": 58,
         "position_y": 4,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/V/Volibear/Volibear.glb",
-        "release_date": "2011-11-29",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-11-29"
     },
     {
         "id": "Warwick",
@@ -2491,9 +2321,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/0949a15282f3a238556c54737b9a2feedbd88e2a.webm",
         "position_x": 69,
         "position_y": 61,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/W/Warwick/Warwick.glb",
-        "release_date": "2009-02-21",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2009-02-21"
     },
     {
         "id": "Wukong",
@@ -2507,9 +2336,8 @@
         "animated_splash_art": null,
         "position_x": 70,
         "position_y": 18,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/W/Wukong/Wukong.glb",
-        "release_date": "2011-07-26",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-07-26"
     },
     {
         "id": "Xayah",
@@ -2523,9 +2351,8 @@
         "animated_splash_art": "",
         "position_x": 69,
         "position_y": 24,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/X/Xayah/Xayah.glb",
-        "release_date": "2017-09-27",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2017-09-27"
     },
     {
         "id": "Xerath",
@@ -2539,9 +2366,8 @@
         "animated_splash_art": null,
         "position_x": 58,
         "position_y": 3,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/X/Xerath/Xerath.glb",
-        "release_date": "2017-05-04",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2017-05-04"
     },
     {
         "id": "XinZhao",
@@ -2555,9 +2381,8 @@
         "animated_splash_art": null,
         "position_x": 53,
         "position_y": 27,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/X/XinZhao/XinZhao.glb",
-        "release_date": "2010-07-13",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2010-07-13"
     },
     {
         "id": "Yasuo",
@@ -2571,9 +2396,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/64bf102eba34a29dfe59d0595f916a0848753141.webm",
         "position_x": 88,
         "position_y": 31,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Y/Yasuo/Yasuo.glb",
-        "release_date": "2013-12-18",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-12-18"
     },
     {
         "id": "Yone",
@@ -2587,9 +2411,8 @@
         "animated_splash_art": null,
         "position_x": 59,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Y/Yone/Yone.glb",
-        "release_date": "2020-08-06",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2020-08-06"
     },
     {
         "id": "Yorick",
@@ -2603,9 +2426,8 @@
         "animated_splash_art": "",
         "position_x": 70,
         "position_y": 2,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Y/Yorick/Yorick.glb",
-        "release_date": "2011-06-22",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-06-22"
     },
     {
         "id": "Yuumi",
@@ -2619,9 +2441,8 @@
         "animated_splash_art": null,
         "position_x": 45,
         "position_y": 6,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Y/Yuumi/Yuumi.glb",
-        "release_date": "2019-06-12",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2019-06-12"
     },
     {
         "id": "Zac",
@@ -2635,9 +2456,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/68372b4aa65c32e9aa6ee9a4198fdd4d15816cc3.webm",
         "position_x": 76,
         "position_y": 60,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Zac/Zac.glb",
-        "release_date": "2013-03-29",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2013-03-29"
     },
     {
         "id": "Zed",
@@ -2651,9 +2471,8 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/5cb0965af44636e26e714ab08e77689950689f8c.webm",
         "position_x": 73,
         "position_y": 3,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Zed/Zed.glb",
-        "release_date": "2012-10-23",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-10-23"
     },
     {
         "id": "Zeri",
@@ -2667,9 +2486,8 @@
         "animated_splash_art": "",
         "position_x": 57,
         "position_y": 28,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Zeri/Zeri.glb",
-        "release_date": "2022-01-20",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2022-01-20"
     },
     {
         "id": "Ziggs",
@@ -2683,9 +2501,8 @@
         "animated_splash_art": "",
         "position_x": 75,
         "position_y": 33,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Ziggs/Ziggs.glb",
-        "release_date": "2012-03-26",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2012-03-26"
     },
     {
         "id": "Zilean",
@@ -2699,9 +2516,8 @@
         "animated_splash_art": null,
         "position_x": 61,
         "position_y": 1,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Zilean/Zilean.glb",
-        "release_date": "2011-03-01",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2011-03-01"
     },
     {
         "id": "Zoe",
@@ -2715,9 +2531,8 @@
         "animated_splash_art": "",
         "position_x": 55,
         "position_y": 17,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Zoe/Zoe.glb",
-        "release_date": "2017-12-06",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2017-12-06"
     },
     {
         "id": "Zyra",
@@ -2731,8 +2546,7 @@
         "animated_splash_art": "https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/374f35f73d16ac029e6f67b3c399f8094d92109b.webm",
         "position_x": 88,
         "position_y": 5,
-        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Model/Z/Zyra/Zyra.glb",
-        "release_date": "2016-03-31",
-        "updated_date": null
+        "release_date": null,
+        "updated_date": "2016-03-31"
     }
 ]
