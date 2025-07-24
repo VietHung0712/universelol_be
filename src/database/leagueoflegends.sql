@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th7 23, 2025 lúc 01:22 PM
+-- Thời gian đã tạo: Th7 24, 2025 lúc 05:37 AM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -248,8 +248,8 @@ INSERT INTO `champions` (`id`, `name`, `region`, `role`, `title`, `voice`, `stor
 
 CREATE TABLE `models` (
   `id` int(10) NOT NULL,
-  `champion_id` varchar(20) NOT NULL,
-  `skin_id` int(10) DEFAULT NULL,
+  `champion` varchar(20) NOT NULL,
+  `skin` int(10) DEFAULT NULL,
   `model` text NOT NULL,
   `poster` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -258,7 +258,7 @@ CREATE TABLE `models` (
 -- Đang đổ dữ liệu cho bảng `models`
 --
 
-INSERT INTO `models` (`id`, `champion_id`, `skin_id`, `model`, `poster`) VALUES
+INSERT INTO `models` (`id`, `champion`, `skin`, `model`, `poster`) VALUES
 (1, 'Aatrox', NULL, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/aatrox.glb', 'Aatrox_idle1'),
 (2, 'Aatrox', 3, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/mecha_aatrox.glb', 'Aatrox_idle1'),
 (3, 'Aatrox', 5, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/blood_moon_aatrox.glb', 'Aatrox_skin07_idle1'),
@@ -330,7 +330,7 @@ INSERT INTO `regions` (`id`, `name`, `title`, `story`, `icon`, `avatar`, `backgr
 
 CREATE TABLE `region_gallerys` (
   `id` int(10) NOT NULL,
-  `region_id` varchar(20) NOT NULL,
+  `region` varchar(20) NOT NULL,
   `gallery` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -338,7 +338,7 @@ CREATE TABLE `region_gallerys` (
 -- Đang đổ dữ liệu cho bảng `region_gallerys`
 --
 
-INSERT INTO `region_gallerys` (`id`, `region_id`, `gallery`) VALUES
+INSERT INTO `region_gallerys` (`id`, `region`, `gallery`) VALUES
 (1, 'Bandle_City', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/f1e3c6d09e5dfa75a7c3a786e87757a04499d76a-800x491.jpg'),
 (2, 'Bandle_City', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/e55d81ae5882b42c3ddc4adcfd24987a1c0114a3-1398x948.jpg'),
 (3, 'Bandle_City', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Regions/bandle_city/picture/8a384b61ff3f9e0af45c0e97f93bfa7b4e68e7cf-1920x583.jpg'),
@@ -493,8 +493,8 @@ INSERT INTO `region_gallerys` (`id`, `region_id`, `gallery`) VALUES
 
 CREATE TABLE `relations` (
   `id` int(10) NOT NULL,
-  `champion_id` varchar(20) NOT NULL,
-  `related_id` varchar(20) NOT NULL,
+  `champion` varchar(20) NOT NULL,
+  `related` varchar(20) NOT NULL,
   `relation_type` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
@@ -502,7 +502,7 @@ CREATE TABLE `relations` (
 -- Đang đổ dữ liệu cho bảng `relations`
 --
 
-INSERT INTO `relations` (`id`, `champion_id`, `related_id`, `relation_type`) VALUES
+INSERT INTO `relations` (`id`, `champion`, `related`, `relation_type`) VALUES
 (1, 'Ahri', 'Yasuo', ''),
 (2, 'Aatrox', 'Kayn', ''),
 (3, 'Ahri', 'Lillia', ''),
@@ -1079,7 +1079,7 @@ INSERT INTO `roles` (`id`, `name`, `icon`) VALUES
 
 CREATE TABLE `skins` (
   `id` int(10) NOT NULL,
-  `champion_id` varchar(20) NOT NULL,
+  `champion` varchar(20) NOT NULL,
   `name` varchar(50) NOT NULL,
   `splash_art` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
@@ -1088,7 +1088,7 @@ CREATE TABLE `skins` (
 -- Đang đổ dữ liệu cho bảng `skins`
 --
 
-INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (2, 'Aatrox', 'Justicar Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_1.jpg'),
 (3, 'Aatrox', 'Mecha Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_2.jpg'),
 (4, 'Aatrox', 'Sea Hunter Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_3.jpg'),
@@ -1431,7 +1431,7 @@ INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
 (399, 'Evelynn', 'Spirit Blossom Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_11.jpg'),
 (400, 'Evelynn', 'Soul Fighter Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_12.jpg'),
 (401, 'Evelynn', 'High Noon Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_13.jpg');
-INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (402, 'Evelynn', 'Prestige High Noon Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_14.jpg'),
 (403, 'Evelynn', 'Celestial Embroidery Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_15.jpg'),
 (404, 'Ezreal', 'Nottingham Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_1.jpg'),
@@ -1772,7 +1772,7 @@ INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
 (754, 'Katarina', 'High Noon Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_16.jpg'),
 (755, 'Katarina', 'Faerie Court Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_17.jpg'),
 (756, 'Katarina', 'Prestige Faerie Court Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_18.jpg');
-INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (757, 'Katarina', 'Chosen of the Wolf Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_19.jpg'),
 (760, 'Katarina', 'Prestige Masque of the Black Rose Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_20.jpg'),
 (761, 'Kayle', 'Silver Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_1.jpg'),
@@ -2107,7 +2107,7 @@ INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
 (1164, 'Nidalee', 'French Maid Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_3.jpg'),
 (1165, 'Nidalee', 'Pharaoh Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_4.jpg'),
 (1166, 'Nidalee', 'Bewitching Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_5.jpg');
-INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1167, 'Nidalee', 'Headhunter Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_6.jpg'),
 (1168, 'Nidalee', 'Warring Kingdoms Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_7.jpg'),
 (1169, 'Nidalee', 'Challenger Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_8.jpg'),
@@ -2446,7 +2446,7 @@ INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
 (1502, 'Sivir', 'Warden Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_7.jpg'),
 (1503, 'Sivir', 'Victorious Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_8.jpg'),
 (1504, 'Sivir', 'Neo PAX Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_9.jpg');
-INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1505, 'Sivir', 'Pizza Delivery Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_10.jpg'),
 (1506, 'Sivir', 'Blood Moon Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_11.jpg'),
 (1507, 'Sivir', 'Odyssey Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_12.jpg'),
@@ -2784,7 +2784,7 @@ INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
 (1901, 'Wukong', 'Underworld Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_4.jpg'),
 (1902, 'Wukong', 'Radiant Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_5.jpg'),
 (1903, 'Wukong', 'Lancer Stratus Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_6.jpg');
-INSERT INTO `skins` (`id`, `champion_id`, `name`, `splash_art`) VALUES
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1904, 'Wukong', 'Battle Academia Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_7.jpg'),
 (1905, 'Wukong', 'Elderwood Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_8.jpg'),
 (1906, 'Xerath', 'Runeborn Xerath', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/Xerath/Xerath_1.jpg'),
@@ -2951,8 +2951,8 @@ ALTER TABLE `champions`
 --
 ALTER TABLE `models`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `champion_id` (`champion_id`),
-  ADD KEY `skin_id` (`skin_id`);
+  ADD KEY `champion_id` (`champion`),
+  ADD KEY `skin_id` (`skin`);
 
 --
 -- Chỉ mục cho bảng `regions`
@@ -2965,15 +2965,15 @@ ALTER TABLE `regions`
 --
 ALTER TABLE `region_gallerys`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `region_gallerys_ibfk_1` (`region_id`);
+  ADD KEY `region_gallerys_ibfk_1` (`region`);
 
 --
 -- Chỉ mục cho bảng `relations`
 --
 ALTER TABLE `relations`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `champion_id` (`champion_id`),
-  ADD KEY `related_id` (`related_id`);
+  ADD KEY `champion_id` (`champion`),
+  ADD KEY `related_id` (`related`);
 
 --
 -- Chỉ mục cho bảng `roles`
@@ -2986,7 +2986,7 @@ ALTER TABLE `roles`
 --
 ALTER TABLE `skins`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `champion` (`champion_id`);
+  ADD KEY `champion` (`champion`);
 
 --
 -- AUTO_INCREMENT cho các bảng đã đổ
@@ -3031,27 +3031,27 @@ ALTER TABLE `champions`
 -- Các ràng buộc cho bảng `models`
 --
 ALTER TABLE `models`
-  ADD CONSTRAINT `models_ibfk_1` FOREIGN KEY (`champion_id`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `models_ibfk_2` FOREIGN KEY (`skin_id`) REFERENCES `skins` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `models_ibfk_1` FOREIGN KEY (`champion`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `models_ibfk_2` FOREIGN KEY (`skin`) REFERENCES `skins` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Các ràng buộc cho bảng `region_gallerys`
 --
 ALTER TABLE `region_gallerys`
-  ADD CONSTRAINT `region_gallerys_ibfk_1` FOREIGN KEY (`region_id`) REFERENCES `regions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `region_gallerys_ibfk_1` FOREIGN KEY (`region`) REFERENCES `regions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Các ràng buộc cho bảng `relations`
 --
 ALTER TABLE `relations`
-  ADD CONSTRAINT `relations_ibfk_1` FOREIGN KEY (`champion_id`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `relations_ibfk_2` FOREIGN KEY (`related_id`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `relations_ibfk_1` FOREIGN KEY (`champion`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `relations_ibfk_2` FOREIGN KEY (`related`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Các ràng buộc cho bảng `skins`
 --
 ALTER TABLE `skins`
-  ADD CONSTRAINT `skins_ibfk_1` FOREIGN KEY (`champion_id`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `skins_ibfk_1` FOREIGN KEY (`champion`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
