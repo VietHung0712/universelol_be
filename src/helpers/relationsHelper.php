@@ -30,7 +30,7 @@ class RelationsHelper extends EntityHelper
     public static function getDataByChampionId(mysqli $connect, $value, array $columns = []): ?array
     {
         $query = Helper::stringQuery(self::getTableConfig(), $columns);
-        $queryFind = Helper::stringQueryFind($query, RelationConfig::CHAMPIONID->value);
+        $queryFind = Helper::stringQueryFind($query, RelationConfig::CHAMPION->value);
         return Helper::getEntities($connect, self::getClassName(), self::getConfigCases(), $queryFind, $value);
     }
 }

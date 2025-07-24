@@ -30,7 +30,7 @@ class SkinsHelper extends EntityHelper
     public static function getDataByChampionId(mysqli $connect, $value, array $columns = []): ?array
     {
         $query = Helper::stringQuery(self::getTableConfig(), $columns);
-        $queryFind = Helper::stringQueryFind($query, SkinConfig::CHAMPIONID->value);
+        $queryFind = Helper::stringQueryFind($query, SkinConfig::CHAMPION->value);
         return Helper::getEntities($connect, self::getClassName(), self::getConfigCases(), $queryFind, $value);
     }
 }

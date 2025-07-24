@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         function getGalleryDataFromPost(bool $includeId = false): array
         {
             $data = [
-                RegionGalleryConfig::REGIONID->value => $_POST['region_id'] ?? null,
+                RegionGalleryConfig::REGION->value => $_POST['region_id'] ?? null,
                 RegionGalleryConfig::GALLERY->value => $_POST['gallery']  ?? null,
             ];
 
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'delete':
                 $data = getGalleryDataFromPost();
                 if (RegionGallerysHelper::deleteData($connect, $id)) {
-                    header("Location: ../views/regionGallerys.php?region={$data[RegionGalleryConfig::REGIONID->value]}");
+                    header("Location: ../views/regionGallerys.php?region={$data[RegionGalleryConfig::REGION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'update':
                 $data = getGalleryDataFromPost();
                 if (RegionGallerysHelper::updateData($connect, $data, $id)) {
-                    header("Location: ../views/regionGallerys.php?region={$data[RegionGalleryConfig::REGIONID->value]}");
+                    header("Location: ../views/regionGallerys.php?region={$data[RegionGalleryConfig::REGION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'add':
                 $data = getGalleryDataFromPost();
                 if (RegionGallerysHelper::addData($connect, $data)) {
-                    header("Location: ../views/regionGallerys.php?region={$data[RegionGalleryConfig::REGIONID->value]}");
+                    header("Location: ../views/regionGallerys.php?region={$data[RegionGalleryConfig::REGION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -91,7 +91,7 @@ if ($edit === "add") {
     }
     $this_regionGallery = RegionGallerysHelper::getDataById($connect, $regionGalleryId);
 
-    if ($this_regionGallery === null || $this_regionGallery->getRegionId() !== $regionId) {
+    if ($this_regionGallery === null || $this_regionGallery->getRegion() !== $regionId) {
         header("Location: ../views/regions.php");
         exit();
     }

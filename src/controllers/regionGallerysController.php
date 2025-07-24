@@ -17,7 +17,7 @@ try {
     $this_region = RegionsHelper::getDataById($connect, $regionId, [RegionConfig::ID->value, RegionConfig::NAME->value]);
     $cols = [
         RegionGalleryConfig::ID->value,
-        RegionGalleryConfig::REGIONID->value,
+        RegionGalleryConfig::REGION->value,
         RegionGalleryConfig::GALLERY->value
     ];
 

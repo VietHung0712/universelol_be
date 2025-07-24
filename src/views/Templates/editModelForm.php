@@ -24,7 +24,7 @@ function editModelForm($object, $skins, $caption, $championId, $button, $readOnl
                         <?php
                         foreach ($skins as $value) {
                             $selected = '';
-                            if ($value->getId() === $object->getSkinId()) $selected = "selected";
+                            if ($value->getId() === $object->getSkin()) $selected = "selected";
                         ?>
                             <option value="<?php echo $value->getId(); ?>" <?php echo $selected; ?>><?php echo $value->getName(); ?></option>
                         <?php

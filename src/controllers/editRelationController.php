@@ -18,8 +18,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         function getRelationDataFromPost(bool $includeId = false): array
         {
             $data = [
-                RelationConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
-                RelationConfig::RELATEDID->value => $_POST['related_id'] ?? null,
+                RelationConfig::CHAMPION->value => $_POST['champion_id'] ?? null,
+                RelationConfig::RELATED->value => $_POST['related_id'] ?? null,
                 RelationConfig::RELATIONTYPE->value => $_POST['relation_type']  ?? null,
             ];
 
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'delete':
                 $data = getRelationDataFromPost();
                 if (RelationsHelper::deleteData($connect, $id)) {
-                    header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -42,16 +42,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 break;
             case 'update':
                 $data = getRelationDataFromPost();
-                $checkId = RelationsHelper::checkExists($connect, $data[RelationConfig::CHAMPIONID->value], RelationConfig::CHAMPIONID->value, $data[RelationConfig::RELATEDID->value], RelationConfig::RELATEDID->value);
+                $checkId = RelationsHelper::checkExists($connect, $data[RelationConfig::CHAMPION->value], RelationConfig::CHAMPION->value, $data[RelationConfig::RELATED->value], RelationConfig::RELATED->value);
                 if ($checkId) {
                     echo "<script>
-                        alert(\"This ID '{$data[RelationConfig::RELATEDID->value]}' already exists. Please choose a different one!\");
+                        alert(\"This ID '{$data[RelationConfig::RELATED->value]}' already exists. Please choose a different one!\");
                         history.back();
                     </script>";
                     exit();
                 }
                 if (RelationsHelper::updateData($connect, $data, $id)) {
-                    header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -59,17 +59,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 break;
             case 'add':
                 $data = getRelationDataFromPost();
-                $checkId = RelationsHelper::checkExists($connect, $data[RelationConfig::CHAMPIONID->value], RelationConfig::CHAMPIONID->value, $data[RelationConfig::RELATEDID->value], RelationConfig::RELATEDID->value);
+                $checkId = RelationsHelper::checkExists($connect, $data[RelationConfig::CHAMPION->value], RelationConfig::CHAMPION->value, $data[RelationConfig::RELATED->value], RelationConfig::RELATED->value);
                 if ($checkId) {
                     echo "<script>
-                        alert(\"This ID '{$data[RelationConfig::RELATEDID->value]}' already exists. Please choose a different one!\");
+                        alert(\"This ID '{$data[RelationConfig::RELATED->value]}' already exists. Please choose a different one!\");
                         history.back();
                     </script>";
                     exit();
                 }
 
                 if (RelationsHelper::addData($connect, $data)) {
-                    header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/relations.php?champion={$data[RelationConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -109,7 +109,7 @@ if ($edit === "add") {
     }
     $this_relation = RelationsHelper::getDataById($connect, $relationId);
 
-    if ($this_relation === null || $this_relation->getChampionId() !== $championId) {
+    if ($this_relation === null || $this_relation->getChampion() !== $championId) {
         header("Location: ../views/champions.php");
         exit();
     }

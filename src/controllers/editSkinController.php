@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         {
             $data = [
                 SkinConfig::NAME->value => $_POST['name'] ?? null,
-                SkinConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
+                SkinConfig::CHAMPION->value => $_POST['champion_id'] ?? null,
                 SkinConfig::SPLASHART->value => $_POST['splash_art']  ?? null,
             ];
 
@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'delete':
                 $data = getSkinDataFromPost();
                 if (SkinsHelper::deleteData($connect, $id)) {
-                    header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'update':
                 $data = getSkinDataFromPost();
                 if (SkinsHelper::updateData($connect, $data, $id)) {
-                    header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'add':
                 $data = getSkinDataFromPost();
                 if (SkinsHelper::addData($connect, $data)) {
-                    header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/skins.php?champion={$data[SkinConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -92,7 +92,7 @@ if ($edit === "add") {
     }
     $this_skin = SkinsHelper::getDataById($connect, $skinId);
 
-    if ($this_skin === null || $this_skin->getChampionId() !== $championId) {
+    if ($this_skin === null || $this_skin->getChampion() !== $championId) {
         header("Location: ../views/champions.php");
         exit();
     }

@@ -10,13 +10,13 @@ require_once __DIR__ . '/../config/entitiesConfig.php';
 class RegionGallery implements JsonSerializable
 {
     private $id;
-    private $regionId;
+    private $region;
     private $gallery;
     
-    public function __construct($id = null, $regionId = null, $gallery = null)
+    public function __construct($id = null, $region = null, $gallery = null)
     {
         $this->id = $id;
-        $this->regionId = $regionId;
+        $this->region = $region;
         $this->gallery = $gallery;
     }
 
@@ -24,7 +24,7 @@ class RegionGallery implements JsonSerializable
     {
         return [
             RegionGalleryConfig::ID->value => $this->id,
-            RegionGalleryConfig::REGIONID->value => $this->regionId,
+            RegionGalleryConfig::REGION->value => $this->region,
             RegionGalleryConfig::GALLERY->value => $this->gallery,
         ];
     }
@@ -34,9 +34,9 @@ class RegionGallery implements JsonSerializable
         return $this->id;
     }
 
-    public function getRegionId()
+    public function getRegion()
     {
-        return $this->regionId;
+        return $this->region;
     }
 
     public function getGallery()

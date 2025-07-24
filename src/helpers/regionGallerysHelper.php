@@ -30,7 +30,7 @@ class RegionGallerysHelper extends EntityHelper
     public static function getDataByRegionId(mysqli $connect, $value, array $columns = []): ?array
     {
         $query = Helper::stringQuery(self::getTableConfig(), $columns);
-        $queryFind = Helper::stringQueryFind($query, RegionGalleryConfig::REGIONID->value);
+        $queryFind = Helper::stringQueryFind($query, RegionGalleryConfig::REGION->value);
         return Helper::getEntities($connect, self::getClassName(), self::getConfigCases(), $queryFind, $value);
     }
 }

@@ -46,7 +46,7 @@ enum RegionConfig: string
 enum SkinConfig: string
 {
     case ID = 'id';
-    case CHAMPIONID = 'champion_id';
+    case CHAMPION = 'champion';
     case NAME = 'name';
     case SPLASHART = 'splash_art';
 }
@@ -61,23 +61,23 @@ enum RoleConfig: string
 enum RelationConfig: string
 {
     case ID = 'id';
-    case CHAMPIONID = 'champion_id';
-    case RELATEDID = 'related_id';
+    case CHAMPION = 'champion';
+    case RELATED = 'related';
     case RELATIONTYPE = 'relation_type';
 }
 
 enum RegionGalleryConfig: string
 {
     case ID = 'id';
-    case REGIONID = 'region_id';
+    case REGION = 'region';
     case GALLERY = 'gallery';
 }
 
 enum ModelConfig: string
 {
     case ID = 'id';
-    case CHAMPIONID = 'champion_id';
-    case SKINID = 'skin_id';
+    case CHAMPION = 'champion';
+    case SKIN = 'skin';
     case MODEL = 'model';
     case POSTER = 'poster';
 }

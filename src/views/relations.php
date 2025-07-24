@@ -77,7 +77,7 @@ try {
                         </td>
                         <th class="thead__mobile">Related Id</th>
                         <td>
-                            <input type="text" name="name" value="<?php echo $value->getRelatedId(); ?>" placeholder="Related Id..." required readonly>
+                            <input type="text" name="name" value="<?php echo $value->getRelated(); ?>" placeholder="Related Id..." required readonly>
                         </td>
                         <th class="thead__mobile">Relation Type</th>
                         <td>

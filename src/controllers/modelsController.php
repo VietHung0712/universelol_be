@@ -19,7 +19,7 @@ try {
 
     $modelCols = [
         ModelConfig::ID->value,
-        ModelConfig::SKINID->value,
+        ModelConfig::SKIN->value,
         ModelConfig::MODEL->value,
         ModelConfig::POSTER->value
     ];

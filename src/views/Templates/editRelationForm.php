@@ -19,7 +19,7 @@ function editRelationForm($champions, $object, $caption, $championId, $button, $
             <tr>
                 <th>Related Id</th>
                 <td>
-                    <?= editSelect($champions, 'related_id', $object->getRelatedId(), $championId); ?>
+                    <?= editSelect($champions, 'related_id', $object->getRelated(), $championId); ?>
                 </td>
             </tr>
             <tr>

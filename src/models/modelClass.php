@@ -10,16 +10,16 @@ require_once __DIR__ . '/../config/entitiesConfig.php';
 class Model implements JsonSerializable
 {
     private $id;
-    private $championId;
-    private $skinId;
+    private $champion;
+    private $skin;
     private $model;
     private $poster;
 
-    public function __construct($id = null, $championId = null, $skinId = null, $model = null, $poster = null)
+    public function __construct($id = null, $champion = null, $skin = null, $model = null, $poster = null)
     {
         $this->id = $id;
-        $this->championId = $championId;
-        $this->skinId = $skinId;
+        $this->champion = $champion;
+        $this->skin = $skin;
         $this->model = $model;
         $this->poster = $poster;
     }
@@ -28,8 +28,8 @@ class Model implements JsonSerializable
     {
         return [
             ModelConfig::ID->value => $this->id,
-            ModelConfig::CHAMPIONID->value => $this->championId,
-            ModelConfig::SKINID->value => $this->skinId,
+            ModelConfig::CHAMPION->value => $this->champion,
+            ModelConfig::SKIN->value => $this->skin,
             ModelConfig::MODEL->value => $this->model,
             ModelConfig::POSTER->value => $this->poster
         ];
@@ -40,14 +40,14 @@ class Model implements JsonSerializable
         return $this->id;
     }
 
-    public function getChampionId()
+    public function getChampion()
     {
-        return $this->championId;
+        return $this->champion;
     }
 
-    public function getSkinId()
+    public function getSkin()
     {
-        return $this->skinId;
+        return $this->skin;
     }
 
     public function getModel()

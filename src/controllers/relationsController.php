@@ -17,7 +17,7 @@ try {
     $this_champion = ChampionsHelper::getDataById($connect, $championId, [ChampionConfig::ID->value, ChampionConfig::NAME->value]);
     $relationCols = [
         RelationConfig::ID->value,
-        RelationConfig::RELATEDID->value,
+        RelationConfig::RELATED->value,
         RelationConfig::RELATIONTYPE->value
     ];
 

@@ -1,176 +1,176 @@
 [
     {
         "id": 1,
-        "champion_id": "Aatrox",
-        "skin_id": null,
+        "champion": "Aatrox",
+        "skin": null,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/aatrox.glb",
         "poster": "Aatrox_idle1"
     },
     {
         "id": 2,
-        "champion_id": "Aatrox",
-        "skin_id": 3,
+        "champion": "Aatrox",
+        "skin": 3,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/mecha_aatrox.glb",
         "poster": "Aatrox_idle1"
     },
     {
         "id": 3,
-        "champion_id": "Aatrox",
-        "skin_id": 5,
+        "champion": "Aatrox",
+        "skin": 5,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/blood_moon_aatrox.glb",
         "poster": "Aatrox_skin07_idle1"
     },
     {
         "id": 4,
-        "champion_id": "Aatrox",
-        "skin_id": 6,
+        "champion": "Aatrox",
+        "skin": 6,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/prestige_blood_moon_aatrox_2022.glb",
         "poster": "Aatrox_skin07_idle1"
     },
     {
         "id": 5,
-        "champion_id": "Aatrox",
-        "skin_id": 10,
+        "champion": "Aatrox",
+        "skin": 10,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/primordian_aatrox.glb",
         "poster": "idle1"
     },
     {
         "id": 6,
-        "champion_id": "Ahri",
-        "skin_id": null,
+        "champion": "Ahri",
+        "skin": null,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 7,
-        "champion_id": "Ahri",
-        "skin_id": 14,
+        "champion": "Ahri",
+        "skin": 14,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/dynasty_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 8,
-        "champion_id": "Ahri",
-        "skin_id": 15,
+        "champion": "Ahri",
+        "skin": 15,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/midnight_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 9,
-        "champion_id": "Ahri",
-        "skin_id": 16,
+        "champion": "Ahri",
+        "skin": 16,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/foxfire_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 10,
-        "champion_id": "Ahri",
-        "skin_id": 17,
+        "champion": "Ahri",
+        "skin": 17,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/popstar_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 11,
-        "champion_id": "Ahri",
-        "skin_id": 21,
+        "champion": "Ahri",
+        "skin": 21,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/challenger_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 12,
-        "champion_id": "Ahri",
-        "skin_id": 22,
+        "champion": "Ahri",
+        "skin": 22,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/academy_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 13,
-        "champion_id": "Ahri",
-        "skin_id": 23,
+        "champion": "Ahri",
+        "skin": 23,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/arcade_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 14,
-        "champion_id": "Ahri",
-        "skin_id": 24,
+        "champion": "Ahri",
+        "skin": 24,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/star_guardian_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 15,
-        "champion_id": "Ahri",
-        "skin_id": 26,
+        "champion": "Ahri",
+        "skin": 26,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/k_da_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 16,
-        "champion_id": "Ahri",
-        "skin_id": 27,
+        "champion": "Ahri",
+        "skin": 27,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/prestige_k_da_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 17,
-        "champion_id": "Ahri",
-        "skin_id": 27,
+        "champion": "Ahri",
+        "skin": 27,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/prestige_k_da_ahri_2022.glb",
         "poster": "idle1"
     },
     {
         "id": 18,
-        "champion_id": "Ahri",
-        "skin_id": 28,
+        "champion": "Ahri",
+        "skin": 28,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/elderwood_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 19,
-        "champion_id": "Ahri",
-        "skin_id": 29,
+        "champion": "Ahri",
+        "skin": 29,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/spirit_blossom_ahri.glb",
         "poster": "idle_Base"
     },
     {
         "id": 20,
-        "champion_id": "Ahri",
-        "skin_id": 31,
+        "champion": "Ahri",
+        "skin": 31,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/k_da_all_out_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 21,
-        "champion_id": "Ahri",
-        "skin_id": 32,
+        "champion": "Ahri",
+        "skin": 32,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/coven_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 22,
-        "champion_id": "Ahri",
-        "skin_id": 33,
+        "champion": "Ahri",
+        "skin": 33,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/arcana_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 23,
-        "champion_id": "Ahri",
-        "skin_id": 34,
+        "champion": "Ahri",
+        "skin": 34,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/snow_moon_ahri.glb",
         "poster": "idle1"
     },
     {
         "id": 26,
-        "champion_id": "Ahri",
-        "skin_id": 2081,
+        "champion": "Ahri",
+        "skin": 2081,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/spirit_blossom_springs_ahri.glb",
         "poster": "idle_Base"
     },
     {
         "id": 27,
-        "champion_id": "Ahri",
-        "skin_id": 2082,
+        "champion": "Ahri",
+        "skin": 2082,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/after_hours_spirit_blossom_springs_ahri.glb",
         "poster": "idle1"
     }

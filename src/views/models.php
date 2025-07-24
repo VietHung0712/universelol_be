@@ -81,7 +81,7 @@ try {
                         </td>
                         <th class="thead__mobile">Skin</th>
                         <td>
-                            <input type="text" name="skin_id" value="<?php if (!empty($value->getSkinId())) echo $getSkinName[$value->getSkinId()];
+                            <input type="text" name="skin_id" value="<?php if (!empty($value->getSkin())) echo $getSkinName[$value->getSkin()];
                                                                         else echo 'Default'; ?>" required readonly>
                         </td>
                         <th class="thead__mobile">Poster</th>

@@ -10,15 +10,15 @@ require_once __DIR__ . '/../config/entitiesConfig.php';
 class Relation implements JsonSerializable
 {
     private $id;
-    private $championId;
-    private $relatedId;
+    private $champion;
+    private $related;
     private $relationType;
     
-    public function __construct($id = null, $championId = null, $relatedId = null, $relationType = null)
+    public function __construct($id = null, $champion = null, $related = null, $relationType = null)
     {
         $this->id = $id;
-        $this->championId = $championId;
-        $this->relatedId = $relatedId;
+        $this->champion = $champion;
+        $this->related = $related;
         $this->relationType = $relationType;
     }
 
@@ -26,8 +26,8 @@ class Relation implements JsonSerializable
     {
         return [
             RelationConfig::ID->value => $this->id,
-            RelationConfig::CHAMPIONID->value => $this->championId,
-            RelationConfig::RELATEDID->value => $this->relatedId,
+            RelationConfig::CHAMPION->value => $this->champion,
+            RelationConfig::RELATED->value => $this->related,
             RelationConfig::RELATIONTYPE->value => $this->relationType
         ];
     }
@@ -37,14 +37,14 @@ class Relation implements JsonSerializable
         return $this->id;
     }
 
-    public function getChampionId()
+    public function getChampion()
     {
-        return $this->championId;
+        return $this->champion;
     }
 
-    public function getRelatedId()
+    public function getRelated()
     {
-        return $this->relatedId;
+        return $this->related;
     }
 
     public function getRelationType()

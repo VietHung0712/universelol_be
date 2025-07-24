@@ -21,8 +21,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             if ($_POST['skin_id'] !== '0') $skinId = $_POST['skin_id'] ?? NULL;
             $data = [
-                ModelConfig::CHAMPIONID->value => $_POST['champion_id'] ?? null,
-                ModelConfig::SKINID->value => $skinId ?? null,
+                ModelConfig::CHAMPION->value => $_POST['champion_id'] ?? null,
+                ModelConfig::SKIN->value => $skinId ?? null,
                 ModelConfig::MODEL->value => $_POST['model']  ?? null,
                 ModelConfig::POSTER->value => $_POST['poster']  ?? null,
             ];
@@ -38,7 +38,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'delete':
                 $data = getModelDataFromPost();
                 if (ModelsHelper::deleteData($connect, $id)) {
-                    header("Location: ../views/models.php?champion={$data[ModelConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/models.php?champion={$data[ModelConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'update':
                 $data = getModelDataFromPost();
                 if (ModelsHelper::updateData($connect, $data, $id)) {
-                    header("Location: ../views/models.php?champion={$data[ModelConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/models.php?champion={$data[ModelConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             case 'add':
                 $data = getModelDataFromPost();
                 if (ModelsHelper::addData($connect, $data)) {
-                    header("Location: ../views/models.php?champion={$data[ModelConfig::CHAMPIONID->value]}");
+                    header("Location: ../views/models.php?champion={$data[ModelConfig::CHAMPION->value]}");
                     exit();
                 } else {
                     echo "<script>console.log('Error while executing!')</script>";
@@ -99,7 +99,7 @@ if ($edit === "add") {
 
     $this_model = ModelsHelper::getDataById($connect, $modelId);
 
-    if ($this_model === null || $this_model->getChampionId() !== $championId) {
+    if ($this_model === null || $this_model->getChampion() !== $championId) {
         header("Location: ../views/champions.php");
         exit();
     }
