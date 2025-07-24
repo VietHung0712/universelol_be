@@ -25,7 +25,6 @@ enum ChampionConfig: string
     case ANIMATEDSPLASHART = 'animated_splash_art';
     case POSITIONX = 'position_x';
     case POSITIONY = 'position_y';
-    case MODEL = 'model';
     case RELEASEDATE = 'release_date';
     case UPDATEDDATE = 'updated_date';
 }
