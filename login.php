@@ -1,4 +1,5 @@
 <?php
+session_start();
 require_once __DIR__ . "/src/config/config.php";
 require_once __DIR__ . "/src/core/decrypt.php";
 require_once __DIR__ . "/src/core/encrypt.php";
@@ -24,6 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if ($valid) {
+        $_SESSION['username'] = $username;
         header("Location: ./src/views/index.php");
         exit();
     } else {

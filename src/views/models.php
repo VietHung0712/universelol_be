@@ -149,14 +149,21 @@ try {
 
     $$viewer.forEach((element, index) => {
         element.addEventListener('load', () => {
-            const animations = element.availableAnimations;
+            const animations = element.availableAnimations.sort((a, b) => a.localeCompare(b));
             const targetAnimName = element.dataset.poster?.toLowerCase();
 
-            const idleAnim = animations.find(name =>
-                name.toLowerCase().includes(targetAnimName)
-            );
-            if (idleAnim) {
-                element.animationName = idleAnim;
+            let bestMatch = animations.find(name => name.toLowerCase() === targetAnimName);
+
+            if (!bestMatch) {
+                bestMatch = animations.find(name => name.toLowerCase().startsWith(targetAnimName));
+            }
+
+            if (!bestMatch) {
+                bestMatch = animations.find(name => name.toLowerCase().includes(targetAnimName));
+            }
+
+            if (bestMatch) {
+                element.animationName = bestMatch;
             }
         });
     });
