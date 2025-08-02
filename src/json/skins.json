@@ -10996,5 +10996,275 @@
         "name": "After Hours Spirit Blossom Springs Ahri",
         "champion": "Ahri",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_26.jpg"
+    },
+    {
+        "id": 2083,
+        "name": "Blood Moon Ryze",
+        "champion": "Ryze",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Ryze/Ryze_13.jpg"
+    },
+    {
+        "id": 2084,
+        "name": "Sahn-Uzal Mordekaiser",
+        "champion": "Mordekaiser",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Mordekaiser/Mordekaiser_12.jpg"
+    },
+    {
+        "id": 2085,
+        "name": "Prestige Triumphant General Darius",
+        "champion": "Darius",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Darius/Darius_14.jpg"
+    },
+    {
+        "id": 2086,
+        "name": "Grand Reckoning Talon",
+        "champion": "Talon",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_17.jpg"
+    },
+    {
+        "id": 2087,
+        "name": "Grand Reckoning Sion",
+        "champion": "Sion",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sion/Sion_10.jpg"
+    },
+    {
+        "id": 2088,
+        "name": "Grand Reckoning Rell",
+        "champion": "Rell",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rell/Rell_4.jpg"
+    },
+    {
+        "id": 2089,
+        "name": "Grand Reckoning Draven",
+        "champion": "Draven",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Draven/Draven_13.jpg"
+    },
+    {
+        "id": 2090,
+        "name": "Prestige Battle Academia Qiyana",
+        "champion": "Qiyana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Q/Qiyana/Qiyana_8.jpg"
+    },
+    {
+        "id": 2091,
+        "name": "Battle Academia Kayn",
+        "champion": "Kayn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayn/Kayn_7.jpg"
+    },
+    {
+        "id": 2092,
+        "name": "Battle Academia Rakan",
+        "champion": "Rakan",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_8.jpg"
+    },
+    {
+        "id": 2093,
+        "name": "Battle Academia Xayah",
+        "champion": "Xayah",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_8.jpg"
+    },
+    {
+        "id": 2094,
+        "name": "Grill Master Braum",
+        "champion": "Braum",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Braum/Braum_8.jpg"
+    },
+    {
+        "id": 2095,
+        "name": "Urgot the Clogfather",
+        "champion": "Urgot",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/U/Urgot/Urgot_7.jpg"
+    },
+    {
+        "id": 2096,
+        "name": "Glizzy Naafiri",
+        "champion": "Naafiri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Naafiri/Naafiri_3.jpg"
+    },
+    {
+        "id": 2097,
+        "name": "Pool Party Malphite",
+        "champion": "Malphite",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Malphite/Malphite_13.jpg"
+    },
+    {
+        "id": 2098,
+        "name": "Cat-in-the-Box Shaco",
+        "champion": "Shaco",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shaco/Shaco_15.jpg"
+    },
+    {
+        "id": 2099,
+        "name": "Dawnbringer Kalista",
+        "champion": "Kalista",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kalista/Kalista_7.jpg"
+    },
+    {
+        "id": 2100,
+        "name": "Nightbringer Hecarim",
+        "champion": "Hecarim",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/H/Hecarim/Hecarim_12.jpg"
+    },
+    {
+        "id": 2101,
+        "name": "Nightbringer Evelynn",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_16.jpg"
+    },
+    {
+        "id": 2102,
+        "name": "Dawnbringer Janna",
+        "champion": "Janna",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_18.jpg"
+    },
+    {
+        "id": 2103,
+        "name": "Nightbringer Yuumi",
+        "champion": "Yuumi",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yuumi/Yuumi_8.jpg"
+    },
+    {
+        "id": 2104,
+        "name": "Summer Party Katarina",
+        "champion": "Katarina",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_21.jpg"
+    },
+    {
+        "id": 2105,
+        "name": "Summer Party Samira",
+        "champion": "Samira",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Samira/Samira_6.jpg"
+    },
+    {
+        "id": 2106,
+        "name": "Summer Party Seraphine",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_14.jpg"
+    },
+    {
+        "id": 2107,
+        "name": "Summer Party Yasuo",
+        "champion": "Yasuo",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_20.jpg"
+    },
+    {
+        "id": 2108,
+        "name": "Summer Party Aurora",
+        "champion": "Aurora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aurora/Aurora_2.jpg"
+    },
+    {
+        "id": 2109,
+        "name": "Wondertown Lillia",
+        "champion": "Lillia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lillia/Lillia_5.jpg"
+    },
+    {
+        "id": 2110,
+        "name": "Crystal Rose Sett",
+        "champion": "Sett",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_14.jpg"
+    },
+    {
+        "id": 2111,
+        "name": "Crystal Rose Rakan",
+        "champion": "Rakan",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_9.jpg"
+    },
+    {
+        "id": 2112,
+        "name": "Crystal Rose Xayah",
+        "champion": "Xayah",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_9.jpg"
+    },
+    {
+        "id": 2113,
+        "name": "Crystal Rose Caitlyn",
+        "champion": "Caitlyn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/C/Caitlyn/Caitlyn_21.jpg"
+    },
+    {
+        "id": 2114,
+        "name": "Prestige Crystal Rose Caitlyn",
+        "champion": "Caitlyn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/C/Caitlyn/Caitlyn_22.jpg"
+    },
+    {
+        "id": 2115,
+        "name": "Crystal Rose Ahri",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_27.jpg"
+    },
+    {
+        "id": 2116,
+        "name": "Victorious Fiora",
+        "champion": "Fiora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/F/Fiora/Fiora_20.jpg"
+    },
+    {
+        "id": 2117,
+        "name": "Inkshadow Lee Sin",
+        "champion": "LeeSin",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_19.jpg"
+    },
+    {
+        "id": 2118,
+        "name": "Inkshadow Nilah",
+        "champion": "Nilah",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nilah/Nilah_3.jpg"
+    },
+    {
+        "id": 2119,
+        "name": "Inkshadow Pyke",
+        "champion": "Pyke",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/P/Pyke/Pyke_13.jpg"
+    },
+    {
+        "id": 2120,
+        "name": "Inkshadow Renekton",
+        "champion": "Renekton",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Renekton/Renekton_14.jpg"
+    },
+    {
+        "id": 2121,
+        "name": "Risen Legend Vayne",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_19.jpg"
+    },
+    {
+        "id": 2122,
+        "name": "Risen Legend Kai'Sa",
+        "champion": "KaiSa",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KaiSa/KaiSa_18.jpg"
+    },
+    {
+        "id": 2123,
+        "name": "Immortalized Legend Kai'Sa",
+        "champion": "KaiSa",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KaiSa/KaiSa_19.jpg"
+    },
+    {
+        "id": 2124,
+        "name": "Fatemaker Nasus",
+        "champion": "Nasus",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nasus/Nasus_13.jpg"
+    },
+    {
+        "id": 2125,
+        "name": "Fatebreaker Malzahar",
+        "champion": "Malzahar",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Malzahar/Malzahar_13.jpg"
+    },
+    {
+        "id": 2126,
+        "name": "Fatebreaker Taric",
+        "champion": "Taric",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Taric/Taric_7.jpg"
+    },
+    {
+        "id": 2127,
+        "name": "Victorious Twisted Fate",
+        "champion": "TwistedFate",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/TwistedFate/TwistedFate_15.jpg"
     }
 ]
