@@ -3256,5 +3256,17 @@
         "champion": "Zyra",
         "related": "Nidalee",
         "relation_type": ""
+    },
+    {
+        "id": 562,
+        "champion": "Yunara",
+        "related": "XinZhao",
+        "relation_type": ""
+    },
+    {
+        "id": 563,
+        "champion": "Yunara",
+        "related": "Kennen",
+        "relation_type": ""
     }
 ]
