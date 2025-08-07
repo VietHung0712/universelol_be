@@ -54,24 +54,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_12.jpg"
     },
     {
-        "id": 11,
-        "name": "Shan Hai Scrolls Aatrox",
-        "champion": "Aatrox",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_9.jpg"
-    },
-    {
-        "id": 12,
-        "name": "Dragon Lantern Aatrox",
-        "champion": "Aatrox",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_10.jpg"
-    },
-    {
-        "id": 13,
-        "name": "Prestige Dragon Lantern Aatrox",
-        "champion": "Aatrox",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_11.jpg"
-    },
-    {
         "id": 14,
         "name": "Dynasty Ahri",
         "champion": "Ahri",
@@ -468,12 +450,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_4.jpg"
     },
     {
-        "id": 101,
-        "name": "Lunar Guardian Aurelion Sol",
-        "champion": "AurelionSol",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_5.jpg"
-    },
-    {
         "id": 102,
         "name": "Porcelain Protecter Aurelion Sol",
         "champion": "AurelionSol",
@@ -526,12 +502,6 @@
         "name": "Snow Day Bard",
         "champion": "Bard",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_2.jpg"
-    },
-    {
-        "id": 111,
-        "name": "Snow Day Golden Chroma Bard",
-        "champion": "Bard",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_3.jpg"
     },
     {
         "id": 112,
@@ -876,12 +846,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akshan/Akshan_4.jpg"
     },
     {
-        "id": 169,
-        "name": "Dawbringer Akshan",
-        "champion": "Akshan",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akshan/Akshan_5.jpg"
-    },
-    {
         "id": 170,
         "name": "Black Alistar",
         "champion": "Alistar",
@@ -946,12 +910,6 @@
         "name": "Conqueror Alistar",
         "champion": "Alistar",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_11.jpg"
-    },
-    {
-        "id": 181,
-        "name": "Conqueror Golden Chroma Alistar",
-        "champion": "Alistar",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_12.jpg"
     },
     {
         "id": 182,
@@ -2814,12 +2772,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_7.jpg"
     },
     {
-        "id": 529,
-        "name": "Snow Day Golden Chroma Graves",
-        "champion": "Graves",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_8.jpg"
-    },
-    {
         "id": 530,
         "name": "Victorious Graves",
         "champion": "Graves",
@@ -3234,12 +3186,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_11.jpg"
     },
     {
-        "id": 599,
-        "name": "Calligraphia Janna",
-        "champion": "Janna",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_12.jpg"
-    },
-    {
         "id": 600,
         "name": "Crystal Rose Janna",
         "champion": "Janna",
@@ -3300,18 +3246,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_5.jpg"
     },
     {
-        "id": 625,
-        "name": "Warring Kingdoms Golden Chroma Jarvan IV",
-        "champion": "JarvanIV",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_6.jpg"
-    },
-    {
-        "id": 626,
-        "name": "Warring Kingdoms Mythic Chroma Jarvan IV",
-        "champion": "JarvanIV",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_7.jpg"
-    },
-    {
         "id": 627,
         "name": "Dark Star Jarvan IV",
         "champion": "JarvanIV",
@@ -3346,12 +3280,6 @@
         "name": "Nightbringer Jarvan IV",
         "champion": "JarvanIV",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_13.jpg"
-    },
-    {
-        "id": 633,
-        "name": "Calligraphia Jarvan IV",
-        "champion": "JarvanIV",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_14.jpg"
     },
     {
         "id": 634,
@@ -3448,12 +3376,6 @@
         "name": "PROJECT: Jax",
         "champion": "Jax",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_15.jpg"
-    },
-    {
-        "id": 650,
-        "name": "Shan Hai Scrolls Jax",
-        "champion": "Jax",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_16.jpg"
     },
     {
         "id": 651,
@@ -4290,12 +4212,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_1.jpg"
     },
     {
-        "id": 802,
-        "name": "Mecha Pearl Chroma Kha'Zix",
-        "champion": "KhaZix",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_2.jpg"
-    },
-    {
         "id": 803,
         "name": "Guardian of the Sands Kha'Zix",
         "champion": "KhaZix",
@@ -4336,12 +4252,6 @@
         "name": "Crystalis Indomitus Kha'Zix",
         "champion": "KhaZix",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_9.jpg"
-    },
-    {
-        "id": 810,
-        "name": "Dream Ralder Kha'Zix",
-        "champion": "KhaZix",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_10.jpg"
     },
     {
         "id": 811,
@@ -4596,24 +4506,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_3.jpg"
     },
     {
-        "id": 871,
-        "name": "Dragon Fist Black Chroma Lee Sin",
-        "champion": "LeeSin",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_4.jpg"
-    },
-    {
-        "id": 872,
-        "name": "Dragon Fist Ruby Chroma Lee Sin",
-        "champion": "LeeSin",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_5.jpg"
-    },
-    {
-        "id": 873,
-        "name": "Dragon Fist Blue Chroma Lee Sin",
-        "champion": "LeeSin",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_6.jpg"
-    },
-    {
         "id": 874,
         "name": "Muay Thai Lee Sin",
         "champion": "LeeSin",
@@ -4660,12 +4552,6 @@
         "name": "Storm Dragon Lee Sin",
         "champion": "LeeSin",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_14.jpg"
-    },
-    {
-        "id": 882,
-        "name": "Storm Dragon Mythic Chroma Lee Sin",
-        "champion": "LeeSin",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_15.jpg"
     },
     {
         "id": 883,
@@ -5398,24 +5284,6 @@
         "name": "Eternal Sword Yi",
         "champion": "MasterYi",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_8.jpg"
-    },
-    {
-        "id": 1005,
-        "name": "Eternal Sword Pearl Chroma Yi",
-        "champion": "MasterYi",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_9.jpg"
-    },
-    {
-        "id": 1006,
-        "name": "Eternal Sword Golden Chroma Yi",
-        "champion": "MasterYi",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_10.jpg"
-    },
-    {
-        "id": 1007,
-        "name": "Eternal Sword Rose Quartz Chroma Yi",
-        "champion": "MasterYi",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_11.jpg"
     },
     {
         "id": 1008,
@@ -6834,12 +6702,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_7.jpg"
     },
     {
-        "id": 1290,
-        "name": "Calligraphia Xayah",
-        "champion": "Xayah",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_4.jpg"
-    },
-    {
         "id": 1291,
         "name": "Battle Bat Xayah",
         "champion": "Xayah",
@@ -7536,34 +7398,10 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Senna/Senna_12.jpg"
     },
     {
-        "id": 1407,
-        "name": "High Noon Rose Quartz Chroma Lucian",
-        "champion": "Lucian",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_13.jpg"
-    },
-    {
-        "id": 1408,
-        "name": "High Noon Tenfold Triumph Chroma Lucian",
-        "champion": "Lucian",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_14.jpg"
-    },
-    {
-        "id": 1409,
-        "name": "Prestige High Noon Lucian",
-        "champion": "Lucian",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_15.jpg"
-    },
-    {
         "id": 1410,
         "name": "Maked Justice Lucian",
         "champion": "Lucian",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_16.jpg"
-    },
-    {
-        "id": 1411,
-        "name": "Battle Princess Pearl Chroma Annie",
-        "champion": "Annie",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Annie/Annie_18.jpg"
     },
     {
         "id": 1412,
@@ -7644,24 +7482,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_13.jpg"
     },
     {
-        "id": 1425,
-        "name": "Rose Quartz Chroma PROJECT: Pyke",
-        "champion": "Pyke",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/P/Pyke/Pyke_11.jpg"
-    },
-    {
-        "id": 1426,
-        "name": "Soul Fighter Kalista",
-        "champion": "Kalista",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kalista/Kalista_5.jpg"
-    },
-    {
-        "id": 1427,
-        "name": "Splendor Opus Kalista",
-        "champion": "Kalista",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kalista/Kalista_6.jpg"
-    },
-    {
         "id": 1428,
         "name": "Mecha Kingdoms Sett",
         "champion": "Sett",
@@ -7672,12 +7492,6 @@
         "name": "Obsidian Dragon Sett",
         "champion": "Sett",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_2.jpg"
-    },
-    {
-        "id": 1430,
-        "name": "Obsidian Dragon Tenfold Triumph Chroma Sett",
-        "champion": "Sett",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_3.jpg"
     },
     {
         "id": 1431,
@@ -7714,24 +7528,6 @@
         "name": "HEARTSTEEL Sett",
         "champion": "Sett",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_9.jpg"
-    },
-    {
-        "id": 1437,
-        "name": "Martial Arts Tournament Sett",
-        "champion": "Sett",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_10.jpg"
-    },
-    {
-        "id": 1438,
-        "name": "Splendor Opus Sett",
-        "champion": "Sett",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_11.jpg"
-    },
-    {
-        "id": 1439,
-        "name": "Splendor Opus Mythic Chroma Sett",
-        "champion": "Sett",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_12.jpg"
     },
     {
         "id": 1440,
@@ -7882,12 +7678,6 @@
         "name": "Ashen Guardian Shen",
         "champion": "Shen",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_10.jpg"
-    },
-    {
-        "id": 1465,
-        "name": "Guardian Emberwoken Chroma Shen",
-        "champion": "Shen",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_11.jpg"
     },
     {
         "id": 1466,
@@ -8652,18 +8442,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_3.jpg"
     },
     {
-        "id": 1599,
-        "name": "Dragonblade Catseye Chroma Talon",
-        "champion": "Talon",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_4.jpg"
-    },
-    {
-        "id": 1600,
-        "name": "Dragonblade Obsidian Chroma Talon",
-        "champion": "Talon",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_5.jpg"
-    },
-    {
         "id": 1601,
         "name": "Blood Moon Talon",
         "champion": "Talon",
@@ -8674,18 +8452,6 @@
         "name": "Enduring Sword Talon",
         "champion": "Talon",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_7.jpg"
-    },
-    {
-        "id": 1603,
-        "name": "Enduring Sword Obsidian Chroma Talon",
-        "champion": "Talon",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_8.jpg"
-    },
-    {
-        "id": 1604,
-        "name": "Enduring Sword Rose Quartz Chroma Talon",
-        "champion": "Talon",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_9.jpg"
     },
     {
         "id": 1605,
@@ -8716,18 +8482,6 @@
         "name": "Primal Ambush Talon",
         "champion": "Talon",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_14.jpg"
-    },
-    {
-        "id": 1610,
-        "name": "Stargazer Talon",
-        "champion": "Talon",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_15.jpg"
-    },
-    {
-        "id": 1611,
-        "name": "Splendor Opus Talon",
-        "champion": "Talon",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_16.jpg"
     },
     {
         "id": 1612,
@@ -8854,12 +8608,6 @@
         "name": "Space Groove Teemo",
         "champion": "Teemo",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Teemo/Teemo_14.jpg"
-    },
-    {
-        "id": 1633,
-        "name": "Splendor Opus Teemo",
-        "champion": "Teemo",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Teemo/Teemo_15.jpg"
     },
     {
         "id": 1648,
@@ -9162,12 +8910,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_13.jpg"
     },
     {
-        "id": 1698,
-        "name": "Calligraphia Tryndamere",
-        "champion": "Tryndamere",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_14.jpg"
-    },
-    {
         "id": 1699,
         "name": "PAX Twisted Fate",
         "champion": "TwistedFate",
@@ -9396,18 +9138,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/U/Udyr/Udyr_6.jpg"
     },
     {
-        "id": 1749,
-        "name": "Fiend Queller Pyke",
-        "champion": "Pyke",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/P/Pyke/Pyke_12.jpg"
-    },
-    {
-        "id": 1750,
-        "name": "Fiend Queller Swain",
-        "champion": "Swain",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Swain/Swain_10.jpg"
-    },
-    {
         "id": 1766,
         "name": "Blight Crystal Varus",
         "champion": "Varus",
@@ -9484,18 +9214,6 @@
         "name": "Empyrean Varus",
         "champion": "Varus",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_13.jpg"
-    },
-    {
-        "id": 1779,
-        "name": "Fiend Queller Varus",
-        "champion": "Varus",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_14.jpg"
-    },
-    {
-        "id": 1780,
-        "name": "Fiend Queller Special Edition Varus",
-        "champion": "Varus",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_15.jpg"
     },
     {
         "id": 1781,
@@ -9984,12 +9702,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Volibear/Volibear_9.jpg"
     },
     {
-        "id": 1877,
-        "name": "Shan Hai Scrolls Volibear",
-        "champion": "Volibear",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Volibear/Volibear_10.jpg"
-    },
-    {
         "id": 1878,
         "name": "Battlecast Vel'Koz",
         "champion": "VelKoz",
@@ -10236,12 +9948,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_5.jpg"
     },
     {
-        "id": 1919,
-        "name": "Warring Kingdoms Golden Chroma Xin Zhao",
-        "champion": "XinZhao",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_6.jpg"
-    },
-    {
         "id": 1920,
         "name": "Secret Agent Xin Zhao",
         "champion": "XinZhao",
@@ -10270,24 +9976,6 @@
         "name": "Firecracker Xin Zhao",
         "champion": "XinZhao",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_11.jpg"
-    },
-    {
-        "id": 1925,
-        "name": "Glorious Crown Xin Zhao",
-        "champion": "XinZhao",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_12.jpg"
-    },
-    {
-        "id": 1926,
-        "name": "Soul Fighter Xin Zhao",
-        "champion": "XinZhao",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_13.jpg"
-    },
-    {
-        "id": 1927,
-        "name": "Prestige Soul Fighter Xin Zhao",
-        "champion": "XinZhao",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_14.jpg"
     },
     {
         "id": 1928,
@@ -10386,18 +10074,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_16.jpg"
     },
     {
-        "id": 1944,
-        "name": "Calligraphia Yasuo",
-        "champion": "Yasuo",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_17.jpg"
-    },
-    {
-        "id": 1945,
-        "name": "Cosmic Zephyr Yasuo",
-        "champion": "Yasuo",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_18.jpg"
-    },
-    {
         "id": 1946,
         "name": "Genesis Nightbringer Yasuo",
         "champion": "Yasuo",
@@ -10408,12 +10084,6 @@
         "name": "Spirit Blossom Yone",
         "champion": "Yone",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_1.jpg"
-    },
-    {
-        "id": 1961,
-        "name": "Spirit Blossom Rose Chroma Yone",
-        "champion": "Yone",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_2.jpg"
     },
     {
         "id": 1962,
@@ -10462,18 +10132,6 @@
         "name": "Peacemaker High Noon Yone",
         "champion": "Yone",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_10.jpg"
-    },
-    {
-        "id": 1970,
-        "name": "Fiend Queller Yone: Queller Form",
-        "champion": "Yone",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_11.jpg"
-    },
-    {
-        "id": 1971,
-        "name": "Fiend Queller Yone:Fiend Form",
-        "champion": "Yone",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_12.jpg"
     },
     {
         "id": 1972,
@@ -10638,22 +10296,10 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_6.jpg"
     },
     {
-        "id": 1999,
-        "name": "Galaxy Slayer Rose Quartz Chroma Zed",
-        "champion": "Zed",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_7.jpg"
-    },
-    {
         "id": 2000,
         "name": "PsyOps Zed",
         "champion": "Zed",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_8.jpg"
-    },
-    {
-        "id": 2001,
-        "name": "Dark Star Zed",
-        "champion": "Zed",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_9.jpg"
     },
     {
         "id": 2002,
@@ -10672,12 +10318,6 @@
         "name": "Immortal Journey Zed",
         "champion": "Zed",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_12.jpg"
-    },
-    {
-        "id": 2005,
-        "name": "Martial Arts Tournament Zed",
-        "champion": "Zed",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_13.jpg"
     },
     {
         "id": 2006,
@@ -10968,18 +10608,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_11.jpg"
     },
     {
-        "id": 2061,
-        "name": "Lovestruck Ekko",
-        "champion": "Ekko",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ekko/Ekko_12.jpg"
-    },
-    {
-        "id": 2062,
-        "name": "Lovestruck Jinx",
-        "champion": "Jinx",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_15.jpg"
-    },
-    {
         "id": 2063,
         "name": "the Deceiver LeBlanc",
         "champion": "LeBlanc",
@@ -11140,12 +10768,6 @@
         "name": "Summer Party Seraphine",
         "champion": "Seraphine",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_14.jpg"
-    },
-    {
-        "id": 2107,
-        "name": "Summer Party Yasuo",
-        "champion": "Yasuo",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_20.jpg"
     },
     {
         "id": 2108,
@@ -11404,5 +11026,41 @@
         "name": "Prestige Spirit Blossom Zed",
         "champion": "Zed",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_16.jpg"
+    },
+    {
+        "id": 2151,
+        "name": "Heavenscale Smolder",
+        "champion": "Smolder",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Smolder/Smolder_1.jpg"
+    },
+    {
+        "id": 2152,
+        "name": "Sandscourge Skarner",
+        "champion": "Skarner",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_1.jpg"
+    },
+    {
+        "id": 2153,
+        "name": "Earthrune Skarner",
+        "champion": "Skarner",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_2.jpg"
+    },
+    {
+        "id": 2154,
+        "name": "Battlecast Alpha Skarner",
+        "champion": "Skarner",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_3.jpg"
+    },
+    {
+        "id": 2155,
+        "name": "Guardian of the Sands Skarner",
+        "champion": "Skarner",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_4.jpg"
+    },
+    {
+        "id": 2156,
+        "name": "Cosmic Sting Skarner",
+        "champion": "Skarner",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_5.jpg"
     }
 ]
