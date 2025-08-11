@@ -173,5 +173,124 @@
         "skin": 2082,
         "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/after_hours_spirit_blossom_springs_ahri.glb",
         "poster": "idle.SKINS_Ahri_Skin89"
+    },
+    {
+        "id": 28,
+        "champion": "Kayle",
+        "skin": null,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 29,
+        "champion": "Kayle",
+        "skin": 761,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/silver_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 30,
+        "champion": "Kayle",
+        "skin": 762,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/viridian_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 31,
+        "champion": "Kayle",
+        "skin": 763,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/transcended_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 32,
+        "champion": "Kayle",
+        "skin": 764,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/battleborn_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 33,
+        "champion": "Kayle",
+        "skin": 765,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/judgment_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 34,
+        "champion": "Kayle",
+        "skin": 766,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/aether_wing_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 35,
+        "champion": "Kayle",
+        "skin": 767,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/riot_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 36,
+        "champion": "Kayle",
+        "skin": 768,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/pentakill_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 37,
+        "champion": "Kayle",
+        "skin": 769,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/psyops_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 38,
+        "champion": "Kayle",
+        "skin": 770,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/dragonslayer_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 39,
+        "champion": "Kayle",
+        "skin": 771,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/pentakill_iii__lost_chapter_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 40,
+        "champion": "Kayle",
+        "skin": 772,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/sun-eater_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 41,
+        "champion": "Kayle",
+        "skin": 773,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/immortal_journey_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 42,
+        "champion": "Kayle",
+        "skin": 774,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/empyrean_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 43,
+        "champion": "Kayle",
+        "skin": 775,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/prestige_empyrean_kayle.glb",
+        "poster": "idle1_Base"
+    },
+    {
+        "id": 44,
+        "champion": "Kayle",
+        "skin": 2147,
+        "model": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/K/Kayle/spirit_blossom_kayle.glb",
+        "poster": "idle1_Base"
     }
 ]
