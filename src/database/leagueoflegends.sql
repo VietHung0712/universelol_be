@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th8 02, 2025 lúc 05:09 PM
+-- Thời gian đã tạo: Th8 13, 2025 lúc 08:34 AM
 -- Phiên bản máy phục vụ: 10.4.32-MariaDB
 -- Phiên bản PHP: 8.2.12
 
@@ -240,51 +240,6 @@ INSERT INTO `champions` (`id`, `name`, `region`, `role`, `title`, `voice`, `stor
 ('Zilean', 'Zilean', 'Runeterra', 'Support', 'the Chronokeeper', 'There is no greater grief than for a loss that is yet to come.', 'Once a powerful Icathian mage, Zilean became obsessed with the passage of time after witnessing his homeland\'s destruction by the Void. Unable to spare even a minute to grieve the catastrophic loss, he called upon ancient temporal magic to divine all possible outcomes. Having become functionally immortal, Zilean now drifts through the past, present, and future, bending and warping the flow of time around him, always searching for that elusive moment that will turn back the clock and undo Icathia\'s destruction.', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zilean/Zilean_0.jpg', '', 60, 17, '2011-03-01', '2011-03-01'),
 ('Zoe', 'Zoe', 'Targon', 'Mage', 'the Aspect of Twilight', 'I bring a message for you all—a warning, a sigil. But first, I wanna see the sparkleflies!', 'As the embodiment of mischief, imagination, and change, Zoe acts as the cosmic messenger of Targon, heralding major events that reshape worlds. Her mere presence warps the arcane mathematics governing realities, sometimes causing cataclysms without conscious effort or malice. This perhaps explains the breezy nonchalance with which Zoe approaches her duties, giving her plenty of time to focus on playing games, tricking mortals, or otherwise amusing herself. An encounter with Zoe can be joyous and life affirming, but it is always more than it appears and often extremely dangerous.', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zoe/Zoe_0.jpg', '', 55, 24, '2017-12-06', '2017-12-06'),
 ('Zyra', 'Zyra', 'Ixtal', 'Mage', 'Rise of the Thorns', 'Where are your friends? Mine are all around…', ' Born in an ancient, sorcerous catastrophe, Zyra is the wrath of nature given form—an alluring hybrid of plant and human, kindling new life with every step. She views the many mortals of Valoran as little more than prey for her seeded progeny, and thinks nothing of slaying them with flurries of deadly spines. Though her true purpose has not been revealed, Zyra wanders the world, indulging her most primal urges to colonize, and strangle all other life from it.', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_0.jpg', 'https://cmsassets.rgpub.io/sanity/files/dsfx7636/universe/374f35f73d16ac029e6f67b3c399f8094d92109b.webm', 77, 21, '2016-03-31', '2016-03-31');
-
--- --------------------------------------------------------
-
---
--- Cấu trúc bảng cho bảng `models`
---
-
-CREATE TABLE `models` (
-  `id` int(10) NOT NULL,
-  `champion` varchar(20) NOT NULL,
-  `skin` int(10) DEFAULT NULL,
-  `model` text NOT NULL,
-  `poster` varchar(50) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `models`
---
-
-INSERT INTO `models` (`id`, `champion`, `skin`, `model`, `poster`) VALUES
-(1, 'Aatrox', NULL, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/aatrox.glb', 'Aatrox_idle1'),
-(2, 'Aatrox', 3, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/mecha_aatrox.glb', 'Aatrox_idle1'),
-(3, 'Aatrox', 5, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/blood_moon_aatrox.glb', 'Aatrox_skin07_idle1'),
-(4, 'Aatrox', 6, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/prestige_blood_moon_aatrox_2022.glb', 'Aatrox_skin07_idle1'),
-(5, 'Aatrox', 10, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Aatrox/primordian_aatrox.glb', 'idle1'),
-(6, 'Ahri', NULL, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/ahri.glb', 'idle1'),
-(7, 'Ahri', 14, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/dynasty_ahri.glb', 'idle1'),
-(8, 'Ahri', 15, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/midnight_ahri.glb', 'idle1'),
-(9, 'Ahri', 16, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/foxfire_ahri.glb', 'idle1'),
-(10, 'Ahri', 17, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/popstar_ahri.glb', 'idle1'),
-(11, 'Ahri', 21, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/challenger_ahri.glb', 'idle1'),
-(12, 'Ahri', 22, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/academy_ahri.glb', 'idle1'),
-(13, 'Ahri', 23, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/arcade_ahri.glb', 'idle1'),
-(14, 'Ahri', 24, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/star_guardian_ahri.glb', 'idle1'),
-(15, 'Ahri', 26, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/k_da_ahri.glb', 'idle1'),
-(16, 'Ahri', 27, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/prestige_k_da_ahri.glb', 'idle1'),
-(17, 'Ahri', 27, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/prestige_k_da_ahri_2022.glb', 'idle1'),
-(18, 'Ahri', 28, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/elderwood_ahri.glb', 'idle1'),
-(19, 'Ahri', 29, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/spirit_blossom_ahri.glb', 'idle_Base'),
-(20, 'Ahri', 31, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/k_da_all_out_ahri.glb', 'idle1'),
-(21, 'Ahri', 32, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/coven_ahri.glb', 'idle1'),
-(22, 'Ahri', 33, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/arcana_ahri.glb', 'idle1'),
-(23, 'Ahri', 34, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/snow_moon_ahri.glb', 'idle1'),
-(26, 'Ahri', 2081, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/spirit_blossom_springs_ahri.glb', 'idle_Base'),
-(27, 'Ahri', 2082, 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Models/A/Ahri/after_hours_spirit_blossom_springs_ahri.glb', 'idle.SKINS_Ahri_Skin89');
 
 -- --------------------------------------------------------
 
@@ -1101,9 +1056,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (8, 'Aatrox', 'Odyssey Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_7.jpg'),
 (9, 'Aatrox', 'Lunar Eclipse Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_8.jpg'),
 (10, 'Aatrox', 'Primordian Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_12.jpg'),
-(11, 'Aatrox', 'Shan Hai Scrolls Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_9.jpg'),
-(12, 'Aatrox', 'Dragon Lantern Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_10.jpg'),
-(13, 'Aatrox', 'Prestige Dragon Lantern Aatrox', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aatrox/Aatrox_11.jpg'),
 (14, 'Ahri', 'Dynasty Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_1.jpg'),
 (15, 'Ahri', 'Midnight Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_2.jpg'),
 (16, 'Ahri', 'Foxfire Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_3.jpg'),
@@ -1170,7 +1122,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (98, 'AurelionSol', 'Mecha Aurelion Sol', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_2.jpg'),
 (99, 'AurelionSol', 'Storm Dragon Aurelion Sol', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_3.jpg'),
 (100, 'AurelionSol', 'Inkshadow Aurelion Sol', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_4.jpg'),
-(101, 'AurelionSol', 'Lunar Guardian Aurelion Sol', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_5.jpg'),
 (102, 'AurelionSol', 'Porcelain Protecter Aurelion Sol', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/AurelionSol/AurelionSol_6.jpg'),
 (103, 'Azir', 'Glactic Azir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Azir/Azir_1.jpg'),
 (104, 'Azir', 'Gravelord Azir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Azir/Azir_2.jpg'),
@@ -1180,7 +1131,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (108, 'Azir', 'Attorney Azir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Azir/Azir_5.jpg'),
 (109, 'Bard', 'Elderwood Bard', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_1.jpg'),
 (110, 'Bard', 'Snow Day Bard', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_2.jpg'),
-(111, 'Bard', 'Snow Day Golden Chroma Bard', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_3.jpg'),
 (112, 'Bard', 'Bard Bard', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_4.jpg'),
 (113, 'Bard', 'Astronaut Bard', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_5.jpg'),
 (114, 'Bard', 'Cafe Cuties Bard', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/B/Bard/Bard_7.jpg'),
@@ -1238,7 +1188,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (166, 'Akshan', 'Battle Academia Akshan', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akshan/Akshan_2.jpg'),
 (167, 'Akshan', 'Crystal Rose Akshan', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akshan/Akshan_3.jpg'),
 (168, 'Akshan', 'Three Honors Akshan', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akshan/Akshan_4.jpg'),
-(169, 'Akshan', 'Dawbringer Akshan', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akshan/Akshan_5.jpg'),
 (170, 'Alistar', 'Black Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_1.jpg'),
 (171, 'Alistar', 'Golden Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_2.jpg'),
 (172, 'Alistar', 'Matador Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_3.jpg'),
@@ -1250,7 +1199,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (178, 'Alistar', 'Moo Cow Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_9.jpg'),
 (179, 'Alistar', 'Hextech Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_10.jpg'),
 (180, 'Alistar', 'Conqueror Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_11.jpg'),
-(181, 'Alistar', 'Conqueror Golden Chroma Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_12.jpg'),
 (182, 'Alistar', 'Blackfrost Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_13.jpg'),
 (183, 'Alistar', 'Lunar Beast Alistar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_14.jpg'),
 (184, 'Ambessa', 'Chosen of the Wolf Ambessa', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ambessa/Ambessa_1.jpg'),
@@ -1433,15 +1381,15 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (398, 'Evelynn', 'Coven Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_10.jpg'),
 (399, 'Evelynn', 'Spirit Blossom Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_11.jpg'),
 (400, 'Evelynn', 'Soul Fighter Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_12.jpg'),
-(401, 'Evelynn', 'High Noon Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_13.jpg');
-INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
+(401, 'Evelynn', 'High Noon Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_13.jpg'),
 (402, 'Evelynn', 'Prestige High Noon Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_14.jpg'),
 (403, 'Evelynn', 'Celestial Embroidery Evelynn', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_15.jpg'),
 (404, 'Ezreal', 'Nottingham Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_1.jpg'),
 (405, 'Ezreal', 'Striker Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_2.jpg'),
 (406, 'Ezreal', 'Frosted Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_3.jpg'),
 (407, 'Ezreal', 'Explorer Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_4.jpg'),
-(408, 'Ezreal', 'Pulsefire Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_5.jpg'),
+(408, 'Ezreal', 'Pulsefire Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_5.jpg');
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (409, 'Ezreal', 'Debonair Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_6.jpg'),
 (410, 'Ezreal', 'Ace of Spades Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_7.jpg'),
 (411, 'Ezreal', 'Arcade Ezreal', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ezreal/Ezreal_8.jpg'),
@@ -1562,7 +1510,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (526, 'Graves', 'Pool Party Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_5.jpg'),
 (527, 'Graves', 'Cutthroat Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_6.jpg'),
 (528, 'Graves', 'Snow Day Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_7.jpg'),
-(529, 'Graves', 'Snow Day Golden Chroma Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_8.jpg'),
 (530, 'Graves', 'Victorious Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_9.jpg'),
 (531, 'Graves', 'Praetorian Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_10.jpg'),
 (532, 'Graves', 'Battle Professor Graves', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Graves/Graves_11.jpg'),
@@ -1632,7 +1579,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (596, 'Janna', 'Bewitching Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_9.jpg'),
 (597, 'Janna', 'Guardian of the Sands Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_10.jpg'),
 (598, 'Janna', 'Battle Queen Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_11.jpg'),
-(599, 'Janna', 'Calligraphia Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_12.jpg'),
 (600, 'Janna', 'Crystal Rose Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_13.jpg'),
 (601, 'Janna', 'Cyber Halo Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_14.jpg'),
 (602, 'Janna', 'Prestige Cyber Halo Janna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_15.jpg'),
@@ -1643,15 +1589,12 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (622, 'JarvanIV', 'Darkforge Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_3.jpg'),
 (623, 'JarvanIV', 'Victorious Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_4.jpg'),
 (624, 'JarvanIV', 'Warring Kingdoms Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_5.jpg'),
-(625, 'JarvanIV', 'Warring Kingdoms Golden Chroma Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_6.jpg'),
-(626, 'JarvanIV', 'Warring Kingdoms Mythic Chroma Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_7.jpg'),
 (627, 'JarvanIV', 'Dark Star Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_8.jpg'),
 (628, 'JarvanIV', 'Hextech Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_9.jpg'),
 (629, 'JarvanIV', 'Pool Party Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_10.jpg'),
 (630, 'JarvanIV', 'Lunar Beast Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_11.jpg'),
 (631, 'JarvanIV', 'Championship Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_12.jpg'),
 (632, 'JarvanIV', 'Nightbringer Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_13.jpg'),
-(633, 'JarvanIV', 'Calligraphia Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_14.jpg'),
 (634, 'JarvanIV', 'Mythmaker Jarvan IV', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_15.jpg'),
 (635, 'Jax', 'The Mighty Jax', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_1.jpg'),
 (636, 'Jax', 'Vandal Jax', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_2.jpg'),
@@ -1668,7 +1611,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (647, 'Jax', 'Empyrean Jax', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_13.jpg'),
 (648, 'Jax', 'Neo PAX Jax', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_14.jpg'),
 (649, 'Jax', 'PROJECT: Jax', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_15.jpg'),
-(650, 'Jax', 'Shan Hai Scrolls Jax', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jax/Jax_16.jpg'),
 (651, 'Jayce', 'Full Metal Jayce', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jayce/Jayce_1.jpg'),
 (652, 'Jayce', 'Debonair Jayce', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jayce/Jayce_2.jpg'),
 (653, 'Jayce', 'Forsaken Jayce', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jayce/Jayce_3.jpg'),
@@ -1774,8 +1716,7 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (753, 'Katarina', 'Battle Queen Ruby Chroma Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_15.jpg'),
 (754, 'Katarina', 'High Noon Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_16.jpg'),
 (755, 'Katarina', 'Faerie Court Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_17.jpg'),
-(756, 'Katarina', 'Prestige Faerie Court Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_18.jpg');
-INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
+(756, 'Katarina', 'Prestige Faerie Court Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_18.jpg'),
 (757, 'Katarina', 'Chosen of the Wolf Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_19.jpg'),
 (760, 'Katarina', 'Prestige Masque of the Black Rose Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_20.jpg'),
 (761, 'Kayle', 'Silver Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_1.jpg'),
@@ -1788,7 +1729,8 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (768, 'Kayle', 'Pentakill Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_8.jpg'),
 (769, 'Kayle', 'PsyOps Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_9.jpg'),
 (770, 'Kayle', 'Dragonslayer Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_10.jpg'),
-(771, 'Kayle', 'Pentakill III: Lost Chapter Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_11.jpg'),
+(771, 'Kayle', 'Pentakill III: Lost Chapter Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_11.jpg');
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (772, 'Kayle', 'Sun-Eater Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_12.jpg'),
 (773, 'Kayle', 'Immortal Journey Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_13.jpg'),
 (774, 'Kayle', 'Empyrean Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_14.jpg'),
@@ -1809,7 +1751,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (789, 'Kennen', 'Infernal Kennen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kennen/Kennen_8.jpg'),
 (790, 'Kennen', 'Astronaut Kennen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kennen/Kennen_9.jpg'),
 (801, 'KhaZix', 'Mecha Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_1.jpg'),
-(802, 'KhaZix', 'Mecha Pearl Chroma Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_2.jpg'),
 (803, 'KhaZix', 'Guardian of the Sands Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_3.jpg'),
 (804, 'KhaZix', 'Death Blossom Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_4.jpg'),
 (805, 'KhaZix', 'Dark Star Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_5.jpg'),
@@ -1817,7 +1758,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (807, 'KhaZix', 'Odyssey Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_7.jpg'),
 (808, 'KhaZix', 'Lunar Guardian Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_8.jpg'),
 (809, 'KhaZix', 'Crystalis Indomitus Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_9.jpg'),
-(810, 'KhaZix', 'Dream Ralder Kha\'Zix', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KhaZix/KhaZix_10.jpg'),
 (811, 'Kindred', 'Shadowfire Kindred', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kindred/Kindred_1.jpg'),
 (812, 'Kindred', 'Super Galaxy Kindred', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kindred/Kindred_2.jpg'),
 (813, 'Kindred', 'Spirit Blossom Kindred', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kindred/Kindred_3.jpg'),
@@ -1860,9 +1800,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (868, 'LeeSin', 'Traditional Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_1.jpg'),
 (869, 'LeeSin', 'Acolyte Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_2.jpg'),
 (870, 'LeeSin', 'Dragon Fist Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_3.jpg'),
-(871, 'LeeSin', 'Dragon Fist Black Chroma Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_4.jpg'),
-(872, 'LeeSin', 'Dragon Fist Ruby Chroma Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_5.jpg'),
-(873, 'LeeSin', 'Dragon Fist Blue Chroma Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_6.jpg'),
 (874, 'LeeSin', 'Muay Thai Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_7.jpg'),
 (875, 'LeeSin', 'Pool Party Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_8.jpg'),
 (876, 'LeeSin', 'Knockout Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_9.jpg'),
@@ -1871,7 +1808,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (879, 'LeeSin', 'Nightbringer Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_12.jpg'),
 (880, 'LeeSin', 'Prestige Nightbringer Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_13.jpg'),
 (881, 'LeeSin', 'Storm Dragon Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_14.jpg'),
-(882, 'LeeSin', 'Storm Dragon Mythic Chroma Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_15.jpg'),
 (883, 'LeeSin', 'Zenith Games Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_16.jpg'),
 (884, 'LeeSin', 'Heavenscale Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_17.jpg'),
 (885, 'LeeSin', 'Divine Heavenscale Lee Sin', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeeSin/LeeSin_18.jpg'),
@@ -1994,9 +1930,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1002, 'MasterYi', 'PROJECT: Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_6.jpg'),
 (1003, 'MasterYi', 'Cosmic Blade Master Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_7.jpg'),
 (1004, 'MasterYi', 'Eternal Sword Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_8.jpg'),
-(1005, 'MasterYi', 'Eternal Sword Pearl Chroma Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_9.jpg'),
-(1006, 'MasterYi', 'Eternal Sword Golden Chroma Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_10.jpg'),
-(1007, 'MasterYi', 'Eternal Sword Rose Quartz Chroma Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_11.jpg'),
 (1008, 'MasterYi', 'Snow Man Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_12.jpg'),
 (1009, 'MasterYi', 'Blood Moon Master Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_13.jpg'),
 (1010, 'MasterYi', 'PsyOps Master Yi', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MasterYi/MasterYi_14.jpg'),
@@ -2109,8 +2042,7 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1163, 'Nidalee', 'Leopard Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_2.jpg'),
 (1164, 'Nidalee', 'French Maid Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_3.jpg'),
 (1165, 'Nidalee', 'Pharaoh Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_4.jpg'),
-(1166, 'Nidalee', 'Bewitching Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_5.jpg');
-INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
+(1166, 'Nidalee', 'Bewitching Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_5.jpg'),
 (1167, 'Nidalee', 'Headhunter Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_6.jpg'),
 (1168, 'Nidalee', 'Warring Kingdoms Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_7.jpg'),
 (1169, 'Nidalee', 'Challenger Nidalee', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nidalee/Nidalee_8.jpg'),
@@ -2133,7 +2065,8 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1186, 'Nocturne', 'Empyrean Nocturne', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nocturne/Nocturne_9.jpg'),
 (1187, 'Nunu', 'Sasquatch Nunu & Willump', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_1.jpg'),
 (1188, 'Nunu', 'Workshop Nunu & Willump', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_2.jpg'),
-(1189, 'Nunu', 'Grungy Nunu & Willump', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_3.jpg'),
+(1189, 'Nunu', 'Grungy Nunu & Willump', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_3.jpg');
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1190, 'Nunu', 'Nunu & Willump Bot', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_4.jpg'),
 (1191, 'Nunu', 'Demolisher Nunu & Willump', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_5.jpg'),
 (1192, 'Nunu', 'Zombie Nunu & Willump', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nunu/Nunu_6.jpg'),
@@ -2234,7 +2167,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1287, 'Xayah', 'Arcana Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_5.jpg'),
 (1288, 'Xayah', 'Broken Covenant Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_6.jpg'),
 (1289, 'Xayah', 'Redeemed Star Guardian Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Rakan_Xayah_7.jpg'),
-(1290, 'Xayah', 'Calligraphia Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_4.jpg'),
 (1291, 'Xayah', 'Battle Bat Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_7.jpg'),
 (1292, 'Xayah', 'Celestial Embroidery Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_5.jpg'),
 (1293, 'Xayah', 'Prestige Celestial Embroidery Xayah', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_6.jpg'),
@@ -2351,11 +2283,7 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1404, 'Senna', 'Star Guardian Senna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Senna/Senna_10.jpg'),
 (1405, 'Senna', 'Winterblessed Senna', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Senna/Senna_11.jpg'),
 (1406, 'Senna', 'Masked Justice', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Senna/Senna_12.jpg'),
-(1407, 'Lucian', 'High Noon Rose Quartz Chroma Lucian', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_13.jpg'),
-(1408, 'Lucian', 'High Noon Tenfold Triumph Chroma Lucian', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_14.jpg'),
-(1409, 'Lucian', 'Prestige High Noon Lucian', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_15.jpg'),
 (1410, 'Lucian', 'Maked Justice Lucian', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lucian/Lucian_16.jpg'),
-(1411, 'Annie', 'Battle Princess Pearl Chroma Annie', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Annie/Annie_18.jpg'),
 (1412, 'Seraphine', 'K/DA ALL OUT Seraphine Indie', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_1.jpg'),
 (1413, 'Seraphine', 'K/DA ALL OUT Seraphine Rising Star', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_2.jpg'),
 (1414, 'Seraphine', 'K/DA ALL OUT Seraphine Superstar', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_3.jpg'),
@@ -2369,21 +2297,14 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1422, 'Seraphine', 'Crystal Rose', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_11.jpg'),
 (1423, 'Seraphine', 'Garden Party', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_12.jpg'),
 (1424, 'Seraphine', 'Dumpling Darlings', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_13.jpg'),
-(1425, 'Pyke', 'Rose Quartz Chroma PROJECT: Pyke', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/P/Pyke/Pyke_11.jpg'),
-(1426, 'Kalista', 'Soul Fighter Kalista', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kalista/Kalista_5.jpg'),
-(1427, 'Kalista', 'Splendor Opus Kalista', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kalista/Kalista_6.jpg'),
 (1428, 'Sett', 'Mecha Kingdoms Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_1.jpg'),
 (1429, 'Sett', 'Obsidian Dragon Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_2.jpg'),
-(1430, 'Sett', 'Obsidian Dragon Tenfold Triumph Chroma Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_3.jpg'),
 (1431, 'Sett', 'Prestige Obsidian Dragon Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_4.jpg'),
 (1432, 'Sett', 'Pool Party Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_5.jpg'),
 (1433, 'Sett', 'Firecracker Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_6.jpg'),
 (1434, 'Sett', 'Spirit Blossom Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_7.jpg'),
 (1435, 'Sett', 'Soul Fighter Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_8.jpg'),
 (1436, 'Sett', 'HEARTSTEEL Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_9.jpg'),
-(1437, 'Sett', 'Martial Arts Tournament Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_10.jpg'),
-(1438, 'Sett', 'Splendor Opus Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_11.jpg'),
-(1439, 'Sett', 'Splendor Opus Mythic Chroma Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_12.jpg'),
 (1440, 'Sett', 'Radiant Serpent Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_13.jpg'),
 (1441, 'Shaco', 'Mad Hatter Shaco', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shaco/Shaco_1.jpg'),
 (1442, 'Shaco', 'Royal Shaco', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shaco/Shaco_2.jpg'),
@@ -2409,7 +2330,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1462, 'Shen', 'PsyOps Shen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_8.jpg'),
 (1463, 'Shen', 'Shockblade Shen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_9.jpg'),
 (1464, 'Shen', 'Ashen Guardian Shen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_10.jpg'),
-(1465, 'Shen', 'Guardian Emberwoken Chroma Shen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_11.jpg'),
 (1466, 'Shen', 'Three Honors Shen', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shen/Shen_12.jpg'),
 (1467, 'Shyvana', 'Ironscale Shyvana', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shyvana/Shyvana_1.jpg'),
 (1468, 'Shyvana', 'Boneclaw Shyvana', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shyvana/Shyvana_2.jpg'),
@@ -2448,8 +2368,7 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1501, 'Sivir', 'Snowstorm Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_6.jpg'),
 (1502, 'Sivir', 'Warden Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_7.jpg'),
 (1503, 'Sivir', 'Victorious Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_8.jpg'),
-(1504, 'Sivir', 'Neo PAX Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_9.jpg');
-INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
+(1504, 'Sivir', 'Neo PAX Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_9.jpg'),
 (1505, 'Sivir', 'Pizza Delivery Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_10.jpg'),
 (1506, 'Sivir', 'Blood Moon Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_11.jpg'),
 (1507, 'Sivir', 'Odyssey Sivir', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_12.jpg'),
@@ -2487,7 +2406,8 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1539, 'Soraka', 'Star Guardian Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_7.jpg'),
 (1540, 'Soraka', 'Prestige Star Guardian Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_8.jpg'),
 (1541, 'Soraka', 'Pajama Guardian Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_9.jpg'),
-(1542, 'Soraka', 'Winter Wonder Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_10.jpg'),
+(1542, 'Soraka', 'Winter Wonder Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_10.jpg');
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1543, 'Soraka', 'Dawnbringer Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_11.jpg'),
 (1544, 'Soraka', 'Nightbringer Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_12.jpg'),
 (1545, 'Soraka', 'Cafe Cuties Soraka', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_13.jpg'),
@@ -2538,19 +2458,13 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1596, 'Talon', 'Renegade Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_1.jpg'),
 (1597, 'Talon', 'Crimson Elite Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_2.jpg'),
 (1598, 'Talon', 'Dragonblade Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_3.jpg'),
-(1599, 'Talon', 'Dragonblade Catseye Chroma Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_4.jpg'),
-(1600, 'Talon', 'Dragonblade Obsidian Chroma Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_5.jpg'),
 (1601, 'Talon', 'Blood Moon Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_6.jpg'),
 (1602, 'Talon', 'Enduring Sword Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_7.jpg'),
-(1603, 'Talon', 'Enduring Sword Obsidian Chroma Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_8.jpg'),
-(1604, 'Talon', 'Enduring Sword Rose Quartz Chroma Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_9.jpg'),
 (1605, 'Talon', 'Talon Blackwood', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_10.jpg'),
 (1606, 'Talon', 'Withered Rose Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_11.jpg'),
 (1607, 'Talon', 'High Noon Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_12.jpg'),
 (1608, 'Talon', 'Prestige High Noon Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_13.jpg'),
 (1609, 'Talon', 'Primal Ambush Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_14.jpg'),
-(1610, 'Talon', 'Stargazer Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_15.jpg'),
-(1611, 'Talon', 'Splendor Opus Talon', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Talon/Talon_16.jpg'),
 (1612, 'Taric', 'Emerald Taric', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Taric/Taric_1.jpg'),
 (1613, 'Taric', 'Armor of the Fifth Age Taric', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Taric/Taric_2.jpg'),
 (1614, 'Taric', 'Bloodstone Taric', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Taric/Taric_3.jpg'),
@@ -2572,7 +2486,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1630, 'Teemo', 'Prestige Spirit Blossom Teemo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Teemo/Teemo_12.jpg'),
 (1631, 'Teemo', 'Firecracker Teemo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Teemo/Teemo_13.jpg'),
 (1632, 'Teemo', 'Space Groove Teemo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Teemo/Teemo_14.jpg'),
-(1633, 'Teemo', 'Splendor Opus Teemo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Teemo/Teemo_15.jpg'),
 (1648, 'Thresh', 'Deep Terror Thresh', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Thresh/Thresh_1.jpg'),
 (1649, 'Thresh', 'Championship Thresh', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Thresh/Thresh_2.jpg'),
 (1650, 'Thresh', 'Championship Golden Chroma Thresh', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Thresh/Thresh_3.jpg'),
@@ -2623,7 +2536,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1695, 'Tryndamere', 'Nightbringer Tryndamere', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_11.jpg'),
 (1696, 'Tryndamere', 'Victorious Tryndamere', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_12.jpg'),
 (1697, 'Tryndamere', 'Immortal Journey Tryndamere', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_13.jpg'),
-(1698, 'Tryndamere', 'Calligraphia Tryndamere', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_14.jpg'),
 (1699, 'TwistedFate', 'PAX Twisted Fate', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/TwistedFate/TwistedFate_1.jpg'),
 (1700, 'TwistedFate', 'Jack of Hearts Twisted Fate', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/TwistedFate/TwistedFate_2.jpg'),
 (1701, 'TwistedFate', 'The Magnificent Twisted Fate', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/TwistedFate/TwistedFate_3.jpg'),
@@ -2662,8 +2574,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1746, 'Udyr', 'Definitely Not Udyr', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/U/Udyr/Udyr_4.jpg'),
 (1747, 'Udyr', 'Dragon Oracle Udyr', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/U/Udyr/Udyr_5.jpg'),
 (1748, 'Udyr', 'Inkshadow Udyr', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/U/Udyr/Udyr_6.jpg'),
-(1749, 'Pyke', 'Fiend Queller Pyke', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/P/Pyke/Pyke_12.jpg'),
-(1750, 'Swain', 'Fiend Queller Swain', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Swain/Swain_10.jpg'),
 (1766, 'Varus', 'Blight Crystal Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_1.jpg'),
 (1767, 'Varus', 'Arclight Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_2.jpg'),
 (1768, 'Varus', 'Arctic Ops Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_3.jpg'),
@@ -2677,8 +2587,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1776, 'Varus', 'High Noon Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_11.jpg'),
 (1777, 'Varus', 'Snow Moon Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_12.jpg'),
 (1778, 'Varus', 'Empyrean Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_13.jpg'),
-(1779, 'Varus', 'Fiend Queller Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_14.jpg'),
-(1780, 'Varus', 'Fiend Queller Special Edition Varus', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Varus/Varus_15.jpg'),
 (1781, 'Vayne', 'Vindicator Vayne', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_1.jpg'),
 (1782, 'Vayne', 'Aristocrat Vayne', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_2.jpg'),
 (1783, 'Vayne', 'Dragonslayer Vayne', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_3.jpg'),
@@ -2760,7 +2668,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1874, 'Volibear', 'Duality Dragon Volibear', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Volibear/Volibear_7.jpg'),
 (1875, 'Volibear', 'Prestige Duality Dragon Volibear', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Volibear/Volibear_8.jpg'),
 (1876, 'Volibear', 'Inkshadow Volibear', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Volibear/Volibear_9.jpg'),
-(1877, 'Volibear', 'Shan Hai Scrolls Volibear', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Volibear/Volibear_10.jpg'),
 (1878, 'VelKoz', 'Battlecast Vel\'Koz', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/VelKoz/VelKoz_1.jpg'),
 (1879, 'VelKoz', 'Arclight Vel\'Koz', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/VelKoz/VelKoz_2.jpg'),
 (1880, 'VelKoz', 'Definitely Not Vel\'Koz', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/VelKoz/VelKoz_3.jpg'),
@@ -2786,8 +2693,7 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1900, 'Wukong', 'Jade Dragon Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_3.jpg'),
 (1901, 'Wukong', 'Underworld Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_4.jpg'),
 (1902, 'Wukong', 'Radiant Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_5.jpg'),
-(1903, 'Wukong', 'Lancer Stratus Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_6.jpg');
-INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
+(1903, 'Wukong', 'Lancer Stratus Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_6.jpg'),
 (1904, 'Wukong', 'Battle Academia Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_7.jpg'),
 (1905, 'Wukong', 'Elderwood Wukong', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_8.jpg'),
 (1906, 'Xerath', 'Runeborn Xerath', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/Xerath/Xerath_1.jpg'),
@@ -2803,15 +2709,11 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1916, 'XinZhao', 'Viscero Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_3.jpg'),
 (1917, 'XinZhao', 'Winged Hussar Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_4.jpg'),
 (1918, 'XinZhao', 'Warring Kingdoms Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_5.jpg'),
-(1919, 'XinZhao', 'Warring Kingdoms Golden Chroma Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_6.jpg'),
 (1920, 'XinZhao', 'Secret Agent Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_7.jpg'),
 (1921, 'XinZhao', 'Dragonslayer Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_8.jpg'),
 (1922, 'XinZhao', 'Cosmic Defender Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_9.jpg'),
 (1923, 'XinZhao', 'Marauder Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_10.jpg'),
 (1924, 'XinZhao', 'Firecracker Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_11.jpg'),
-(1925, 'XinZhao', 'Glorious Crown Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_12.jpg'),
-(1926, 'XinZhao', 'Soul Fighter Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_13.jpg'),
-(1927, 'XinZhao', 'Prestige Soul Fighter Xin Zhao', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_14.jpg'),
 (1928, 'Yasuo', 'High Noon Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_1.jpg'),
 (1929, 'Yasuo', 'PROJECT: Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_2.jpg'),
 (1930, 'Yasuo', 'Blood Moon Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_3.jpg'),
@@ -2828,11 +2730,8 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1941, 'Yasuo', 'Prestige Inkshadow Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_14.jpg'),
 (1942, 'Yasuo', 'Foreseen Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_15.jpg'),
 (1943, 'Yasuo', 'Battle Wolf Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_16.jpg'),
-(1944, 'Yasuo', 'Calligraphia Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_17.jpg'),
-(1945, 'Yasuo', 'Cosmic Zephyr Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_18.jpg'),
 (1946, 'Yasuo', 'Genesis Nightbringer Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_19.jpg'),
 (1960, 'Yone', 'Spirit Blossom Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_1.jpg'),
-(1961, 'Yone', 'Spirit Blossom Rose Chroma Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_2.jpg'),
 (1962, 'Yone', 'Battle Academia Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_3.jpg'),
 (1963, 'Yone', 'Dawnbringer Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_4.jpg'),
 (1964, 'Yone', 'Ocean Song Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_5.jpg'),
@@ -2841,13 +2740,12 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1967, 'Yone', 'Prestige HEARTSTEEL Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_8.jpg'),
 (1968, 'Yone', 'High Noon Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_9.jpg'),
 (1969, 'Yone', 'Peacemaker High Noon Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_10.jpg'),
-(1970, 'Yone', 'Fiend Queller Yone: Queller Form', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_11.jpg'),
-(1971, 'Yone', 'Fiend Queller Yone:Fiend Form', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_12.jpg'),
 (1972, 'Yone', 'Masked Justice Yone', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yone/Yone_13.jpg'),
 (1973, 'Yorick', 'Undertaker Yorick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_1.jpg'),
 (1974, 'Yorick', 'Pentakill Yorick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_2.jpg'),
 (1975, 'Yorick', 'Arclight Yorick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_3.jpg'),
-(1976, 'Yorick', 'Meowrick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_4.jpg'),
+(1976, 'Yorick', 'Meowrick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_4.jpg');
+INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1977, 'Yorick', 'Resistance Yorick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_5.jpg'),
 (1978, 'Yorick', 'Pentakill III: Lost Chapter Yorick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_6.jpg'),
 (1979, 'Yorick', 'Spirit Blossom Yorick', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yorick/Yorick_7.jpg'),
@@ -2870,13 +2768,10 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (1996, 'Zed', 'Championship Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_4.jpg'),
 (1997, 'Zed', 'Death Sworn Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_5.jpg'),
 (1998, 'Zed', 'Galaxy Slayer Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_6.jpg'),
-(1999, 'Zed', 'Galaxy Slayer Rose Quartz Chroma Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_7.jpg'),
 (2000, 'Zed', 'PsyOps Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_8.jpg'),
-(2001, 'Zed', 'Dark Star Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_9.jpg'),
 (2002, 'Zed', 'Debonair Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_10.jpg'),
 (2003, 'Zed', 'Empyrean Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_11.jpg'),
 (2004, 'Zed', 'Immortal Journey Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_12.jpg'),
-(2005, 'Zed', 'Martial Arts Tournament Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_13.jpg'),
 (2006, 'Zed', 'Blood Moon Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_14.jpg'),
 (2007, 'Zed', 'Quantum Galaxy Slayer Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_15.jpg'),
 (2008, 'Zeri', 'Withered Rose Zeri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zeri/Zeri_1.jpg'),
@@ -2925,8 +2820,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (2058, 'Zyra', 'Dragon Lantern Zyra', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_9.jpg'),
 (2059, 'Zyra', 'Street Demons Zyra', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_10.jpg'),
 (2060, 'Zyra', 'Blood Moon Zyra', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_11.jpg'),
-(2061, 'Ekko', 'Lovestruck Ekko', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Ekko/Ekko_12.jpg'),
-(2062, 'Jinx', 'Lovestruck Jinx', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_15.jpg'),
 (2063, 'LeBlanc', 'the Deceiver LeBlanc', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeBlanc/LeBlanc_0_1.jpg	'),
 (2081, 'Ahri', 'Spirit Blossom Springs Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_25.jpg'),
 (2082, 'Ahri', 'After Hours Spirit Blossom Springs Ahri', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_26.jpg'),
@@ -2954,7 +2847,6 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (2104, 'Katarina', 'Summer Party Katarina', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_21.jpg'),
 (2105, 'Samira', 'Summer Party Samira', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Samira/Samira_6.jpg'),
 (2106, 'Seraphine', 'Summer Party Seraphine', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_14.jpg'),
-(2107, 'Yasuo', 'Summer Party Yasuo', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_20.jpg'),
 (2108, 'Aurora', 'Summer Party Aurora', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aurora/Aurora_2.jpg'),
 (2109, 'Lillia', 'Wondertown Lillia', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lillia/Lillia_5.jpg'),
 (2110, 'Sett', 'Crystal Rose Sett', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_14.jpg'),
@@ -2997,7 +2889,13 @@ INSERT INTO `skins` (`id`, `champion`, `name`, `splash_art`) VALUES
 (2147, 'Kayle', 'Spirit Blossom Kayle', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_16.jpg'),
 (2148, 'Akali', 'Spirit Blossom Akali', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_20.jpg'),
 (2149, 'Hwei', 'Spirit Blossom Hwei', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/H/Hwei/Hwei_2.jpg'),
-(2150, 'Zed', 'Prestige Spirit Blossom Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_16.jpg');
+(2150, 'Zed', 'Prestige Spirit Blossom Zed', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zed/Zed_16.jpg'),
+(2151, 'Smolder', 'Heavenscale Smolder', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Smolder/Smolder_1.jpg'),
+(2152, 'Skarner', 'Sandscourge Skarner', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_1.jpg'),
+(2153, 'Skarner', 'Earthrune Skarner', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_2.jpg'),
+(2154, 'Skarner', 'Battlecast Alpha Skarner', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_3.jpg'),
+(2155, 'Skarner', 'Guardian of the Sands Skarner', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_4.jpg'),
+(2156, 'Skarner', 'Cosmic Sting Skarner', 'https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_5.jpg');
 
 --
 -- Chỉ mục cho các bảng đã đổ
@@ -3016,14 +2914,6 @@ ALTER TABLE `champions`
   ADD PRIMARY KEY (`id`),
   ADD KEY `champion_region` (`region`),
   ADD KEY `champion_role` (`role`);
-
---
--- Chỉ mục cho bảng `models`
---
-ALTER TABLE `models`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `champion_id` (`champion`),
-  ADD KEY `skin_id` (`skin`);
 
 --
 -- Chỉ mục cho bảng `regions`
@@ -3064,12 +2954,6 @@ ALTER TABLE `skins`
 --
 
 --
--- AUTO_INCREMENT cho bảng `models`
---
-ALTER TABLE `models`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
-
---
 -- AUTO_INCREMENT cho bảng `region_gallerys`
 --
 ALTER TABLE `region_gallerys`
@@ -3085,7 +2969,7 @@ ALTER TABLE `relations`
 -- AUTO_INCREMENT cho bảng `skins`
 --
 ALTER TABLE `skins`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2151;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2157;
 
 --
 -- Các ràng buộc cho các bảng đã đổ
@@ -3097,13 +2981,6 @@ ALTER TABLE `skins`
 ALTER TABLE `champions`
   ADD CONSTRAINT `champion_region` FOREIGN KEY (`region`) REFERENCES `regions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `champions_ibfk_1` FOREIGN KEY (`role`) REFERENCES `roles` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
-
---
--- Các ràng buộc cho bảng `models`
---
-ALTER TABLE `models`
-  ADD CONSTRAINT `models_ibfk_1` FOREIGN KEY (`champion`) REFERENCES `champions` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `models_ibfk_2` FOREIGN KEY (`skin`) REFERENCES `skins` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Các ràng buộc cho bảng `region_gallerys`
