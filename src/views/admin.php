@@ -21,9 +21,6 @@
                 <a href="../core/export.php?variable=relations">Export Relations</a>
             </li>
             <li>
-                <a href="../core/export.php?variable=models">Export Models</a>
-            </li>
-            <li>
                 <a href="../core/export.php?variable=regions">Export Regions</a>
             </li>
             <li>

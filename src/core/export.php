@@ -48,12 +48,6 @@ switch ($variable) {
         $maps = RegionGallerysHelper::getData($connect);
         $result = file_put_contents($filePath, json_encode($maps, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
         break;
-    case 'models':
-        require_once __DIR__ . '/../helpers/modelsHelper.php';
-        $filePath = '../json/models.json';
-        $maps = ModelsHelper::getData($connect);
-        $result = file_put_contents($filePath, json_encode($maps, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
-        break;
     default:
         header("Location: ../views/index.php");
         exit();
