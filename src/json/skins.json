@@ -3480,12 +3480,6 @@
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jhin/Jhin_8.jpg"
     },
     {
-        "id": 668,
-        "name": "Glorious Crown Jhin",
-        "champion": "Jhin",
-        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jhin/Jhin_9.jpg"
-    },
-    {
         "id": 669,
         "name": "Mythmaker Jhin",
         "champion": "Jhin",
@@ -11062,5 +11056,995 @@
         "name": "Cosmic Sting Skarner",
         "champion": "Skarner",
         "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_5.jpg"
+    },
+    {
+        "id": 2157,
+        "name": "K/DA ALL OUT Ahri Rose Quartz",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_28.jpg"
+    },
+    {
+        "id": 2158,
+        "name": "K/DA ALL OUT Akali Rose Quartz",
+        "champion": "Akali",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_21.jpg"
+    },
+    {
+        "id": 2159,
+        "name": "K/DA ALL OUT Evelynn Rose Quartz",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_17.jpg"
+    },
+    {
+        "id": 2160,
+        "name": "Panda Pal Lux",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_26.jpg"
+    },
+    {
+        "id": 2161,
+        "name": "Panda Pal Lux Rose Quartz",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_27.jpg"
+    },
+    {
+        "id": 2162,
+        "name": "Panda Pal Lux Turquoise",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_28.jpg"
+    },
+    {
+        "id": 2163,
+        "name": "Panda Pal Lux Ruby",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_29.jpg"
+    },
+    {
+        "id": 2164,
+        "name": "Battle Dove Seraphine Amethyst",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_15.jpg"
+    },
+    {
+        "id": 2165,
+        "name": "Battle Bunny Aurora Amethyst",
+        "champion": "Aurora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aurora/Aurora_3.jpg"
+    },
+    {
+        "id": 2166,
+        "name": "Headhunter Akali Pearl",
+        "champion": "Akali",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_22.jpg"
+    },
+    {
+        "id": 2167,
+        "name": "Heavenscale Diana Aquamarine",
+        "champion": "Diana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Diana/Diana_18.jpg"
+    },
+    {
+        "id": 2168,
+        "name": "Heavenscale Kai'Sa Sapphire",
+        "champion": "KaiSa",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KaiSa/KaiSa_20.jpg"
+    },
+    {
+        "id": 2169,
+        "name": "Sentinel Vayne Ruby",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_20.jpg"
+    },
+    {
+        "id": 2170,
+        "name": "Sentinel Diana Rose Quartz",
+        "champion": "Diana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Diana/Diana_19.jpg"
+    },
+    {
+        "id": 2171,
+        "name": "Sentinel Diana Ruby",
+        "champion": "Diana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Diana/Diana_20.jpg"
+    },
+    {
+        "id": 2172,
+        "name": "Sentinel Irelia Ruby",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_19.jpg"
+    },
+    {
+        "id": 2173,
+        "name": "Sentinel Riven Ruby",
+        "champion": "Riven",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Riven/Riven_22.jpg"
+    },
+    {
+        "id": 2174,
+        "name": "Spirit Blossom Ashe Pearl",
+        "champion": "Ashe",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ashe/Ashe_23.jpg"
+    },
+    {
+        "id": 2175,
+        "name": "Spirit Blossom Zyra Rose Quartz",
+        "champion": "Zyra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_13.jpg"
+    },
+    {
+        "id": 2176,
+        "name": "Space Groove Lux Rose Quartz",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_30.jpg"
+    },
+    {
+        "id": 2177,
+        "name": "Pool Party Caitlyn Aquamarine",
+        "champion": "Caitlyn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/C/Caitlyn/Caitlyn_23.jpg"
+    },
+    {
+        "id": 2178,
+        "name": "Battle Academia Xayah Sapphire",
+        "champion": "Xayah",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_8.jpg"
+    },
+    {
+        "id": 2179,
+        "name": "Arcade Sona K.O.",
+        "champion": "Sona",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sona/Sona_20.jpg"
+    },
+    {
+        "id": 2180,
+        "name": "Faerie Court Seraphine Rose Quartz",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_16.jpg"
+    },
+    {
+        "id": 2181,
+        "name": "Faerie Court Katarina Rose Quartz",
+        "champion": "Katarina",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_22.jpg"
+    },
+    {
+        "id": 2182,
+        "name": "Faerie Court Lillia Sapphire",
+        "champion": "Lillia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lillia/Lillia_6.jpg"
+    },
+    {
+        "id": 2183,
+        "name": "Faerie Court Lux Rose Quartz",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_31.jpg"
+    },
+    {
+        "id": 2184,
+        "name": "Immortal Journey Kayle Rose Quartz",
+        "champion": "Kayle",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_17.jpg"
+    },
+    {
+        "id": 2185,
+        "name": "Immortal Journey Shyvana Pearl",
+        "champion": "Shyvana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shyvana/Shyvana_11.jpg"
+    },
+    {
+        "id": 2186,
+        "name": "Immortal Journey Soraka Ruby",
+        "champion": "Soraka",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_19.jpg"
+    },
+    {
+        "id": 2187,
+        "name": "Immortal Journey Sona Sapphire",
+        "champion": "Sona",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sona/Sona_21.jpg"
+    },
+    {
+        "id": 2188,
+        "name": "Risen Legend Vayne Mythclimber",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_21.jpg"
+    },
+    {
+        "id": 2189,
+        "name": "Spirit Blossom Irelia Rose Quartz",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_20.jpg"
+    },
+    {
+        "id": 2190,
+        "name": "Risen Legend Vayne Paragon",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_22.jpg"
+    },
+    {
+        "id": 2191,
+        "name": "Dragonmancer Vayne Amethyst",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_23.jpg"
+    },
+    {
+        "id": 2192,
+        "name": "Fae Dragon Ashe Paragon",
+        "champion": "Ashe",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ashe/Ashe_24.jpg"
+    },
+    {
+        "id": 2193,
+        "name": "Lunar Empress Ashe Rose Quartz",
+        "champion": "Ashe",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ashe/Ashe_25.jpg"
+    },
+    {
+        "id": 2194,
+        "name": "Spirit Blossom Akali Pearl",
+        "champion": "Akali",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_23.jpg"
+    },
+    {
+        "id": 2195,
+        "name": "Spirit Blossom Kayle Rose Quartz",
+        "champion": "Kayle",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_18.jpg"
+    },
+    {
+        "id": 2196,
+        "name": "Battle Queen Miss Fortune Sapphire",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_24.jpg"
+    },
+    {
+        "id": 2197,
+        "name": "Porcelain Irelia Ruby",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_21.jpg"
+    },
+    {
+        "id": 2198,
+        "name": "Cafe Cuties Lulu Emerald",
+        "champion": "Lulu",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lulu/Lulu_13.jpg"
+    },
+    {
+        "id": 2199,
+        "name": "Spirit Blossom Akali Rose Quartz",
+        "champion": "Akali",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_24.jpg"
+    },
+    {
+        "id": 2200,
+        "name": "Dumpling Darlings Syndra Sapphire",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_13.jpg"
+    },
+    {
+        "id": 2201,
+        "name": "Spirit Blossom Evelynn Rose Quartz",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_18.jpg"
+    },
+    {
+        "id": 2202,
+        "name": "Spirit Blossom Sett Rose Quartz",
+        "champion": "Sett",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sett/Sett_16.jpg"
+    },
+    {
+        "id": 2203,
+        "name": "Spirit Blossom Soraka Rose Quartz",
+        "champion": "Soraka",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_20.jpg"
+    },
+    {
+        "id": 2204,
+        "name": "Spirit Blossom Cassiopeia Rose Quartz",
+        "champion": "Cassiopeia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/C/Cassiopeia/Cassiopeia_11.jpg"
+    },
+    {
+        "id": 2205,
+        "name": "Foxfire Ahri Emerald",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_29.jpg"
+    },
+    {
+        "id": 2206,
+        "name": "Prestige Arcane Commander Stellar",
+        "champion": "Caitlyn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/C/Caitlyn/Caitlyn_24.jpg"
+    },
+    {
+        "id": 2207,
+        "name": "Battle Bunny Riven Ruby",
+        "champion": "Riven",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Riven/Riven_23.jpg"
+    },
+    {
+        "id": 2208,
+        "name": "Battle Dove Seraphine Rose Quartz",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_17.jpg"
+    },
+    {
+        "id": 2209,
+        "name": "Blood Moon Zyra Catseye",
+        "champion": "Zyra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zyra/Zyra_14.jpg"
+    },
+    {
+        "id": 2210,
+        "name": "Faerie Court Lillia Pearl",
+        "champion": "Lillia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lillia/Lillia_7.jpg"
+    },
+    {
+        "id": 2211,
+        "name": "Guqin Sona Meteorite",
+        "champion": "Sona",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sona/Sona_22.jpg"
+    },
+    {
+        "id": 2212,
+        "name": "Heavenscale Diana Pearl",
+        "champion": "Diana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Diana/Diana_21.jpg"
+    },
+    {
+        "id": 2213,
+        "name": "Heavenscale Janna Sapphire",
+        "champion": "Janna",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_19.jpg"
+    },
+    {
+        "id": 2214,
+        "name": "Jade Dragon Wukong Meteorite",
+        "champion": "Wukong",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_9.jpg"
+    },
+    {
+        "id": 2215,
+        "name": "K/DA Ahri Ahri-versary",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_30.jpg"
+    },
+    {
+        "id": 2216,
+        "name": "Soul Fighter Evelynn Rose Quartz",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_19.jpg"
+    },
+    {
+        "id": 2217,
+        "name": "Dumpling Darlings Seraphine Catseye",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_18.jpg"
+    },
+    {
+        "id": 2218,
+        "name": "Dumpling Darlings Seraphine Ruby",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_19.jpg"
+    },
+    {
+        "id": 2219,
+        "name": "Dumpling Darlings Syndra Obsidian",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_14.jpg"
+    },
+    {
+        "id": 2220,
+        "name": "Dumpling Darlings Syndra Pearl",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_15.jpg"
+    },
+    {
+        "id": 2221,
+        "name": "Cafe Cuties Annie Rose Quartz",
+        "champion": "Annie",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Annie/Annie_18.jpg"
+    },
+    {
+        "id": 2222,
+        "name": "Mythmaker Nami Pearl",
+        "champion": "Nami",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nami/Nami_15.jpg"
+    },
+    {
+        "id": 2223,
+        "name": "Chosen of the Wolf Katarina Pearl",
+        "champion": "Katarina",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_23.jpg"
+    },
+    {
+        "id": 2224,
+        "name": "Coven Ahri Ahri-versary",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_31.jpg"
+    },
+    {
+        "id": 2225,
+        "name": "Dark Cosmic Diana Pearl",
+        "champion": "Diana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Diana/Diana_22.jpg"
+    },
+    {
+        "id": 2226,
+        "name": "Withered Rose Syndra Rose Quartz",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_16.jpg"
+    },
+    {
+        "id": 2227,
+        "name": "Winter Wonder Neeko Ruby",
+        "champion": "Neeko",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Neeko/Neeko_8.jpg"
+    },
+    {
+        "id": 2228,
+        "name": "Battle Queen Gwen Sapphire",
+        "champion": "Gwen",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Gwen/Gwen_7.jpg"
+    },
+    {
+        "id": 2229,
+        "name": "Battle Bunny Riven Amethyst",
+        "champion": "Riven",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Riven/Riven_24.jpg"
+    },
+    {
+        "id": 2230,
+        "name": "Bewitching Morgana Ruby",
+        "champion": "Morgana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Morgana/Morgana_20.jpg"
+    },
+    {
+        "id": 2231,
+        "name": "Battle Lion Leona Pearl",
+        "champion": "Leona",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Leona/Leona_17.jpg"
+    },
+    {
+        "id": 2232,
+        "name": "Battle Queen Fiora Pearl",
+        "champion": "Fiora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/F/Fiora/Fiora_21.jpg"
+    },
+    {
+        "id": 2233,
+        "name": "Crystal Rose Janna Obsidian",
+        "champion": "Janna",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_20.jpg"
+    },
+    {
+        "id": 2234,
+        "name": "High Noon Evelynn Obsidian",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_20.jpg"
+    },
+    {
+        "id": 2235,
+        "name": "Spirit Blossom Yasuo Rose Quartz",
+        "champion": "Yasuo",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_20.jpg"
+    },
+    {
+        "id": 2236,
+        "name": "Withered Rose Syndra Pearl",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_17.jpg"
+    },
+    {
+        "id": 2237,
+        "name": "Battle Queen Gwen Pearl",
+        "champion": "Gwen",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Gwen/Gwen_8.jpg"
+    },
+    {
+        "id": 2238,
+        "name": "Battle Queen Fiora Catseye",
+        "champion": "Fiora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/F/Fiora/Fiora_22.jpg"
+    },
+    {
+        "id": 2239,
+        "name": "Battle Queen Miss Fortune Pearl",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_25.jpg"
+    },
+    {
+        "id": 2240,
+        "name": "Battle Bat Xayah Pearl",
+        "champion": "Xayah",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/R/Rakan_Xayah/Xayah_9.jpg"
+    },
+    {
+        "id": 2241,
+        "name": "Cafe Cuties Lulu Sapphire",
+        "champion": "Lulu",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lulu/Lulu_14.jpg"
+    },
+    {
+        "id": 2242,
+        "name": "Heavenscale Kai'Sa Emerald",
+        "champion": "KaiSa",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KaiSa/KaiSa_21.jpg"
+    },
+    {
+        "id": 2243,
+        "name": "Immortal Journey Shyvana Ruby",
+        "champion": "Shyvana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Shyvana/Shyvana_12.jpg"
+    },
+    {
+        "id": 2244,
+        "name": "Porcelain Miss Fortune Pearl",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_26.jpg"
+    },
+    {
+        "id": 2245,
+        "name": "Porcelain Morgana Pearl",
+        "champion": "Morgana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Morgana/Morgana_21.jpg"
+    },
+    {
+        "id": 2246,
+        "name": "Withered Rose Elise Rose Quartz",
+        "champion": "Elise",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Elise/Elise_9.jpg"
+    },
+    {
+        "id": 2247,
+        "name": "Splendid Staff Nami Ruby",
+        "champion": "Nami",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nami/Nami_16.jpg"
+    },
+    {
+        "id": 2248,
+        "name": "Snowstorm Sivir Golden",
+        "champion": "Sivir",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sivir/Sivir_20.jpg"
+    },
+    {
+        "id": 2249,
+        "name": "Ruined Miss Fortune Rose Quartz",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_27.jpg"
+    },
+    {
+        "id": 2250,
+        "name": "Immortal Journey Kayle Pearl",
+        "champion": "Kayle",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Kayle/Kayle_19.jpg"
+    },
+    {
+        "id": 2251,
+        "name": "Immortal Journey Zeri Turquoise",
+        "champion": "Zeri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zeri/Zeri_10.jpg"
+    },
+    {
+        "id": 2252,
+        "name": "Immortal Journey Sona Rose Quartz",
+        "champion": "Sona",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sona/Sona_23.jpg"
+    },
+    {
+        "id": 2253,
+        "name": "Majestic Empress Morgana Rose Quartz",
+        "champion": "Morgana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Morgana/Morgana_22.jpg"
+    },
+    {
+        "id": 2254,
+        "name": "Star Guardian Seraphine Rose Quartz",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_20.jpg"
+    },
+    {
+        "id": 2255,
+        "name": "Snow Moon Ahri Turquoise",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_32.jpg"
+    },
+    {
+        "id": 2256,
+        "name": "Star Guardian Jinx Mythic",
+        "champion": "Jinx",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_15.jpg"
+    },
+    {
+        "id": 2257,
+        "name": "Battle Bunny Miss Fortune Ruby",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_28.jpg"
+    },
+    {
+        "id": 2258,
+        "name": "Spirit Blossom Yasuo Night Blossom",
+        "champion": "Yasuo",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Y/Yasuo/Yasuo_21.jpg"
+    },
+    {
+        "id": 2259,
+        "name": "Heavenscale Janna Obsidian",
+        "champion": "Janna",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_21.jpg"
+    },
+    {
+        "id": 2260,
+        "name": "Heavenscale Kai'Sa Obsidian",
+        "champion": "KaiSa",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KaiSa/KaiSa_22.jpg"
+    },
+    {
+        "id": 2261,
+        "name": "Divine Sword Irelia Unflinching Zeal",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_22.jpg"
+    },
+    {
+        "id": 2262,
+        "name": "Battle Cat Jinx Rose Quartz",
+        "champion": "Jinx",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_16.jpg"
+    },
+    {
+        "id": 2263,
+        "name": "Star Guardian Syndra Rose Quartz",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_18.jpg"
+    },
+    {
+        "id": 2264,
+        "name": "Inkshadow Kai'Sa Catseye",
+        "champion": "KaiSa",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/KaiSa/KaiSa_23.jpg"
+    },
+    {
+        "id": 2265,
+        "name": "Cafe Cuties Jinx Pearl",
+        "champion": "Jinx",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_17.jpg"
+    },
+    {
+        "id": 2266,
+        "name": "Cafe Cuties Lulu Obsidian",
+        "champion": "Lulu",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lulu/Lulu_15.jpg"
+    },
+    {
+        "id": 2267,
+        "name": "Snow Moon Morgana Rainbow",
+        "champion": "Morgana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Morgana/Morgana_23.jpg"
+    },
+    {
+        "id": 2268,
+        "name": "Heavenscale Diana Obsidian",
+        "champion": "Diana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Diana/Diana_23.jpg"
+    },
+    {
+        "id": 2269,
+        "name": "Soul Fighter Evelynn Citrine",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_21.jpg"
+    },
+    {
+        "id": 2270,
+        "name": "Porcelain Miss Fortune Catseye",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_29.jpg"
+    },
+    {
+        "id": 2271,
+        "name": "Star Guardian Orianna Rose Quartz",
+        "champion": "Orianna",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/O/Orianna/Orianna_12.jpg"
+    },
+    {
+        "id": 2272,
+        "name": "Battle Academia Katarina Formal",
+        "champion": "Katarina",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_24.jpg"
+    },
+    {
+        "id": 2273,
+        "name": "Dawnbringer Vayne Rainbow",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_24.jpg"
+    },
+    {
+        "id": 2274,
+        "name": "Soul Fighter Gwen Rose Quartz",
+        "champion": "Gwen",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Gwen/Gwen_9.jpg"
+    },
+    {
+        "id": 2275,
+        "name": "Star Guardian Sona Rose Quartz",
+        "champion": "Sona",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Sona/Sona_24.jpg"
+    },
+    {
+        "id": 2276,
+        "name": "Coven Ahri Pearl",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_33.jpg"
+    },
+    {
+        "id": 2277,
+        "name": "Coven Nami Pearl",
+        "champion": "Nami",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Nami/Nami_17.jpg"
+    },
+    {
+        "id": 2278,
+        "name": "Coven Elise Pearl",
+        "champion": "Elise",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Elise/Elise_10.jpg"
+    },
+    {
+        "id": 2279,
+        "name": "Coven Syndra Pearl",
+        "champion": "Syndra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Syndra/Syndra_19.jpg"
+    },
+    {
+        "id": 2280,
+        "name": "Coven Akali Sapphire",
+        "champion": "Akali",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_25.jpg"
+    },
+    {
+        "id": 2281,
+        "name": "Star Guardian Akali Ruby",
+        "champion": "Akali",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Akali/Akali_26.jpg"
+    },
+    {
+        "id": 2282,
+        "name": "Cafe Cuties Poppy Obsidian",
+        "champion": "Poppy",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/P/Poppy/Poppy_13.jpg"
+    },
+    {
+        "id": 2283,
+        "name": "Soul Fighter Lux Limitless",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_32.jpg"
+    },
+    {
+        "id": 2284,
+        "name": "Risen Legend LeBlanc Mythclimber",
+        "champion": "LeBlanc",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeBlanc/LeBlanc_14.jpg"
+    },
+    {
+        "id": 2285,
+        "name": "Lunar Empress Ashe Ruby",
+        "champion": "Ashe",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ashe/Ashe_26.jpg"
+    },
+    {
+        "id": 2286,
+        "name": "Bewitching Janna Golden",
+        "champion": "Janna",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Janna/Janna_22.jpg"
+    },
+    {
+        "id": 2287,
+        "name": "Porcelain Irelia Catseye",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_23.jpg"
+    },
+    {
+        "id": 2288,
+        "name": "Soul Fighter Lux Rose Quartz",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_33.jpg"
+    },
+    {
+        "id": 2289,
+        "name": "Cafe Cuties Gwen Rose Quartz",
+        "champion": "Gwen",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Gwen/Gwen_10.jpg"
+    },
+    {
+        "id": 2290,
+        "name": "Risen Legend Leblanc Paragon",
+        "champion": "LeBlanc",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/LeBlanc/LeBlanc_15.jpg"
+    },
+    {
+        "id": 2291,
+        "name": "High Noon Evelynn Rose Quartz",
+        "champion": "Evelynn",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/E/Evelynn/Evelynn_22.jpg"
+    },
+    {
+        "id": 2292,
+        "name": "Immortal Journey Soraka Rose Quartz",
+        "champion": "Soraka",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_21.jpg"
+    },
+    {
+        "id": 2293,
+        "name": "Graceful Phoenix Seraphine Rose Quartz",
+        "champion": "Seraphine",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Seraphine/Seraphine_21.jpg"
+    },
+    {
+        "id": 2294,
+        "name": "Cafe Cuties Jinx Tanzanite",
+        "champion": "Jinx",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jinx/Jinx_18.jpg"
+    },
+    {
+        "id": 2295,
+        "name": "Porcelain Morgana Catseye",
+        "champion": "Morgana",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/Morgana/Morgana_24.jpg"
+    },
+    {
+        "id": 2296,
+        "name": "Dragonmancer Vayne Sapphire",
+        "champion": "Vayne",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Vayne/Vayne_25.jpg"
+    },
+    {
+        "id": 2297,
+        "name": "Battle Bunny Aurora Rose Quartz",
+        "champion": "Aurora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aurora/Aurora_4.jpg"
+    },
+    {
+        "id": 2298,
+        "name": "Porcelain Irelia Pearl",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_24.jpg"
+    },
+    {
+        "id": 2299,
+        "name": "Faerie Court Lux Pearl",
+        "champion": "Lux",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lux/Lux_34.jpg"
+    },
+    {
+        "id": 2300,
+        "name": "High Noon Katarina Pearl",
+        "champion": "Katarina",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Katarina/Katarina_25.jpg"
+    },
+    {
+        "id": 2301,
+        "name": "Midnight Ahri Ahri-versary",
+        "champion": "Ahri",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Ahri/Ahri_34.jpg"
+    },
+    {
+        "id": 2302,
+        "name": "Porcelain Irelia Tanzanite",
+        "champion": "Irelia",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/I/Irelia/Irelia_25.jpg"
+    },
+    {
+        "id": 2303,
+        "name": "Porcelain Miss Fortune Tanzanite",
+        "champion": "MissFortune",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/M/MissFortune/MissFortune_30.jpg"
+    },
+    {
+        "id": 2304,
+        "name": "Winterblessed Camille Sapphire",
+        "champion": "Camille",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/C/Camille/Camille_10.jpg"
+    },
+    {
+        "id": 2305,
+        "name": "Visions of the Fallen Garen",
+        "champion": "Garen",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/G/Garen/Garen_17.jpg"
+    },
+    {
+        "id": 2306,
+        "name": "Visions of the Fallen Tryndamere",
+        "champion": "Tryndamere",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/T/Tryndamere/Tryndamere_14.jpg"
+    },
+    {
+        "id": 2307,
+        "name": "Prestige Visions of the Fallen Jarvan IV",
+        "champion": "JarvanIV",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/JarvanIV/JarvanIV_16.jpg"
+    },
+    {
+        "id": 2308,
+        "name": "Arcana Aurora",
+        "champion": "Aurora",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Aurora/Aurora_5.jpg"
+    },
+    {
+        "id": 2309,
+        "name": "Arcana Karthus",
+        "champion": "Karthus",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/K/Karthus/Karthus_9.jpg"
+    },
+    {
+        "id": 2310,
+        "name": "Arcana Zilean",
+        "champion": "Zilean",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zilean/Zilean_8.jpg"
+    },
+    {
+        "id": 2311,
+        "name": "Arcana Jhin",
+        "champion": "Jhin",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/J/Jhin/Jhin_11.jpg"
+    },
+    {
+        "id": 2312,
+        "name": "Elderwood Alistar",
+        "champion": "Alistar",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/A/Alistar/Alistar_15.jpg"
+    },
+    {
+        "id": 2313,
+        "name": "Trials of Twilight Xin Zhao",
+        "champion": "XinZhao",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/X/XinZhao/XinZhao_12.jpg"
+    },
+    {
+        "id": 2314,
+        "name": "Flora Fatalis Soraka",
+        "champion": "Soraka",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Soraka/Soraka_22.jpg"
+    },
+    {
+        "id": 2315,
+        "name": "Flora Fatalis Lissandra",
+        "champion": "Lissandra",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/L/Lissandra/Lissandra_10.jpg"
+    },
+    {
+        "id": 2316,
+        "name": "Mecha Kingdoms Skarner",
+        "champion": "Skarner",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/S/Skarner/Skarner_6.jpg"
+    },
+    {
+        "id": 2317,
+        "name": "Prestige Eternal Aspect Zoe",
+        "champion": "Zoe",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/Z/Zoe/Zoe_9.jpg"
+    },
+    {
+        "id": 2318,
+        "name": "Beeko",
+        "champion": "Neeko",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/N/Neeko/Neeko_9.jpg"
+    },
+    {
+        "id": 2319,
+        "name": "Mecha Kingdoms Darius",
+        "champion": "Darius",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/D/Darius/Darius_15.jpg"
+    },
+    {
+        "id": 2320,
+        "name": "Mecha Kingdoms Wukong",
+        "champion": "Wukong",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/W/Wukong/Wukong_10.jpg"
+    },
+    {
+        "id": 2321,
+        "name": "Machine Herald Viktor",
+        "champion": "Viktor",
+        "splash_art": "https://raw.githubusercontent.com/VietHung0712/AssetsLOL/refs/heads/main/Splash_Art/V/Viktor/Viktor_8.jpg"
     }
 ]
